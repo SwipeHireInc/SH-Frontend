@@ -1,0 +1,9 @@
+<div class="landing-container" [ngClass]="{ 'hidden-header': !isHeaderVisible() }">
+  <img src="" alt="">
+  <h1>SwipHire</h1>
+  <button (click)="openModal()" class="login-btn">Log in</button>
+</div>
+
+@if (isModalOpen) {
+  <app-auth-modal (close)="closeModal()"></app-auth-modal>
+}

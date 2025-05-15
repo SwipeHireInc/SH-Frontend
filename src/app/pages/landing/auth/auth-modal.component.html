@@ -1,0 +1,9 @@
+<div #modalOverlay class="modal-overlay" (click)="closeModal()">
+    <div #modalContent class="modal-content" (click)="$event.stopPropagation()">
+      <h2>Let's Start</h2>
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <button class="submit-btn">Log in</button>
+      <button class="close-btn" (click)="closeModal()">X</button>
+    </div>
+</div>
