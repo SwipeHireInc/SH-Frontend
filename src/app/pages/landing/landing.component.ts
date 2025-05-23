@@ -14,14 +14,20 @@ export class LandingComponent {
   lastScrollTop = 0;
   isHeaderVisible: WritableSignal<boolean> = signal(true);
 
-  constructor() {
-    effect(() => {
-      window.addEventListener('scroll', () => {
-        const scrollTop = window.scrollY;
-        this.isHeaderVisible.set(scrollTop < this.lastScrollTop); 
-        this.lastScrollTop = scrollTop;
-      });
-    });
+  constructor() {}
+
+  ngOnInit() {
+    const OnScroll = () => {
+      const scrollTop = window.scrollY;
+      this.isHeaderVisible.set(scrollTop < this.lastScrollTop);
+      this.lastScrollTop = scrollTop;
+    }
+
+    window.addEventListener('scroll', OnScroll);
+
+    window.addEventListener("beforeunload", () => {
+      window.removeEventListener('scroll', OnScroll);
+    })
   }
 
   openModal() {

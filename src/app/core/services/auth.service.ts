@@ -8,11 +8,12 @@ import { TokenResponse } from '../models/Auth.interface';
   providedIn: 'root'
 })
 export class AuthService {
-  private isLoggedIn = false
-  private http = inject(HttpClient)
+
   private baseUrl = 'http://localhost:5432'
 
-  constructor() {}
+  constructor(
+    private http: HttpClient
+  ) {}
 
   login(payload: {email: string, password: string}): Observable<TokenResponse>{
     return this.http.post<TokenResponse>(`${this.baseUrl}/auth/login`, payload, {withCredentials:true})
