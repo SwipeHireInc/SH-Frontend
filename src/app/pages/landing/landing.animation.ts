@@ -1,6 +1,7 @@
 import { WritableSignal } from "@angular/core";
 
 
+// This function registers a scroll event listener that toggles the visibility of a header based on the scroll position.
 export function registerScrollAnimation(
     isHeaderVisible: WritableSignal<boolean>,
     getlastScrollTop: () => number,
@@ -19,3 +20,13 @@ export function registerScrollAnimation(
     });
 }
 
+// Text animation function
+
+export function animateTitle(){
+    gsap.to(".txt", {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        ease: "power3.out",
+    })
+}

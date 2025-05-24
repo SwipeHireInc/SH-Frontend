@@ -1,7 +1,7 @@
 import { Component, effect, signal, computed, WritableSignal } from '@angular/core';
 import { AuthModalComponent } from '../auth/auth-modal.component';
 import { CommonModule } from '@angular/common';
-import { registerScrollAnimation } from './landing.animation';
+import { animateTitle, registerScrollAnimation } from './landing.animation';
 
 @Component({
   selector: 'app-landing',
@@ -18,6 +18,7 @@ export class LandingComponent {
   constructor() {}
 
   ngOnInit(){
+    animateTitle();
     registerScrollAnimation(
       this.isHeaderVisible,
       () => this.lastScrollTop,
