@@ -1,6 +1,7 @@
 import { Component, effect, signal, computed, WritableSignal } from '@angular/core';
-import { AuthModalComponent } from './auth/auth-modal.component';
+import { AuthModalComponent } from '../auth/auth-modal.component';
 import { CommonModule } from '@angular/common';
+import { registerScrollAnimation } from './landing.animation';
 
 @Component({
   selector: 'app-landing',
@@ -16,18 +17,12 @@ export class LandingComponent {
 
   constructor() {}
 
-  ngOnInit() {
-    const OnScroll = () => {
-      const scrollTop = window.scrollY;
-      this.isHeaderVisible.set(scrollTop < this.lastScrollTop);
-      this.lastScrollTop = scrollTop;
-    }
-
-    window.addEventListener('scroll', OnScroll);
-
-    window.addEventListener("beforeunload", () => {
-      window.removeEventListener('scroll', OnScroll);
-    })
+  ngOnInit(){
+    registerScrollAnimation(
+      this.isHeaderVisible,
+      () => this.lastScrollTop,
+      (value: number) => this.lastScrollTop = value
+    )
   }
 
   openModal() {
