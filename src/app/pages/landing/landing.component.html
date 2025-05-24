@@ -1,6 +1,14 @@
 <div class="landing-container" [ngClass]="{ 'hidden-header': !isHeaderVisible() }">
   <img src="" alt="">
-  <h1 class="txt">SwipHire</h1>
+
+  <h1 id="txt">
+    <span class="primary">{{ titlePrimary }}</span>
+    
+    @for (char of titleRest; track char) {
+      <span class="title-rest">{{ char }}</span>
+    }
+  </h1>
+
   <button (click)="openModal()" class="login-btn">Log in</button>
 </div>
 
