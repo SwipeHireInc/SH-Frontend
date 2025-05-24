@@ -2,11 +2,7 @@
   <img src="" alt="">
 
   <h1 id="txt">
-    <span class="primary">{{ titlePrimary }}</span>
-    
-    @for (char of titleRest; track char) {
-      <span class="title-rest">{{ char }}</span>
-    }
+    <span class="primary">{{ titlePrimary() }}</span>
   </h1>
 
   <button (click)="openModal()" class="login-btn">Log in</button>

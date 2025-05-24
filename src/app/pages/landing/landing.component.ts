@@ -1,7 +1,7 @@
 import { Component, effect, signal, computed, WritableSignal } from '@angular/core';
 import { AuthModalComponent } from '../auth/auth-modal.component';
 import { CommonModule } from '@angular/common';
-import { animateTitleRest, registerScrollAnimation } from './landing.animation';
+import { registerScrollAnimation } from './landing.animation';
 
 @Component({
   selector: 'app-landing',
@@ -12,7 +12,7 @@ import { animateTitleRest, registerScrollAnimation } from './landing.animation';
 })
 export class LandingComponent {
   // Title
-  titlePrimary = "SH"
+  titlePrimary = signal("SH")
   titleRest = "wipeHire".split("");
 
   // Signals
@@ -21,6 +21,20 @@ export class LandingComponent {
   isHeaderVisible: WritableSignal<boolean> = signal(true);
 
   constructor() {}
+
+  changeTitleAnimated() {
+    const steps = ["SwHi", "SwiHir", "SwipHire", "SwipeHire"];
+    let i = 0;
+
+    const interval = setInterval(() => {
+      if (i < steps.length) {
+        this.titlePrimary.set(steps[i]);
+        i++;
+      } else {
+        clearInterval(interval);
+      }
+    }, 400);
+  }
 
   ngOnInit(){
     // animateTitle();
@@ -32,7 +46,7 @@ export class LandingComponent {
   }
 
   ngAfterViewInit() {
-    animateTitleRest()
+     this.changeTitleAnimated();
   }
 
   openModal() {
