@@ -11,7 +11,6 @@ export class AuthModalComponent implements AfterViewInit {
   @ViewChild('modalOverlay', { static: false }) modalOverlay!: ElementRef;
   @ViewChild('modalContent', { static: false }) modalContent!: ElementRef;
 
-
   ngAfterViewInit() {
     this.animateOpen();
   }
