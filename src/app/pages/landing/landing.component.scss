@@ -45,3 +45,10 @@
     background-color: #3c3737;
     color: #181516;
 }
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
