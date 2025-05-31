@@ -1,15 +1,19 @@
 .portal-container {
-
-  position: relative;         
+  position: relative;
+  right: 100%;
   width: 300px;
   height: 10px;
-  border-radius: 50% / 50%;
-  border: 3px solid rgba(127, 90, 240, 0.6);
-  background: transparent;
-  filter:
-    blur(4px)
-    drop-shadow(0 0 20px #7f5af0)
-    drop-shadow(0 0 48px #2cb67d);
-  opacity: 1;
-  z-index: 10;
+  overflow: hidden;
+  border-radius: 50%;
+  background: rgba(127, 90, 240, 0.6);
+}
+
+.card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(100%);
+  width: 300px;
+  height: 400px;
+  background: #ccc;
 }

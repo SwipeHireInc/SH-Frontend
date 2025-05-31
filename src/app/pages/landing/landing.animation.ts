@@ -32,6 +32,7 @@ export function changeTitleAnimated(signal: WritableSignal<string>) {
       } else {
         clearInterval(interval);
       }
-    }, 200);
+    }, 400);
+
   }
 
