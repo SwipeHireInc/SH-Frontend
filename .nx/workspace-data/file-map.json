@@ -1,0 +1,569 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.1.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "SwipeHire": [
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
+          "hash": "11070045828761994400"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps_ssr/_metadata.json",
+          "hash": "9969160223602968142"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps_ssr/package.json",
+          "hash": "8630294688235076505"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps_temp_50b22abc/package.json",
+          "hash": "8630294688235076505"
+        },
+        {
+          "file": ".git/config",
+          "hash": "13779304690432227281"
+        },
+        {
+          "file": ".git/index.lock",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": ".git/objects/05/82868f1b7f0d43d3dd0fa9ba5a391c2c365e2c",
+          "hash": "15383279117937787552"
+        },
+        {
+          "file": ".git/objects/05/9000e6d8c34d80c5e3afafefdd458722185cfc",
+          "hash": "8043476427627291228"
+        },
+        {
+          "file": ".git/objects/07/d8013f94ad7bada310f6b01b04caf1467c89c2",
+          "hash": "11502054598682687212"
+        },
+        {
+          "file": ".git/objects/08/bea50dc9bb401981055b5a60e23685e0074149",
+          "hash": "7202852097416989858"
+        },
+        {
+          "file": ".git/objects/0a/c2fbaa1d925d0bf6a2a6835c768087fed24dad",
+          "hash": "6852609300395195785"
+        },
+        {
+          "file": ".git/objects/0c/6d7f0fb1d78000454b94fd418c9c08c94512e2",
+          "hash": "4143756608276907113"
+        },
+        {
+          "file": ".git/objects/0d/2366762c544827614d951e94a458100d74bc39",
+          "hash": "11588694749882507921"
+        },
+        {
+          "file": ".git/objects/0e/d5aecf7550c6fba162bf2e3ae5e7a79557b3bd",
+          "hash": "2403687052603597252"
+        },
+        {
+          "file": ".git/objects/10/02bcd6aac98b768ba3f2594a90593046b637b2",
+          "hash": "7029443968306202078"
+        },
+        {
+          "file": ".git/objects/13/744352448b84e8600b3f55a48e09241a786080",
+          "hash": "14409885476943492576"
+        },
+        {
+          "file": ".git/objects/1b/6ecc16b2a691b0f944bb76ff4ccf1dc09ce40b",
+          "hash": "6493205637335887239"
+        },
+        {
+          "file": ".git/objects/1d/419be561b11150c2f11fca8066672fb7e16729",
+          "hash": "4019415899498778761"
+        },
+        {
+          "file": ".git/objects/24/6e56355146df52b2d8fc9f050437910555564b",
+          "hash": "10869112382597799699"
+        },
+        {
+          "file": ".git/objects/2c/771026586fd6ef15ed120d105df2a804779453",
+          "hash": "17545231439287253308"
+        },
+        {
+          "file": ".git/objects/2c/ec18db8189d1f3ebb471922ca3ed02c56e951c",
+          "hash": "10166750828252198043"
+        },
+        {
+          "file": ".git/objects/2f/3e6dcd7299584287a2e2961e6affd2e36f9141",
+          "hash": "17427986489710478176"
+        },
+        {
+          "file": ".git/objects/31/a407c42b2b6147f6285302d037d2ae518014b6",
+          "hash": "8384380706826935286"
+        },
+        {
+          "file": ".git/objects/32/c92e54ca357e7b4e692bf301360eab7b77757f",
+          "hash": "6090920375584098733"
+        },
+        {
+          "file": ".git/objects/38/c7e578f7665c2dc97c845454937e7eab8d8198",
+          "hash": "15851521513214554965"
+        },
+        {
+          "file": ".git/objects/44/28e59adfa057c5828ab6a73539c2cb77ab414d",
+          "hash": "4962609100283865539"
+        },
+        {
+          "file": ".git/objects/47/df6ff50ef37f3f14166904a7f4f0fbf08302a3",
+          "hash": "12369946146000024503"
+        },
+        {
+          "file": ".git/objects/4d/01eb1d78e23bbce0b3c4e4780c59d55afd02e9",
+          "hash": "3521867626693436002"
+        },
+        {
+          "file": ".git/objects/50/d88822a9a25f7b1c154bae8c12c8a5bae62a66",
+          "hash": "17008286900635669618"
+        },
+        {
+          "file": ".git/objects/55/6bd5ab00f4b2be50daa6086038b6f838c7dc22",
+          "hash": "4026401732171545283"
+        },
+        {
+          "file": ".git/objects/57/25f64963040166dda2a7cccb12b8b6d1f84f21",
+          "hash": "14163907958063527098"
+        },
+        {
+          "file": ".git/objects/58/f2861f9f377ea2e1c77c691c26d81586c78d32",
+          "hash": "4011532472999083923"
+        },
+        {
+          "file": ".git/objects/64/1c3dd1e819d27f9efe65a9437b8980ca07e8c9",
+          "hash": "17085997128602480850"
+        },
+        {
+          "file": ".git/objects/64/82ac8c45c7f802e0fee615b22b3c0695eecb64",
+          "hash": "11678415156074349863"
+        },
+        {
+          "file": ".git/objects/6a/61d8c6f3c4b1ee89084fbcd897cbb2dde62967",
+          "hash": "4047027159423727153"
+        },
+        {
+          "file": ".git/objects/70/815a2c25e14960339f6f65242a8abcddc8e0e6",
+          "hash": "17307387017298427527"
+        },
+        {
+          "file": ".git/objects/71/a91017b6ee77b63075fee64993d931e33cd7ea",
+          "hash": "2135232365473006855"
+        },
+        {
+          "file": ".git/objects/72/47ba8378f233c1770068872740b28f908b325a",
+          "hash": "4892304884901541789"
+        },
+        {
+          "file": ".git/objects/74/529deb2fc0a0a2b6ce39d7e487e48f80016dff",
+          "hash": "12340549432775775808"
+        },
+        {
+          "file": ".git/objects/75/395deff42fa751456e99b9fd4a7b2426c7eeac",
+          "hash": "14298011922370560993"
+        },
+        {
+          "file": ".git/objects/76/514736fc9c490a3a377fc26a68ef956ab10f21",
+          "hash": "14328619120759803225"
+        },
+        {
+          "file": ".git/objects/76/843d813c1995d783c0671a8c54c654ae0587f2",
+          "hash": "10719848997972560101"
+        },
+        {
+          "file": ".git/objects/78/78320743c2cb57704aade599c48df6699e9ba4",
+          "hash": "3268355826695866357"
+        },
+        {
+          "file": ".git/objects/7d/c6ecd1fd3d124cec005a5dbf7c2d1dfd0bbfa3",
+          "hash": "4582582500914364159"
+        },
+        {
+          "file": ".git/objects/7e/e7c113a09428e4daafacb6e70a35d18573e608",
+          "hash": "15442356849741348152"
+        },
+        {
+          "file": ".git/objects/89/b0edba1c48319d8942528496830f11b60d324f",
+          "hash": "1944267515090661022"
+        },
+        {
+          "file": ".git/objects/8e/630ef820fc414cb13f612f46a072dfe54f2aad",
+          "hash": "15423871452403914398"
+        },
+        {
+          "file": ".git/objects/8f/ee9764975eb17acab7ad64ec518c51dccdd44a",
+          "hash": "2311207495701338281"
+        },
+        {
+          "file": ".git/objects/91/0cde007d388d876a5cc8be642afe1d96482e59",
+          "hash": "15489779122040272341"
+        },
+        {
+          "file": ".git/objects/91/5c5d1408a91c7a99cee4c988c9212d3fb9b13c",
+          "hash": "13201964423909486553"
+        },
+        {
+          "file": ".git/objects/95/41986b44c7169dfbc1764f06c4035881e870ac",
+          "hash": "7750271713416295244"
+        },
+        {
+          "file": ".git/objects/95/f01febad3f09d0e2eb8304fe99070d44acb443",
+          "hash": "8739000950786581598"
+        },
+        {
+          "file": ".git/objects/97/0631e266e6d85875c6399b4dd98ec95cf34e4a",
+          "hash": "10500952051348485560"
+        },
+        {
+          "file": ".git/objects/9f/0dbfebda0cd8d9f48ea8fe99380275fd4677dd",
+          "hash": "12345779716732114078"
+        },
+        {
+          "file": ".git/objects/a6/358e546a29c67f92863b07c71c88ff53279cf0",
+          "hash": "3382493771478694965"
+        },
+        {
+          "file": ".git/objects/a7/14f1d3f6fd213526b8d38c3f353c10c0812ac5",
+          "hash": "10444629548878316654"
+        },
+        {
+          "file": ".git/objects/a8/7d6ad90a4f1610284397c039fb49103d6d89a5",
+          "hash": "11501591606905285796"
+        },
+        {
+          "file": ".git/objects/ae/282258f09b61b270514c6e817831e06d259534",
+          "hash": "7024888554400046279"
+        },
+        {
+          "file": ".git/objects/b2/83c1e635aab38570d6ef544dea70e2af741c7a",
+          "hash": "2596468900075489829"
+        },
+        {
+          "file": ".git/objects/b4/baa4eab25b4dc9ac03d6a359c9e9122e90ce52",
+          "hash": "7288943184176118563"
+        },
+        {
+          "file": ".git/objects/b7/f684e98b5bd90035f08415c3187be330d43b52",
+          "hash": "15326131621187395680"
+        },
+        {
+          "file": ".git/objects/b8/a852d08358fcdbbefc63fd78c5161d5b49171b",
+          "hash": "8644473090282938954"
+        },
+        {
+          "file": ".git/objects/c2/ae52d90db4776496b2cae20e636aea0d2dfceb",
+          "hash": "1144662589950165209"
+        },
+        {
+          "file": ".git/objects/c7/2fefc486d495eb9a51c2a38a1245fc7dae18fc",
+          "hash": "12685453453497199816"
+        },
+        {
+          "file": ".git/objects/c8/01881dee4223bbad94558198bcec21b3178288",
+          "hash": "5279969937630889112"
+        },
+        {
+          "file": ".git/objects/cb/b7b6f756ee04625c9c883a1c9e065064163515",
+          "hash": "13022868249763537325"
+        },
+        {
+          "file": ".git/objects/cc/c2b6158bcd7ccf8c5e13392213061050ad6782",
+          "hash": "16734337890098013862"
+        },
+        {
+          "file": ".git/objects/d7/72e4385aa99638cb3d554eac645def592dfdfb",
+          "hash": "7065011228044250099"
+        },
+        {
+          "file": ".git/objects/de/3f66ce89151854cf3269eabf3080a6398c93f0",
+          "hash": "2061212094310821912"
+        },
+        {
+          "file": ".git/objects/df/0d4cd38572d03763d2af23d53e0b034896d4b9",
+          "hash": "16619209235381312259"
+        },
+        {
+          "file": ".git/objects/e7/9186be6f56f1d92de9bcd4fa4b10fff9564795",
+          "hash": "1264934254828687777"
+        },
+        {
+          "file": ".git/objects/e9/0d4fddc9a53c8f78b53108ad03d82b77f4acc6",
+          "hash": "17448007480844401673"
+        },
+        {
+          "file": ".git/objects/f0/9b254ff3671fb34dad97dca24f0d51177f000b",
+          "hash": "13222463399661389432"
+        },
+        {
+          "file": ".git/objects/f3/48d7f13a8b00c5559112bb177b4f527468c63b",
+          "hash": "11575062971423884626"
+        },
+        {
+          "file": ".git/objects/f3/6dfd351b014a77d23bb70a831fc1ee7bb0c0f2",
+          "hash": "556392524384529245"
+        },
+        {
+          "file": ".git/objects/f6/916dbca20857fc38dd125103eff25c2c2f4197",
+          "hash": "83507236688046200"
+        },
+        {
+          "file": ".git/objects/f6/b16ddd106b941dd8a20adb02d15e2a944822a2",
+          "hash": "4408787927779984741"
+        },
+        {
+          "file": ".git/objects/f7/6de7bd52d7ec46eae831c580c3eb607599cc52",
+          "hash": "913751963685268891"
+        },
+        {
+          "file": ".git/objects/f9/a2c639162b096fc1ebe9c3158b806e968b302a",
+          "hash": "7202583669422543361"
+        },
+        {
+          "file": ".git/objects/fc/ee73c4bae7d58837bf0d04bd534f1db7ec6339",
+          "hash": "5896247338505168517"
+        },
+        {
+          "file": ".nx/cache/16032548083592612140-logs.tar.gz",
+          "hash": "1325232533780096211"
+        },
+        {
+          "file": ".nx/cache/cloud/2505.29.4.hotfix5/index.js",
+          "hash": "638616750496050659"
+        },
+        {
+          "file": ".nx/cache/cloud/2505.29.4.hotfix5/lib/daemon/process-run-end.js",
+          "hash": "9141030236478042934"
+        },
+        {
+          "file": ".nx/cache/cloud/2505.29.4.hotfix5/lib/heartbeat/heartbeat-process.js",
+          "hash": "14249871087684044985"
+        },
+        {
+          "file": ".nx/cache/cloud/2505.29.4.hotfix5/package.json",
+          "hash": "1144058227172633564"
+        },
+        {
+          "file": ".nx/cache/cloud/2505.29.4.hotfix5/static/login-end.html",
+          "hash": "7227742377832893506"
+        },
+        {
+          "file": ".nx/cache/cloud/2505.29.4.hotfix5/static/login-start.html",
+          "hash": "4217172551631503077"
+        },
+        {
+          "file": ".nx/cache/cloud/verify.lock",
+          "hash": "7101178224508408343"
+        },
+        {
+          "file": ".nx/cache/run.json",
+          "hash": "15085302262649335249"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/16032548083592612140",
+          "hash": "12561313250054283021"
+        },
+        {
+          "file": ".nx/workspace-data/6F620D88-9ECA-59F4-B9DB-0BFAF28B1F64.db",
+          "hash": "6240709564311096908"
+        },
+        {
+          "file": ".nx/workspace-data/6F620D88-9ECA-59F4-B9DB-0BFAF28B1F64.db-shm",
+          "hash": "3940792068030826151"
+        },
+        {
+          "file": ".nx/workspace-data/6F620D88-9ECA-59F4-B9DB-0BFAF28B1F64.db-wal",
+          "hash": "12163997704842427354"
+        },
+        {
+          "file": ".nx/workspace-data/file-map.json",
+          "hash": "3092388069173990459"
+        },
+        {
+          "file": ".nx/workspace-data/project-graph.json",
+          "hash": "10020608370553662711"
+        },
+        {
+          "file": ".nx/workspace-data/source-maps.json",
+          "hash": "7792161704670520808"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "13239487146024742121"
+        },
+        {
+          "file": "README.md",
+          "hash": "5330934199134897608"
+        },
+        {
+          "file": "bun.lock",
+          "hash": "16605285167128205683"
+        },
+        {
+          "file": "nx.json",
+          "hash": "16151452536466150096"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "17748424199147771965"
+        },
+        {
+          "file": "package.json",
+          "hash": "5569603223339980791"
+        },
+        {
+          "file": "project.json",
+          "hash": "5999946883254396413"
+        },
+        {
+          "file": "public/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "src/app/app.component.html",
+          "hash": "11079502530634456467"
+        },
+        {
+          "file": "src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/app.component.ts",
+          "hash": "18120013422657845187"
+        },
+        {
+          "file": "src/app/app.config.ts",
+          "hash": "5028808807012428138"
+        },
+        {
+          "file": "src/app/app.routes.ts",
+          "hash": "12721090139742213938"
+        },
+        {
+          "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.animation.ts",
+          "hash": "3259653934591605668"
+        },
+        {
+          "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.component.html",
+          "hash": "13163103822185635408"
+        },
+        {
+          "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.component.scss",
+          "hash": "8836802890890224792"
+        },
+        {
+          "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.component.ts",
+          "hash": "8798493551529333172"
+        },
+        {
+          "file": "src/app/core/guards/auth.guard.ts",
+          "hash": "557247392066182808"
+        },
+        {
+          "file": "src/app/core/models/Auth.interface.ts",
+          "hash": "9521966741090853000"
+        },
+        {
+          "file": "src/app/core/models/match.model.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/core/models/user.model.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/core/services/auth.service.ts",
+          "hash": "15178946928973785391"
+        },
+        {
+          "file": "src/app/pages/auth/auth-modal.component.html",
+          "hash": "3155388276975704692"
+        },
+        {
+          "file": "src/app/pages/auth/auth-modal.component.scss",
+          "hash": "10174585567721012419"
+        },
+        {
+          "file": "src/app/pages/auth/auth-modal.component.ts",
+          "hash": "16467039421330515146"
+        },
+        {
+          "file": "src/app/pages/auth/auth.modal.animation.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/pages/landing/landing.animation.ts",
+          "hash": "11543624014372122194"
+        },
+        {
+          "file": "src/app/pages/landing/landing.component.html",
+          "hash": "5833195540778800978"
+        },
+        {
+          "file": "src/app/pages/landing/landing.component.scss",
+          "hash": "11879152593244182014"
+        },
+        {
+          "file": "src/app/pages/landing/landing.component.ts",
+          "hash": "4878076709733512102"
+        },
+        {
+          "file": "src/app/pages/profile/profile.component.html",
+          "hash": "11549371922144503726"
+        },
+        {
+          "file": "src/app/pages/profile/profile.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/pages/profile/profile.component.ts",
+          "hash": "4589691403834481014"
+        },
+        {
+          "file": "src/app/pages/swip/swip.component.html",
+          "hash": "16850632323389532786"
+        },
+        {
+          "file": "src/app/pages/swip/swip.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/pages/swip/swip.component.ts",
+          "hash": "7188170783813870787"
+        },
+        {
+          "file": "src/assets/img/background.jpg",
+          "hash": "4532176075047545978"
+        },
+        {
+          "file": "src/index.html",
+          "hash": "1794268781603019687"
+        },
+        {
+          "file": "src/main.ts",
+          "hash": "4927504514031276065"
+        },
+        {
+          "file": "src/styles.scss",
+          "hash": "6252646507455468832"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "17212958746959192557"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "3110767902277242108"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "8918301549046766373"
+        }
+      ]
+    }
+  }
+}

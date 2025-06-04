@@ -1,0 +1,187 @@
+{
+  "nodes": {
+    "SwipeHire": {
+      "name": "SwipeHire",
+      "type": "app",
+      "data": {
+        "root": ".",
+        "name": "SwipeHire",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "ng",
+              "start",
+              "watch"
+            ]
+          },
+          "js": {
+            "packageName": "swipe-hire",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "ng": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "ng"
+            },
+            "metadata": {
+              "scriptContent": "ng",
+              "runCommand": "bun run ng -- undefined"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "metadata": {
+              "scriptContent": "nx serve",
+              "runCommand": "bun run start -- undefined"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "watch": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "watch"
+            },
+            "metadata": {
+              "scriptContent": "nx build --watch --configuration development",
+              "runCommand": "bun run watch -- undefined"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "options": {
+              "outputPath": "dist/swipe-hire",
+              "index": "src/index.html",
+              "browser": "src/main.ts",
+              "polyfills": [
+                "zone.js"
+              ],
+              "tsConfig": "tsconfig.app.json",
+              "inlineStyleLanguage": "scss",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "src/assets",
+                  "output": "/assets"
+                }
+              ],
+              "styles": [
+                "src/styles.scss"
+              ],
+              "scripts": []
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kB",
+                    "maximumError": "1MB"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "4kB",
+                    "maximumError": "8kB"
+                  }
+                ],
+                "outputHashing": "all"
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true,
+            "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "production",
+              "^production"
+            ]
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "configurations": {
+              "production": {
+                "buildTarget": "SwipeHire:build:production"
+              },
+              "development": {
+                "buildTarget": "SwipeHire:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "options": {},
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "polyfills": [
+                "zone.js",
+                "zone.js/testing"
+              ],
+              "tsConfig": "tsconfig.spec.json",
+              "inlineStyleLanguage": "scss",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "public"
+                }
+              ],
+              "styles": [
+                "src/styles.scss"
+              ],
+              "scripts": []
+            },
+            "configurations": {},
+            "parallelism": true,
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production"
+            ]
+          }
+        },
+        "$schema": "node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "sourceRoot": "src",
+        "prefix": "app",
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "implicitDependencies": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "SwipeHire": []
+  },
+  "version": "6.0",
+  "errors": [],
+  "computedAt": 1749054538846
+}
