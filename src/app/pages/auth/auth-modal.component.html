@@ -1,9 +1,37 @@
-<div #modalOverlay class="modal-overlay" (click)="closeModal()">
-    <div #modalContent class="modal-content" (click)="$event.stopPropagation()">
-      <h2>Let's Start</h2>
-      <input type="text" placeholder="Username">
-      <input type="password" placeholder="Password">
-      <button class="submit-btn">Log in</button>
-      <button class="close-btn" (click)="closeModal()">X</button>
+<div class="modal-overlay" (click)="closeModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <button class="close-btn" (click)="closeModal()">×</button>
+    
+    <div class="modal-header">
+      <h2>Вход в систему</h2>
     </div>
+
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="username">username</label>
+        <input 
+          type="text" 
+          id="username" 
+          formControlName="username"
+          [class.error]="username?.invalid && username?.touched">
+        <div class="error-message" *ngIf="username?.invalid && username?.touched">
+          Имя пользователя обязательно
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="password">password</label>
+        <input 
+          type="password" 
+          id="password" 
+          formControlName="password"
+          [class.error]="password?.invalid && password?.touched">
+        <div class="error-message" *ngIf="password?.invalid && password?.touched">
+          Пароль обязателен
+        </div>
+      </div>
+
+      <button type="submit" [disabled]="loginForm.invalid">Войти</button>
+    </form>
+  </div>
 </div>
