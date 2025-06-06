@@ -9,7 +9,7 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "16606415779667613098"
+          "hash": "18280352700698261966"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps_temp_48942a42/package.json",
@@ -113,15 +113,15 @@
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.html",
-          "hash": "3394802206153646026"
+          "hash": "16363920991911417816"
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.scss",
-          "hash": "1603229790616530641"
+          "hash": "15394975045996965174"
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.ts",
-          "hash": "5555939914518141194"
+          "hash": "7578055443541441170"
         },
         {
           "file": "src/app/pages/landing/landing.animation.ts",

@@ -1,10 +1,11 @@
 import { Component, ElementRef, EventEmitter, Output, ViewChild, AfterViewInit} from '@angular/core';
 import { animateOpen, animateClose } from './auth-modal.animation';
 import gsap from 'gsap';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-auth-modal',
+  imports: [ReactiveFormsModule],
   templateUrl: './auth-modal.component.html',
   styleUrl: './auth-modal.component.scss'
 })
@@ -18,9 +19,18 @@ export class AuthModalComponent implements AfterViewInit {
 
   constructor(private fb: FormBuilder){
     this.loginForm = this.fb.group({
-      
+      username: ['', [Validators.required]],
+      password: ['', [Validators.required]]
+    })
+  }
+
+  get username() { return this.loginForm.get('username'); }
+  get password() { return this.loginForm.get('password'); }
+
+  onSubmit() {
+    if (this.loginForm.valid) {
+      this.login.emit(this.loginForm.value);
     }
-    )
   }
 
   closeModal() {
