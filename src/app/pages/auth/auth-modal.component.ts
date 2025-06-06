@@ -33,6 +33,18 @@ export class AuthModalComponent implements AfterViewInit {
     }
   }
 
+  forgotPassword(event: Event) {
+    event.preventDefault();
+  }
+
+  signUp(event: Event) {
+    event.preventDefault();
+    // логика регистрации
+  }
+
+  loginWithGoogle() {
+  }
+
   closeModal() {
     animateClose(this.modalOverlay, this.modalContent, this.close);
   }
