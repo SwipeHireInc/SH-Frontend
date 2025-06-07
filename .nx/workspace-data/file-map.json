@@ -137,7 +137,7 @@
         },
         {
           "file": "bun.lock",
-          "hash": "16605285167128205683"
+          "hash": "5229454596629579321"
         },
         {
           "file": "nx.json",
@@ -149,7 +149,7 @@
         },
         {
           "file": "package.json",
-          "hash": "5569603223339980791"
+          "hash": "10983736958181453752"
         },
         {
           "file": "project.json",
@@ -173,7 +173,7 @@
         },
         {
           "file": "src/app/app.config.ts",
-          "hash": "5028808807012428138"
+          "hash": "10862908727729661918"
         },
         {
           "file": "src/app/app.routes.ts",
@@ -201,7 +201,7 @@
         },
         {
           "file": "src/app/core/models/Auth.interface.ts",
-          "hash": "9521966741090853000"
+          "hash": "12777669121931506176"
         },
         {
           "file": "src/app/core/models/match.model.ts",
@@ -213,7 +213,7 @@
         },
         {
           "file": "src/app/core/services/auth.service.ts",
-          "hash": "5617823052954732066"
+          "hash": "15320454281509499771"
         },
         {
           "file": "src/app/pages/auth/auth-modal.animation.ts",
@@ -229,7 +229,7 @@
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.ts",
-          "hash": "3429800559717095935"
+          "hash": "17888746032742825166"
         },
         {
           "file": "src/app/pages/landing/landing.animation.ts",

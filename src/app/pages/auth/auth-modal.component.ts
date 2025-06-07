@@ -1,7 +1,8 @@
 import { Component, ElementRef, EventEmitter, Output, ViewChild, AfterViewInit} from '@angular/core';
 import { animateOpen, animateClose } from './auth-modal.animation';
-import gsap from 'gsap';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
+import { Store } from '@ngrx/store';
+import * as AuthActions from '../../core/services/auth.actions';
 
 @Component({
   selector: 'app-auth-modal',
@@ -12,26 +13,16 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
 export class AuthModalComponent implements AfterViewInit {
   private url = 'http://localhost:8080/oauth2/authorization/google'
   @Output() close = new EventEmitter<void>();
-  @Output() login = new EventEmitter<{username: string, password: string}>();
-  loginForm: FormGroup;
-  
   @ViewChild('modalOverlay', { static: false }) modalOverlay!: ElementRef;
   @ViewChild('modalContent', { static: false }) modalContent!: ElementRef;
 
-  constructor(private fb: FormBuilder){
-    this.loginForm = this.fb.group({
-      username: ['', [Validators.required]],
-      password: ['', [Validators.required]]
-    })
-  }
+  readonly username: string = "";
+  readonly password: string = "";
 
-  get username() { return this.loginForm.get('username'); }
-  get password() { return this.loginForm.get('password'); }
+  constructor(private fb: FormBuilder, private readonly store: Store ){}
 
   onSubmit() {
-    if (this.loginForm.valid) {
-      this.login.emit(this.loginForm.value);
-    }
+    this.store.dispatch(AuthActions.login({username: this.username, password: this.password}))
   }
 
   forgotPassword(event: Event) {

@@ -34,4 +34,17 @@ export class AuthService {
       `${this.baseUrl}/auth/status`,
       { withCredentials: true });
   }
+
+  // maybe for localstorage
+  // setToken(token: string): void {
+  //   localStorage.setItem('authToken', token);
+  // }
+
+  // getToken(): string | null {
+  //   return localStorage.getItem('authToken');
+  // }
+
+  // removeToken(): void {
+  //   localStorage.removeItem('authToken');
+  // }
 }
