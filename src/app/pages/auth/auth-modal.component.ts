@@ -10,6 +10,7 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
   styleUrl: './auth-modal.component.scss'
 })
 export class AuthModalComponent implements AfterViewInit {
+  private url = 'http://localhost:8080/oauth2/authorization/google'
   @Output() close = new EventEmitter<void>();
   @Output() login = new EventEmitter<{username: string, password: string}>();
   loginForm: FormGroup;
@@ -43,6 +44,7 @@ export class AuthModalComponent implements AfterViewInit {
   }
 
   loginWithGoogle() {
+    window.location.href = this.url
   }
 
   closeModal() {
