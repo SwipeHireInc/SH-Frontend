@@ -15,15 +15,23 @@ export class AuthService {
     private http: HttpClient
   ) {}
 
-  login(payload: {email: string, password: string}): Observable<TokenResponse>{
-    return this.http.post<TokenResponse>(`${this.baseUrl}/auth/login`, payload, {withCredentials:true})
+  login(payload: {username: string, password: string}): Observable<TokenResponse>{
+    return this.http.post<TokenResponse>(
+      `${this.baseUrl}/auth/login`,
+      payload, 
+      {withCredentials:true})
   } // -> AuthController
 
   logout(): Observable<void> {
-    return this.http.post<void>(`${this.baseUrl}/auth/logout`, {}, { withCredentials: true });
+    return this.http.post<void>(
+      `${this.baseUrl}/auth/logout`,
+      {},
+      { withCredentials: true });
   }
 
   isAuthenticated(): Observable<boolean> {
-    return this.http.get<boolean>(`${this.baseUrl}/auth/status`, { withCredentials: true });
+    return this.http.get<boolean>(
+      `${this.baseUrl}/auth/status`,
+      { withCredentials: true });
   }
 }
