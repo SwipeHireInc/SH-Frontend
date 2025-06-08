@@ -5,7 +5,7 @@ import { TokenResponse } from "../models/Auth.interface"
 export const login = 
     createAction(
         '[Auth] Login',
-        props<{username: String, password: String}>()
+        props<{username: string, password: string}>()
     )
 
 export const loginSuccess = 
@@ -13,9 +13,9 @@ export const loginSuccess =
         '[Auth] Login Success',
         props<TokenResponse>()
     )
-    
+
 export const loginFailure =
     createAction(
         '[Auth] Login Failure',
-        props<Error>()
+        props<{error: any}>()
     )
