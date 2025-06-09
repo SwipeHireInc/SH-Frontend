@@ -1,6 +1,6 @@
 import { inject, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { tap } from 'rxjs/operators';
+import { map, tap } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { TokenResponse } from '../models/Auth.interface';
 
@@ -9,7 +9,7 @@ import { TokenResponse } from '../models/Auth.interface';
 })
 export class AuthService {
 
-  private baseUrl = 'http://localhost:5432'
+  private baseUrl = 'http://localhost:8080'
 
   constructor(
     private http: HttpClient
@@ -30,9 +30,8 @@ export class AuthService {
   }
 
   isAuthenticated(): Observable<boolean> {
-    return this.http.get<boolean>(
-      `${this.baseUrl}/auth/status`,
-      { withCredentials: true });
+    return this.http.get<{ isAuthenticated: boolean }>(`${this.baseUrl}/auth/status`, { withCredentials: true })
+    .pipe(map(response => response.isAuthenticated));
   }
 
   // maybe for localstorage

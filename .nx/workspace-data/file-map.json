@@ -9,11 +9,11 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "73882010646350614"
+          "hash": "13287198586128173883"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js",
-          "hash": "17391033763141688232"
+          "hash": "853289195918936267"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js.map",
@@ -21,7 +21,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common_http.js",
-          "hash": "585178573843021197"
+          "hash": "1564423067785013582"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common_http.js.map",
@@ -29,7 +29,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_core.js",
-          "hash": "7891325248093782607"
+          "hash": "16045186689242437579"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_core.js.map",
@@ -37,15 +37,15 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_forms.js",
-          "hash": "9982572448281839845"
+          "hash": "14607346844800940003"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_forms.js.map",
-          "hash": "4861976253982723351"
+          "hash": "11224430202475662179"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_platform-browser.js",
-          "hash": "10992260327070377847"
+          "hash": "10627935667581147660"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_platform-browser.js.map",
@@ -53,47 +53,79 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_router.js",
-          "hash": "4736329118159481422"
+          "hash": "11071530053460278128"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_router.js.map",
-          "hash": "9497511968161124653"
+          "hash": "2103678198526398023"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_effects.js",
+          "hash": "17920431843115532428"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_effects.js.map",
+          "hash": "6708409629991986174"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_store-devtools.js",
+          "hash": "9126359030400395012"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_store-devtools.js.map",
+          "hash": "16616754471788355407"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_store.js",
+          "hash": "6379304092155988387"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_store.js.map",
+          "hash": "9947606979680686569"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/_metadata.json",
-          "hash": "4797582686434603670"
+          "hash": "9966699948360953226"
         },
         {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-7MKXHRGO.js",
-          "hash": "14406427160860573649"
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-33FDIO2X.js",
+          "hash": "9763257146155306540"
         },
         {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-7MKXHRGO.js.map",
-          "hash": "15019433330118618786"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-IG4MGNTP.js",
-          "hash": "15257591289045818863"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-IG4MGNTP.js.map",
-          "hash": "16710509776186596762"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-MIEXXXPH.js",
-          "hash": "8200013429860265610"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-MIEXXXPH.js.map",
-          "hash": "17924642637885741624"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-NCVSUYH5.js",
-          "hash": "1160544026654311106"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-NCVSUYH5.js.map",
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-33FDIO2X.js.map",
           "hash": "10425003878779388639"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-4S3KYZTJ.js",
+          "hash": "7388868184362258310"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-4S3KYZTJ.js.map",
+          "hash": "2648502907036039507"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-7UAGZOV6.js",
+          "hash": "11177599930228761265"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-7UAGZOV6.js.map",
+          "hash": "7092143480992305033"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-L7FZXCAY.js",
+          "hash": "5003694417676005425"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-L7FZXCAY.js.map",
+          "hash": "16824938801518117006"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-PEBH6BBU.js",
+          "hash": "13744035772100923522"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-PEBH6BBU.js.map",
+          "hash": "5134453755794423192"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-WDMUDEB6.js",
@@ -102,6 +134,30 @@
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-WDMUDEB6.js.map",
           "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-WPM5VTLQ.js",
+          "hash": "10000189167578774718"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-WPM5VTLQ.js.map",
+          "hash": "2189203602704055510"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-YDA4T4WH.js",
+          "hash": "3699927248805617117"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-YDA4T4WH.js.map",
+          "hash": "6670068273910484234"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-ZIIHDA63.js",
+          "hash": "8996689489645644482"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-ZIIHDA63.js.map",
+          "hash": "1745677131105106365"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/gsap.js",
@@ -116,8 +172,24 @@
           "hash": "8630294688235076505"
         },
         {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/rxjs.js",
+          "hash": "9558951007017055195"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/rxjs.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/rxjs_operators.js",
+          "hash": "993022405116687097"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/rxjs_operators.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps_ssr/_metadata.json",
-          "hash": "16546172661065569710"
+          "hash": "14206286666973733113"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps_ssr/package.json",
@@ -137,11 +209,27 @@
         },
         {
           "file": "bun.lock",
-          "hash": "5229454596629579321"
+          "hash": "5342848325398555871"
+        },
+        {
+          "file": "main/main.component.css",
+          "hash": "4055606894390288348"
+        },
+        {
+          "file": "main/main.component.html",
+          "hash": "14702717708078270114"
+        },
+        {
+          "file": "main/main.component.spec.ts",
+          "hash": "1742662559592427516"
+        },
+        {
+          "file": "main/main.component.ts",
+          "hash": "2813114446493621860"
         },
         {
           "file": "nx.json",
-          "hash": "16151452536466150096"
+          "hash": "3517503469409190339"
         },
         {
           "file": "package-lock.json",
@@ -149,7 +237,7 @@
         },
         {
           "file": "package.json",
-          "hash": "10983736958181453752"
+          "hash": "16169666451437557482"
         },
         {
           "file": "project.json",
@@ -173,11 +261,11 @@
         },
         {
           "file": "src/app/app.config.ts",
-          "hash": "10862908727729661918"
+          "hash": "9984779309918633879"
         },
         {
           "file": "src/app/app.routes.ts",
-          "hash": "12721090139742213938"
+          "hash": "10885428396906409128"
         },
         {
           "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.animation.ts",
@@ -200,8 +288,16 @@
           "hash": "16386342216388123162"
         },
         {
+          "file": "src/app/core/models/AppState.ts",
+          "hash": "15045021153929439774"
+        },
+        {
           "file": "src/app/core/models/Auth.interface.ts",
-          "hash": "12777669121931506176"
+          "hash": "13569690833710632883"
+        },
+        {
+          "file": "src/app/core/models/AuthState.ts",
+          "hash": "3007567140887769401"
         },
         {
           "file": "src/app/core/models/match.model.ts",
@@ -209,11 +305,35 @@
         },
         {
           "file": "src/app/core/models/user.model.ts",
-          "hash": "3244421341483603138"
+          "hash": "5132723983334575498"
+        },
+        {
+          "file": "src/app/core/services/AuthCallBack.component.html",
+          "hash": "14584761888098336410"
+        },
+        {
+          "file": "src/app/core/services/AuthCallBack.component.ts",
+          "hash": "9296112262199794342"
+        },
+        {
+          "file": "src/app/core/services/auth.actions.ts",
+          "hash": "3682489645965598693"
+        },
+        {
+          "file": "src/app/core/services/auth.effects.ts",
+          "hash": "9260546113382681633"
+        },
+        {
+          "file": "src/app/core/services/auth.reducer.ts",
+          "hash": "2196883828114411534"
+        },
+        {
+          "file": "src/app/core/services/auth.selectors.ts",
+          "hash": "10331836612567988472"
         },
         {
           "file": "src/app/core/services/auth.service.ts",
-          "hash": "15320454281509499771"
+          "hash": "4534821430965622987"
         },
         {
           "file": "src/app/pages/auth/auth-modal.animation.ts",
@@ -221,7 +341,7 @@
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.html",
-          "hash": "1477222987355201792"
+          "hash": "13236656973078358177"
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.scss",
@@ -229,7 +349,7 @@
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.ts",
-          "hash": "17888746032742825166"
+          "hash": "12326558687571097631"
         },
         {
           "file": "src/app/pages/landing/landing.animation.ts",

@@ -14,6 +14,7 @@
         "@angular/router": "^19.2.1",
         "@ngrx/effects": "^19.2.1",
         "@ngrx/store": "^19.2.1",
+        "@ngrx/store-devtools": "^19.2.1",
         "gsap": "^3.12.7",
         "rxjs": "~7.8.0",
         "tslib": "^2.3.0",
@@ -522,6 +523,8 @@
     "@ngrx/effects": ["@ngrx/effects@19.2.1", "", { "dependencies": { "tslib": "^2.0.0" }, "peerDependencies": { "@angular/core": "^19.0.0", "@ngrx/store": "19.2.1", "rxjs": "^6.5.3 || ^7.5.0" } }, "sha512-RZmTPOIC/h4JtySxh4Oa0ReQomxv4/+2er9vJ2IiuPDgUo7oE83iKZvB8uZUW/8y9dcu+MB6u0VjWM6rcbpCcA=="],
 
     "@ngrx/store": ["@ngrx/store@19.2.1", "", { "dependencies": { "tslib": "^2.0.0" }, "peerDependencies": { "@angular/core": "^19.0.0", "rxjs": "^6.5.3 || ^7.5.0" } }, "sha512-c5vQId7YoAhM0y4HASrz9mtLju+28vJspd6OBlhPbBlSae8GN8m9S/oav+8LaSY19yh95cZ5B/nMcLNNWgL/jA=="],
+
+    "@ngrx/store-devtools": ["@ngrx/store-devtools@19.2.1", "", { "dependencies": { "tslib": "^2.0.0" }, "peerDependencies": { "@angular/core": "^19.0.0", "@ngrx/store": "19.2.1", "rxjs": "^6.5.3 || ^7.5.0" } }, "sha512-gj1YO+4yl6D0l9vzLWdw07TQSu5UPKgsSLsNJfDLXraaLCUcB8voAp4J7zohN8qR5ixDuHeMoiSSVuklQ75u2w=="],
 
     "@ngtools/webpack": ["@ngtools/webpack@19.2.0", "", { "peerDependencies": { "@angular/compiler-cli": "^19.0.0 || ^19.2.0-next.0", "typescript": ">=5.5 <5.9", "webpack": "^5.54.0" } }, "sha512-63/8ys3bNK2h7Py/dKHZ4ZClxQz6xuz3skUgLZIMs9O076KPsHTKDKEDG2oicmwe/nOXjVt6n9Z4wprFaRLbvw=="],
 

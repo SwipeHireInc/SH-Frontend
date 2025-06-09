@@ -3,10 +3,13 @@ import { animateOpen, animateClose } from './auth-modal.animation';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { Store } from '@ngrx/store';
 import * as AuthActions from '../../core/services/auth.actions';
+import { Observable } from 'rxjs';
+import { AppState } from '../../core/models/AppState';
+import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-auth-modal',
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, AsyncPipe],
   templateUrl: './auth-modal.component.html',
   styleUrl: './auth-modal.component.scss'
 })
@@ -16,23 +19,43 @@ export class AuthModalComponent implements AfterViewInit {
   @ViewChild('modalOverlay', { static: false }) modalOverlay!: ElementRef;
   @ViewChild('modalContent', { static: false }) modalContent!: ElementRef;
 
-  readonly username: string = "";
-  readonly password: string = "";
+  loginform: FormGroup
 
-  constructor(private fb: FormBuilder, private readonly store: Store ){}
+  loading$: Observable<boolean>
+  error$: Observable<string | null>
+  token$: Observable<string | null>
+
+  constructor(private fb: FormBuilder, private readonly store: Store<AppState>){
+    this.loading$ = this.store.select(state => state.auth.loading)
+    this.error$ = this.store.select(state => state.auth.error);
+    this.token$ = this.store.select(state => state.auth.token);
+
+    this.loginform = this.fb.group({
+      username: ['', Validators.required],
+      password: ['', Validators.required],
+      remember: [false]
+    })
+  }
 
   onSubmit() {
-    this.store.dispatch(AuthActions.login({username: this.username, password: this.password}))
+    if(this.loginform.invalid) return 
+
+    const {username, password, remember} = this.loginform.value
+
+    this.store.dispatch(AuthActions.login({username: username, password: password}))
+
+    if(remember){
+      localStorage.setItem("rememberedUSER", username)
+    }else {
+      localStorage.removeItem('rememberedUsername');
+    }
   }
 
-  forgotPassword(event: Event) {
-    event.preventDefault();
-  }
+  // ts
+  forgotPassword() {}
 
-  signUp(event: Event) {
-    event.preventDefault();
-    // логика регистрации
-  }
+  //
+  signUp() {}
 
   loginWithGoogle() {
     window.location.href = this.url
