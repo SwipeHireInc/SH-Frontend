@@ -24,7 +24,6 @@ export const authReducer = createReducer(
         token,
         loading: false,
         error: null
-
         })
     ),
 
