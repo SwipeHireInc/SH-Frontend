@@ -21,7 +21,7 @@ export const loginEffect = createEffect(
             switchMap(action => 
                 service.login({ username: action.username, password: action.password })
                 .pipe(
-                    map(token => AuthActions.loginSuccess({token: token.token})),
+                    map(() => AuthActions.loginSuccess()),
                     catchError(error => of(AuthActions.loginFailure({ error })))
                 )
             )

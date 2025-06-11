@@ -10,8 +10,7 @@ export const login =
 
 export const loginSuccess = 
     createAction(
-        '[Auth] Login Success',
-        props<TokenResponse>()
+        '[Auth] Login Success'
     )
 
 export const loginFailure =

@@ -15,8 +15,8 @@ export class AuthService {
     private http: HttpClient
   ) {}
 
-  login(payload: {username: string, password: string}): Observable<TokenResponse>{
-    return this.http.post<TokenResponse>(
+  login(payload: {username: string, password: string}): Observable<void>{
+    return this.http.post<void>(
       `${this.baseUrl}/auth/login`,
       payload, 
       {withCredentials:true})

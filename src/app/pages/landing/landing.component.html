@@ -1,21 +1,23 @@
-<div class="landing-container" [ngClass]="{ 'hidden-header': !isHeaderVisible() }">
-  <div>
-    fsd
+<header>
+  <div class="landing-container" [ngClass]="{ 'hidden-header': !isHeaderVisible() }">
+    <div>
+      fsd
+    </div>
+  
+    <h1 id="txt">
+      <span class="primary">{{ titlePrimary() }}</span>
+    </h1>
+  
+    <button (click)="openModal()" class="login-btn">Log in</button>
   </div>
-
-  <h1 id="txt">
-    <span class="primary">{{ titlePrimary() }}</span>
-  </h1>
-
-  <button (click)="openModal()" class="login-btn">Log in</button>
-</div>
-
-<div class="card-container">
-      <app-scroll-reveal-card></app-scroll-reveal-card>
-</div>
-
-@if (isModalOpen) {
-  <div>
-    <app-auth-modal (close)="closeModal()"></app-auth-modal>
+  
+  <div class="card-container">
+        <app-scroll-reveal-card></app-scroll-reveal-card>
   </div>
-}
+  
+  @if (isModalOpen) {
+    <div>
+      <app-auth-modal (close)="closeModal()"></app-auth-modal>
+    </div>
+  }
+</header>

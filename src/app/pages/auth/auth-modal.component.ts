@@ -6,6 +6,7 @@ import * as AuthActions from '../../core/services/auth.actions';
 import { Observable } from 'rxjs';
 import { AppState } from '../../core/models/AppState';
 import { AsyncPipe } from '@angular/common';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-auth-modal',
@@ -14,13 +15,13 @@ import { AsyncPipe } from '@angular/common';
   styleUrl: './auth-modal.component.scss'
 })
 export class AuthModalComponent implements AfterViewInit {
-  private url = 'http://localhost:8080/oauth2/authorization/google'
+  private url = environment.googleauth
+
   @Output() close = new EventEmitter<void>();
   @ViewChild('modalOverlay', { static: false }) modalOverlay!: ElementRef;
   @ViewChild('modalContent', { static: false }) modalContent!: ElementRef;
 
   loginform: FormGroup
-
   loading$: Observable<boolean>
   error$: Observable<string | null>
   token$: Observable<string | null>
