@@ -7,10 +7,11 @@ import { Observable } from 'rxjs';
 import { AppState } from '../../core/models/AppState';
 import { AsyncPipe } from '@angular/common';
 import { environment } from '../../../environments/environment';
+import { LoadingComponent } from "../../shared/components/loading/loading.component";
 
 @Component({
   selector: 'app-auth-modal',
-  imports: [ReactiveFormsModule, AsyncPipe],
+  imports: [ReactiveFormsModule, AsyncPipe, LoadingComponent],
   templateUrl: './auth-modal.component.html',
   styleUrl: './auth-modal.component.scss'
 })

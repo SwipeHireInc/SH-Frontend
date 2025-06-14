@@ -9,7 +9,7 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "2910164277577119602"
+          "hash": "10888052927322786676"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js",
@@ -189,7 +189,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps_ssr/_metadata.json",
-          "hash": "14206286666973733113"
+          "hash": "4274376163241774471"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps_ssr/package.json",
@@ -249,7 +249,7 @@
         },
         {
           "file": "src/app/app.routes.ts",
-          "hash": "10885428396906409128"
+          "hash": "17469142237935459734"
         },
         {
           "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.animation.ts",
@@ -325,7 +325,7 @@
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.html",
-          "hash": "13236656973078358177"
+          "hash": "11316026103219031088"
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.scss",
@@ -333,7 +333,7 @@
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.ts",
-          "hash": "5243699949182111700"
+          "hash": "13825091495939765876"
         },
         {
           "file": "src/app/pages/landing/landing.animation.ts",
@@ -386,6 +386,18 @@
         {
           "file": "src/app/pages/swip/swip.component.ts",
           "hash": "7188170783813870787"
+        },
+        {
+          "file": "src/app/shared/components/loading/loading.component.css",
+          "hash": "4055606894390288348"
+        },
+        {
+          "file": "src/app/shared/components/loading/loading.component.html",
+          "hash": "12032458964093577969"
+        },
+        {
+          "file": "src/app/shared/components/loading/loading.component.ts",
+          "hash": "10482191097194798837"
         },
         {
           "file": "src/assets/img/background.jpg",
