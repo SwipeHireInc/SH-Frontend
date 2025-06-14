@@ -7,6 +7,7 @@ import { provideStore } from '@ngrx/store';
 import { provideEffects } from '@ngrx/effects';
 import { authReducer } from './core/services/auth.reducer';
 import { provideHttpClient } from '@angular/common/http';
+import { loginEffect, loginSuccess } from './core/services/auth.effects';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -16,7 +17,7 @@ export const appConfig: ApplicationConfig = {
     provideStore({
       auth: authReducer
     }),
-    provideEffects(),
+    provideEffects({ loginEffect, loginSuccess }),
     provideStoreDevtools({
     maxAge: 25
   })]

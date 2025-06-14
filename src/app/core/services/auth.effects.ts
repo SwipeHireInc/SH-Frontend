@@ -17,7 +17,7 @@ export const loginEffect = createEffect(
 
         return actions$.pipe(
             ofType(AuthActions.login),
-
+            tap(action => console.log('Effect received:', action)),
             switchMap(action => 
                 service.login({ username: action.username, password: action.password })
                 .pipe(
@@ -37,7 +37,10 @@ export const loginSuccess = createEffect(
         return actions$.pipe(
             ofType(AuthActions.loginSuccess),
 
-            tap(() => router.navigate(['/main']))
+            tap(() => {
+                router.navigate(['/main']);
+                console.log("success")
+            })
         )
     },
     {functional:true,dispatch: false}

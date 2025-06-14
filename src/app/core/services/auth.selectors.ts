@@ -4,11 +4,6 @@ import { AuthState } from "../models/AuthState";
 
 export const selectAuthState = createFeatureSelector<AuthState>('auth')
 
-export const selectToken = createSelector(
-    selectAuthState,
-    (state) => state.token
-)
-
 export const selectLoading = createSelector(
     selectAuthState,
     (state) => state.loading

@@ -15,8 +15,9 @@ export class AuthService {
     private http: HttpClient
   ) {}
 
-  login(payload: {username: string, password: string}): Observable<void>{
-    return this.http.post<void>(
+  login(payload: {username: string, password: string}){
+    console.log("success")
+    return this.http.post(
       `${this.baseUrl}/auth/login`,
       payload, 
       {withCredentials:true})

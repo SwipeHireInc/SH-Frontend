@@ -44,6 +44,7 @@ export class AuthModalComponent implements AfterViewInit {
     const {username, password, remember} = this.loginform.value
 
     this.store.dispatch(AuthActions.login({username: username, password: password}))
+    console.log('Clicked!')
 
     if(remember){
       localStorage.setItem("rememberedUSER", username)
