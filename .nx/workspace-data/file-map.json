@@ -9,7 +9,7 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "10888052927322786676"
+          "hash": "3774033377032240923"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js",
@@ -249,7 +249,7 @@
         },
         {
           "file": "src/app/app.routes.ts",
-          "hash": "17469142237935459734"
+          "hash": "7408982946859585046"
         },
         {
           "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.animation.ts",
@@ -301,11 +301,11 @@
         },
         {
           "file": "src/app/core/services/auth.actions.ts",
-          "hash": "10760671985949285962"
+          "hash": "7957658662028866265"
         },
         {
           "file": "src/app/core/services/auth.effects.ts",
-          "hash": "13172190223699489460"
+          "hash": "12725939727784303517"
         },
         {
           "file": "src/app/core/services/auth.reducer.ts",
@@ -313,11 +313,11 @@
         },
         {
           "file": "src/app/core/services/auth.selectors.ts",
-          "hash": "1447105017629136677"
+          "hash": "8190694225800261758"
         },
         {
           "file": "src/app/core/services/auth.service.ts",
-          "hash": "2648048618761461127"
+          "hash": "13141720181030491943"
         },
         {
           "file": "src/app/pages/auth/auth-modal.animation.ts",
@@ -325,7 +325,7 @@
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.html",
-          "hash": "11316026103219031088"
+          "hash": "14592435288010115410"
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.scss",
@@ -333,7 +333,7 @@
         },
         {
           "file": "src/app/pages/auth/auth-modal.component.ts",
-          "hash": "13825091495939765876"
+          "hash": "14169797288500422357"
         },
         {
           "file": "src/app/pages/landing/landing.animation.ts",
@@ -353,7 +353,7 @@
         },
         {
           "file": "src/app/pages/main/main.component.html",
-          "hash": "8661355653673123708"
+          "hash": "11241349119143698993"
         },
         {
           "file": "src/app/pages/main/main.component.scss",
@@ -361,7 +361,7 @@
         },
         {
           "file": "src/app/pages/main/main.component.ts",
-          "hash": "2813114446493621860"
+          "hash": "11560558243245692966"
         },
         {
           "file": "src/app/pages/profile/profile.component.html",
@@ -389,7 +389,7 @@
         },
         {
           "file": "src/app/shared/components/loading/loading.component.css",
-          "hash": "4055606894390288348"
+          "hash": "3244421341483603138"
         },
         {
           "file": "src/app/shared/components/loading/loading.component.html",
@@ -400,8 +400,24 @@
           "hash": "10482191097194798837"
         },
         {
+          "file": "src/app/shared/components/navigation-panel/navigation-panel.component.html",
+          "hash": "12005679536907982956"
+        },
+        {
+          "file": "src/app/shared/components/navigation-panel/navigation-panel.component.scss",
+          "hash": "16855838993797742971"
+        },
+        {
+          "file": "src/app/shared/components/navigation-panel/navigation-panel.component.ts",
+          "hash": "9900247931160659997"
+        },
+        {
           "file": "src/assets/img/background.jpg",
           "hash": "4532176075047545978"
+        },
+        {
+          "file": "src/assets/png/setting.png",
+          "hash": "15164072849042115073"
         },
         {
           "file": "src/environments/environment.ts",
@@ -417,7 +433,7 @@
         },
         {
           "file": "src/styles.scss",
-          "hash": "6252646507455468832"
+          "hash": "9973299974770754482"
         },
         {
           "file": "tsconfig.app.json",

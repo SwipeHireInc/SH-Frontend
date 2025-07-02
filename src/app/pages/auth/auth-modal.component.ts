@@ -8,6 +8,7 @@ import { AppState } from '../../core/models/AppState';
 import { AsyncPipe } from '@angular/common';
 import { environment } from '../../../environments/environment';
 import { LoadingComponent } from "../../shared/components/loading/loading.component";
+import {selectError, selectLoading} from '../../core/services/auth.selectors';
 
 @Component({
   selector: 'app-auth-modal',
@@ -25,33 +26,24 @@ export class AuthModalComponent implements AfterViewInit {
   loginform: FormGroup
   loading$: Observable<boolean>
   error$: Observable<string | null>
-  token$: Observable<string | null>
 
   constructor(private fb: FormBuilder, private readonly store: Store<AppState>){
-    this.loading$ = this.store.select(state => state.auth.loading)
-    this.error$ = this.store.select(state => state.auth.error);
-    this.token$ = this.store.select(state => state.auth.token);
+    this.loading$ = this.store.select(selectLoading)
+    this.error$ = this.store.select(selectError);
 
     this.loginform = this.fb.group({
       username: ['', Validators.required],
       password: ['', Validators.required],
-      remember: [false]
     })
   }
 
   onSubmit() {
-    if(this.loginform.invalid) return 
+    if(this.loginform.invalid) return
 
-    const {username, password, remember} = this.loginform.value
+    const {username, password} = this.loginform.value
 
     this.store.dispatch(AuthActions.login({username: username, password: password}))
     console.log('Clicked!')
-
-    if(remember){
-      localStorage.setItem("rememberedUSER", username)
-    }else {
-      localStorage.removeItem('rememberedUsername');
-    }
   }
 
   // ts

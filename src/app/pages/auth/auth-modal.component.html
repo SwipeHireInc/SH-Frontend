@@ -1,7 +1,7 @@
 <div class="modal-overlay" #modalOverlay (click)="closeModal()">
   <div class="modal-content" #modalContent (click)="$event.stopPropagation()">
     <button class="close-btn" (click)="closeModal()">×</button>
-    
+
     <div class="modal-header">
       <h1>Get Started</h1>
       <p>Welcome back please login to your account</p>
@@ -10,8 +10,8 @@
     <form [formGroup]="loginform" (ngSubmit)="onSubmit()">
       <div class="form-group">
         <div class="input-container">
-          <input 
-            type="text" 
+          <input
+            type="text"
             formControlName="username"
             placeholder="Username">
           <div class="input-icon">
@@ -24,8 +24,8 @@
 
       <div class="form-group">
         <div class="input-container">
-          <input 
-            type="password" 
+          <input
+            type="password"
             formControlName="password"
             placeholder="Password">
           <div class="input-icon">
@@ -34,11 +34,6 @@
             </svg>
           </div>
         </div>
-      </div>
-
-      <div class="checkbox-wrapper">
-        <input type="checkbox" id="remember" formControlName="remember">
-        <label for="remember">Remember me</label>
       </div>
 
       <button type="submit" class="login-btn">Login</button>
@@ -56,7 +51,7 @@
           Continue with Google
         </button>
       </div>
-      
+
       <div class="forgot-link">
         <a href="#" (click)="forgotPassword()">Forgot Password?</a>
       </div>
@@ -76,11 +71,5 @@
         error
       </div>
     }
-    @if (token$ | async) {
-      <div>
-        success
-      </div>
-    }
-
   </div>
 </div>

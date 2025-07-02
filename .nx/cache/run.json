@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx serve",
-    "startTime": "2025-06-09T06:39:58.407Z",
-    "endTime": "2025-06-13T03:50:32.634Z",
+    "startTime": "2025-06-26T14:25:44.759Z",
+    "endTime": "2025-06-28T04:46:43.692Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "SwipeHire:serve:development",
       "target": "serve",
       "projectName": "SwipeHire",
-      "hash": "16508740876034300413",
-      "startTime": "2025-06-09T06:39:58.640Z",
-      "endTime": "2025-06-13T03:50:31.407Z",
+      "hash": "9588195581102735103",
+      "startTime": "2025-06-26T14:25:45.183Z",
+      "endTime": "2025-06-28T04:46:38.910Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

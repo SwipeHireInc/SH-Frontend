@@ -8,7 +8,7 @@ import { MainComponent } from './pages/main/main.component';
 export const routes: Routes = [
     { path: 'landing', component: LandingComponent },
     { path: 'auth/callback', component: AuthCallbackComponent },
-    { path: 'main', component: MainComponent, canActivate: [authGuard]},
+    { path: 'main', component: MainComponent}, //canActivate: [authGuard]},
     {
         path: "app",
         canActivate: [authGuard],

@@ -2,10 +2,7 @@ import { inject } from "@angular/core";
 import { Actions, createEffect, ofType } from "@ngrx/effects";
 import * as AuthActions from '../services/auth.actions';
 import { AuthService } from "./auth.service";
-import { catchError, map, Observable, of, switchMap, tap } from "rxjs";
-import { Users } from "../models/user.model";
-import { TokenResponse } from "../models/Auth.interface";
-import { routes } from "../../app.routes";
+import { catchError, map, of, switchMap, tap } from "rxjs";
 import { Router } from "@angular/router";
 
 
@@ -17,8 +14,7 @@ export const loginEffect = createEffect(
 
         return actions$.pipe(
             ofType(AuthActions.login),
-            tap(action => console.log('Effect received:', action)),
-            switchMap(action => 
+            switchMap(action =>
                 service.login({ username: action.username, password: action.password })
                 .pipe(
                     map(() => AuthActions.loginSuccess()),
@@ -36,10 +32,8 @@ export const loginSuccess = createEffect(
 
         return actions$.pipe(
             ofType(AuthActions.loginSuccess),
-
             tap(() => {
                 router.navigate(['/main']);
-                console.log("success")
             })
         )
     },

@@ -16,10 +16,9 @@ export class AuthService {
   ) {}
 
   login(payload: {username: string, password: string}){
-    console.log("success")
     return this.http.post(
       `${this.baseUrl}/auth/login`,
-      payload, 
+      payload,
       {withCredentials:true})
   } // -> AuthController
 
