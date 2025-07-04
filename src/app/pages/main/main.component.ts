@@ -6,6 +6,6 @@ import {NavigationPanelComponent} from '../../shared/components/navigation-panel
   selector: 'app-main',
   imports: [CommonModule, NavigationPanelComponent],
   templateUrl: './main.component.html',
-  styleUrl: './main.component.css'
+  styleUrl: './main.component.scss'
 })
 export class MainComponent {}

@@ -9,7 +9,7 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "3774033377032240923"
+          "hash": "16311889383007732933"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js",
@@ -353,15 +353,15 @@
         },
         {
           "file": "src/app/pages/main/main.component.html",
-          "hash": "11241349119143698993"
+          "hash": "7823055739114852953"
         },
         {
           "file": "src/app/pages/main/main.component.scss",
-          "hash": "1192907108208196639"
+          "hash": "5029262272523959526"
         },
         {
           "file": "src/app/pages/main/main.component.ts",
-          "hash": "11560558243245692966"
+          "hash": "17558832239506959252"
         },
         {
           "file": "src/app/pages/profile/profile.component.html",
@@ -401,11 +401,11 @@
         },
         {
           "file": "src/app/shared/components/navigation-panel/navigation-panel.component.html",
-          "hash": "12005679536907982956"
+          "hash": "15917509093953953988"
         },
         {
           "file": "src/app/shared/components/navigation-panel/navigation-panel.component.scss",
-          "hash": "16855838993797742971"
+          "hash": "13654161972353253948"
         },
         {
           "file": "src/app/shared/components/navigation-panel/navigation-panel.component.ts",
@@ -425,7 +425,7 @@
         },
         {
           "file": "src/index.html",
-          "hash": "1794268781603019687"
+          "hash": "5222801328253327092"
         },
         {
           "file": "src/main.ts",
@@ -433,7 +433,7 @@
         },
         {
           "file": "src/styles.scss",
-          "hash": "9973299974770754482"
+          "hash": "2318347054751018951"
         },
         {
           "file": "tsconfig.app.json",
