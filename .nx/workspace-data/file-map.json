@@ -9,7 +9,7 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "16311889383007732933"
+          "hash": "15143026243683671536"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js",
@@ -249,7 +249,7 @@
         },
         {
           "file": "src/app/app.routes.ts",
-          "hash": "7408982946859585046"
+          "hash": "1128283436899237337"
         },
         {
           "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.animation.ts",
@@ -353,7 +353,7 @@
         },
         {
           "file": "src/app/pages/main/main.component.html",
-          "hash": "7823055739114852953"
+          "hash": "9824592492372184534"
         },
         {
           "file": "src/app/pages/main/main.component.scss",
@@ -361,7 +361,7 @@
         },
         {
           "file": "src/app/pages/main/main.component.ts",
-          "hash": "17558832239506959252"
+          "hash": "14287633306827107483"
         },
         {
           "file": "src/app/pages/profile/profile.component.html",
@@ -401,7 +401,7 @@
         },
         {
           "file": "src/app/shared/components/navigation-panel/navigation-panel.component.html",
-          "hash": "15917509093953953988"
+          "hash": "9287554655799747628"
         },
         {
           "file": "src/app/shared/components/navigation-panel/navigation-panel.component.scss",
@@ -409,7 +409,7 @@
         },
         {
           "file": "src/app/shared/components/navigation-panel/navigation-panel.component.ts",
-          "hash": "9900247931160659997"
+          "hash": "3478647149028145446"
         },
         {
           "file": "src/assets/img/background.jpg",
