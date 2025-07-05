@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
-  selector: 'app-auth-callback',
+  selector: 'app-auth-modal-callback',
   templateUrl: `./AuthCallBack.component.html`
 })
 export class AuthCallbackComponent implements OnInit{

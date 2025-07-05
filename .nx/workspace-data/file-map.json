@@ -9,7 +9,7 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "15143026243683671536"
+          "hash": "7284304783594703023"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js",
@@ -249,23 +249,7 @@
         },
         {
           "file": "src/app/app.routes.ts",
-          "hash": "1128283436899237337"
-        },
-        {
-          "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.animation.ts",
-          "hash": "3259653934591605668"
-        },
-        {
-          "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.component.html",
-          "hash": "13163103822185635408"
-        },
-        {
-          "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.component.scss",
-          "hash": "8836802890890224792"
-        },
-        {
-          "file": "src/app/components/scroll-reveal-card/scroll-reveal-card.component.ts",
-          "hash": "8798493551529333172"
+          "hash": "15452734492528968387"
         },
         {
           "file": "src/app/core/guards/auth.guard.ts",
@@ -297,7 +281,7 @@
         },
         {
           "file": "src/app/core/services/AuthCallBack.component.ts",
-          "hash": "9296112262199794342"
+          "hash": "11037420325253562878"
         },
         {
           "file": "src/app/core/services/auth.actions.ts",
@@ -336,6 +320,26 @@
           "hash": "14169797288500422357"
         },
         {
+          "file": "src/app/pages/jobs-page/jobs.component.html",
+          "hash": "16850632323389532786"
+        },
+        {
+          "file": "src/app/pages/jobs-page/jobs.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/pages/jobs-page/jobs.component.ts",
+          "hash": "16143581518705740754"
+        },
+        {
+          "file": "src/app/pages/landing-page/landing.component.html",
+          "hash": "13379733375338178046"
+        },
+        {
+          "file": "src/app/pages/landing-page/landing.component.ts",
+          "hash": "206353678493936439"
+        },
+        {
           "file": "src/app/pages/landing/landing.animation.ts",
           "hash": "11543624014372122194"
         },
@@ -352,6 +356,10 @@
           "hash": "4878076709733512102"
         },
         {
+          "file": "src/app/pages/main-page/main.component.ts",
+          "hash": "16444551325197828185"
+        },
+        {
           "file": "src/app/pages/main/main.component.html",
           "hash": "9824592492372184534"
         },
@@ -362,6 +370,10 @@
         {
           "file": "src/app/pages/main/main.component.ts",
           "hash": "14287633306827107483"
+        },
+        {
+          "file": "src/app/pages/profile-page/profile.component.ts",
+          "hash": "9870410830644185228"
         },
         {
           "file": "src/app/pages/profile/profile.component.html",
@@ -388,6 +400,10 @@
           "hash": "7188170783813870787"
         },
         {
+          "file": "src/app/shared/components/auth-modal/auth-modal.component.ts",
+          "hash": "10507269459072562100"
+        },
+        {
           "file": "src/app/shared/components/loading/loading.component.css",
           "hash": "3244421341483603138"
         },
@@ -401,7 +417,7 @@
         },
         {
           "file": "src/app/shared/components/navigation-panel/navigation-panel.component.html",
-          "hash": "9287554655799747628"
+          "hash": "389780285390936953"
         },
         {
           "file": "src/app/shared/components/navigation-panel/navigation-panel.component.scss",
