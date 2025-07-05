@@ -9,7 +9,7 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "7284304783594703023"
+          "hash": "13982378549876439006"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js",
@@ -372,10 +372,6 @@
           "hash": "14287633306827107483"
         },
         {
-          "file": "src/app/pages/profile-page/profile.component.ts",
-          "hash": "9870410830644185228"
-        },
-        {
           "file": "src/app/pages/profile/profile.component.html",
           "hash": "11549371922144503726"
         },
@@ -398,6 +394,38 @@
         {
           "file": "src/app/pages/swip/swip.component.ts",
           "hash": "7188170783813870787"
+        },
+        {
+          "file": "src/app/profile-page/applicant-page/applicant-page.component.html",
+          "hash": "12264928509025362636"
+        },
+        {
+          "file": "src/app/profile-page/applicant-page/applicant-page.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/profile-page/applicant-page/applicant-page.component.spec.ts",
+          "hash": "15493920736719699832"
+        },
+        {
+          "file": "src/app/profile-page/applicant-page/applicant-page.component.ts",
+          "hash": "12317208042200428214"
+        },
+        {
+          "file": "src/app/profile-page/company-page/company-page.component.html",
+          "hash": "559645517878068664"
+        },
+        {
+          "file": "src/app/profile-page/company-page/company-page.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/profile-page/company-page/company-page.component.spec.ts",
+          "hash": "5700972685838097135"
+        },
+        {
+          "file": "src/app/profile-page/company-page/company-page.component.ts",
+          "hash": "4697820000703082951"
         },
         {
           "file": "src/app/shared/components/auth-modal/auth-modal.component.ts",
