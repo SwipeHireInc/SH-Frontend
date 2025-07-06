@@ -8,6 +8,8 @@ import {
   ApplicantProfilePageComponent
 } from './pages/applicant-components/applicant-profile-page/applicant-profile-page.component';
 import {JobsPageComponent} from './pages/applicant-components/jobs-page/jobs-page.component';
+import {CompanyProfileComponent} from './pages/company-components/company-profile/company-profile.component';
+import {PublishComponentComponent} from './pages/company-components/publish-component/publish-component.component';
 
 export const routes: Routes = [
     {
@@ -39,10 +41,11 @@ export const routes: Routes = [
       canActivate: [],
       children: [
         {
-          path: "profile", component: CompanyPageComponent
+          path: "profile", component: CompanyProfileComponent
         },
-
-
+        {
+          path: "publish", component: PublishComponentComponent
+        },
       ]
     }
 

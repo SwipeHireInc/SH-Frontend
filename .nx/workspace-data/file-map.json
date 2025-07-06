@@ -9,7 +9,7 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "18087253358779946771"
+          "hash": "13982268860458766303"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js",
@@ -249,7 +249,7 @@
         },
         {
           "file": "src/app/app.routes.ts",
-          "hash": "5955367279888554172"
+          "hash": "13412357281826983490"
         },
         {
           "file": "src/app/core/guards/auth.guard.ts",
@@ -342,6 +342,54 @@
         {
           "file": "src/app/pages/applicant-components/navigation-panel/navigation-panel.component.scss",
           "hash": "8186707728157681443"
+        },
+        {
+          "file": "src/app/pages/company-components/company-page/company-page.component.html",
+          "hash": "559645517878068664"
+        },
+        {
+          "file": "src/app/pages/company-components/company-page/company-page.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/pages/company-components/company-page/company-page.component.spec.ts",
+          "hash": "5700972685838097135"
+        },
+        {
+          "file": "src/app/pages/company-components/company-page/company-page.component.ts",
+          "hash": "4697820000703082951"
+        },
+        {
+          "file": "src/app/pages/company-components/company-profile/company-profile.component.html",
+          "hash": "712946970628858792"
+        },
+        {
+          "file": "src/app/pages/company-components/company-profile/company-profile.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/pages/company-components/company-profile/company-profile.component.spec.ts",
+          "hash": "9371326598721594060"
+        },
+        {
+          "file": "src/app/pages/company-components/company-profile/company-profile.component.ts",
+          "hash": "15038629364319403076"
+        },
+        {
+          "file": "src/app/pages/company-components/publish-component/publish-component.component.html",
+          "hash": "8802835988523600101"
+        },
+        {
+          "file": "src/app/pages/company-components/publish-component/publish-component.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/pages/company-components/publish-component/publish-component.component.spec.ts",
+          "hash": "16453468514930505839"
+        },
+        {
+          "file": "src/app/pages/company-components/publish-component/publish-component.component.ts",
+          "hash": "1106373838567489397"
         },
         {
           "file": "src/app/pages/landing-page/landing.animation.ts",
