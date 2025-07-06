@@ -1,11 +1,13 @@
 import { Routes } from '@angular/router';
-import {JobsComponent} from './pages/jobs-page/jobs.component';
 import { LandingComponent } from './pages/landing-page/landing.component';
 import { authGuard } from './core/guards/auth.guard';
 import { AuthCallbackComponent } from './core/services/AuthCallBack.component';
-import { MainComponent } from './pages/main-page/main.component';
 import {ApplicantPageComponent} from './pages/applicant-components/applicant-page/applicant-page.component';
 import {CompanyPageComponent} from './pages/profile-page/company-page/company-page.component';
+import {
+  ApplicantProfilePageComponent
+} from './pages/applicant-components/applicant-profile-page/applicant-profile-page.component';
+import {JobsPageComponent} from './pages/applicant-components/jobs-page/jobs-page.component';
 
 export const routes: Routes = [
     {
@@ -23,7 +25,11 @@ export const routes: Routes = [
       children: [
         {
           path: "profile",
-          component:
+          component: ApplicantProfilePageComponent
+        },
+        {
+          path: "jobs",
+          component: JobsPageComponent
         }
       ]
     },
