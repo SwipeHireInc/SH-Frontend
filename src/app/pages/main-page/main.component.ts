@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {NavigationPanelComponent} from '../../shared/components/navigation-panel/navigation-panel.component';
-import {ProfileComponent} from '../profile-page/profile.component';
 import {RouterOutlet} from '@angular/router';
 
 @Component({
