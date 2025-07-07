@@ -34,16 +34,11 @@ export class AuthService {
     .pipe(map(response => response.isAuthenticated));
   }
 
-  // maybe for localstorage
-  // setToken(token: string): void {
-  //   localStorage.setItem('authToken', token);
-  // }
+  getAccessToken(): Observable<Object> {
+    return this.http.get(`${this.baseUrl}/api/me`);
+  }
 
-  // getToken(): string | null {
-  //   return localStorage.getItem('authToken');
-  // }
-
-  // removeToken(): void {
-  //   localStorage.removeItem('authToken');
-  // }
+  getMe(): Observable<User>{
+    return this.http.get(`${this.baseUrl}/api/me`);
+  }
 }

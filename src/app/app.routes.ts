@@ -3,7 +3,7 @@ import { LandingComponent } from './pages/landing-page/landing.component';
 import { authGuard } from './core/guards/auth.guard';
 import { AuthCallbackComponent } from './core/services/AuthCallBack.component';
 import {ApplicantPageComponent} from './pages/applicant-components/applicant-page/applicant-page.component';
-import {CompanyPageComponent} from './pages/profile-page/company-page/company-page.component';
+import {CompanyPageComponent} from './pages/company-components/company-page/company-page.component';
 import {
   ApplicantProfilePageComponent
 } from './pages/applicant-components/applicant-profile-page/applicant-profile-page.component';
