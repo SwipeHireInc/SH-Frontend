@@ -9,7 +9,7 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "14683024865113067833"
+          "hash": "10486382972762157999"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js",
@@ -252,6 +252,10 @@
           "hash": "12356421250940685820"
         },
         {
+          "file": "src/app/core/dto/user.dto.ts",
+          "hash": "12144217919378991451"
+        },
+        {
           "file": "src/app/core/guards/auth.guard.ts",
           "hash": "16386342216388123162"
         },
@@ -261,7 +265,7 @@
         },
         {
           "file": "src/app/core/models/Auth.interface.ts",
-          "hash": "13569690833710632883"
+          "hash": "1046464584288898149"
         },
         {
           "file": "src/app/core/models/AuthState.ts",
@@ -305,7 +309,7 @@
         },
         {
           "file": "src/app/core/services/auth.service.ts",
-          "hash": "9067478137675689742"
+          "hash": "7746903421860765172"
         },
         {
           "file": "src/app/pages/applicant-components/applicant-page/applicant-page.component.html",

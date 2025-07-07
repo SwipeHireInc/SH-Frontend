@@ -3,12 +3,13 @@ import { HttpClient } from '@angular/common/http';
 import { map, tap } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { TokenResponse } from '../models/Auth.interface';
+import {User} from '../dto/user.dto';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
-
+  private accessToken: string | null = null;
   private baseUrl = 'http://localhost:8080'
 
   constructor(
@@ -16,10 +17,10 @@ export class AuthService {
   ) {}
 
   login(payload: {username: string, password: string}){
-    return this.http.post(
+    return this.http.post<TokenResponse>(
       `${this.baseUrl}/auth/login`,
       payload,
-      {withCredentials:true})
+      {withCredentials:true}).pipe(tap(res => this.setAccessToken(res.accessToken)))
   } // -> AuthController
 
   logout(): Observable<void> {
@@ -34,11 +35,15 @@ export class AuthService {
     .pipe(map(response => response.isAuthenticated));
   }
 
-  getAccessToken(): Observable<Object> {
-    return this.http.get(`${this.baseUrl}/api/me`);
+  setAccessToken(token: string) {
+    this.accessToken = token;
+  }
+
+  getAccessToken(): string | null {
+    return this.accessToken;
   }
 
   getMe(): Observable<User>{
-    return this.http.get(`${this.baseUrl}/api/me`);
+    return this.http.get<User>(`${this.baseUrl}/api/me`);
   }
 }
