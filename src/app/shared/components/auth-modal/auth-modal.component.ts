@@ -43,7 +43,6 @@ export class AuthModalComponent implements AfterViewInit {
     const {username, password} = this.loginform.value
 
     this.store.dispatch(AuthActions.login({username: username, password: password}))
-    console.log('Clicked!')
   }
 
   // ts
@@ -63,5 +62,4 @@ export class AuthModalComponent implements AfterViewInit {
   ngAfterViewInit() {
     animateOpen(this.modalOverlay, this.modalContent);
   }
-
 }

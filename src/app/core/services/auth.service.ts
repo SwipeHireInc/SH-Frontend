@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { map, tap } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { TokenResponse } from '../models/Auth.interface';
-import {User} from '../dto/user.dto';
+import {User} from '../../dto/user.dto';
 
 @Injectable({
   providedIn: 'root'
@@ -41,6 +41,10 @@ export class AuthService {
 
   getAccessToken(): string | null {
     return this.accessToken;
+  }
+
+  setRole(role: string): Observable<TokenResponse> {
+    return this.http.post<TokenResponse>(`${this.baseUrl}/auth/role`, role);
   }
 
   getMe(): Observable<User>{

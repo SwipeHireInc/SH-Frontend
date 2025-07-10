@@ -10,6 +10,7 @@ import {
 import {JobsPageComponent} from './pages/applicant-components/jobs-page/jobs-page.component';
 import {CompanyProfileComponent} from './pages/company-components/company-profile/company-profile.component';
 import {PublishComponentComponent} from './pages/company-components/publish-component/publish-component.component';
+import {ChooseRoleComponent} from './shared/components/choose-role/choose-role.component';
 
 export const routes: Routes = [
     {
@@ -47,6 +48,11 @@ export const routes: Routes = [
           path: "publish", component: PublishComponentComponent
         },
       ]
+    },
+    {
+      path: "choose",
+      component: ChooseRoleComponent
     }
+
 
 ];

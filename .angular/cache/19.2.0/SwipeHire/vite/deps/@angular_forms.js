@@ -1,6 +1,7 @@
 import {
   getDOM
-} from "./chunk-YDA4T4WH.js";
+} from "./chunk-D423XIIK.js";
+import "./chunk-N2U3IBLX.js";
 import {
   ChangeDetectorRef,
   Directive,
@@ -41,11 +42,11 @@ import {
   ɵɵdirectiveInject,
   ɵɵgetInheritedFactory,
   ɵɵlistener
-} from "./chunk-7UAGZOV6.js";
+} from "./chunk-NXWU6C4K.js";
+import "./chunk-PEBH6BBU.js";
 import {
   forkJoin
 } from "./chunk-WPM5VTLQ.js";
-import "./chunk-PEBH6BBU.js";
 import {
   Subject,
   from,
@@ -63,13 +64,13 @@ var BaseControlValueAccessor = class _BaseControlValueAccessor {
   /**
    * The registered callback function called when a change or input event occurs on the input
    * element.
-   * @nodoc
+   * @docs-private
    */
   onChange = (_) => {
   };
   /**
    * The registered callback function called when a blur event occurs on the input element.
-   * @nodoc
+   * @docs-private
    */
   onTouched = () => {
   };
@@ -80,28 +81,28 @@ var BaseControlValueAccessor = class _BaseControlValueAccessor {
   /**
    * Helper method that sets a property on a target element using the current Renderer
    * implementation.
-   * @nodoc
+   * @docs-private
    */
   setProperty(key, value) {
     this._renderer.setProperty(this._elementRef.nativeElement, key, value);
   }
   /**
    * Registers a function called when the control is touched.
-   * @nodoc
+   * @docs-private
    */
   registerOnTouched(fn) {
     this.onTouched = fn;
   }
   /**
    * Registers a function called when the control value changes.
-   * @nodoc
+   * @docs-private
    */
   registerOnChange(fn) {
     this.onChange = fn;
   }
   /**
    * Sets the "disabled" property on the range input element.
-   * @nodoc
+   * @docs-private
    */
   setDisabledState(isDisabled) {
     this.setProperty("disabled", isDisabled);
@@ -148,7 +149,7 @@ var CHECKBOX_VALUE_ACCESSOR = {
 var CheckboxControlValueAccessor = class _CheckboxControlValueAccessor extends BuiltInControlValueAccessor {
   /**
    * Sets the "checked" property on the input element.
-   * @nodoc
+   * @docs-private
    */
   writeValue(value) {
     this.setProperty("checked", value);
@@ -212,7 +213,7 @@ var DefaultValueAccessor = class _DefaultValueAccessor extends BaseControlValueA
   }
   /**
    * Sets the "value" property on the input element.
-   * @nodoc
+   * @docs-private
    */
   writeValue(value) {
     const normalizedValue = value == null ? "" : value;
@@ -561,7 +562,7 @@ var Validators = class {
    *
    */
   static nullValidator(control) {
-    return nullValidator(control);
+    return nullValidator();
   }
   static compose(validators) {
     return compose(validators);
@@ -1044,7 +1045,6 @@ var ControlContainer = class extends AbstractControlDirective {
    * @description
    * The name for the control
    */
-  // TODO(issue/24571): remove '!'.
   name;
   /**
    * @description
@@ -2935,14 +2935,13 @@ var NgForm = class _NgForm extends ControlContainer {
    * Possible values: `'change'` | `'blur'` | `'submit'`.
    *
    */
-  // TODO(issue/24571): remove '!'.
   options;
   constructor(validators, asyncValidators, callSetDisabledState) {
     super();
     this.callSetDisabledState = callSetDisabledState;
     this.form = new FormGroup({}, composeValidators(validators), composeAsyncValidators(asyncValidators));
   }
-  /** @nodoc */
+  /** @docs-private */
   ngAfterViewInit() {
     this._setUpdateStrategy();
   }
@@ -3089,6 +3088,7 @@ var NgForm = class _NgForm extends ControlContainer {
     this.submittedReactive.set(true);
     syncPendingControls(this.form, this._directives);
     this.ngSubmit.emit($event);
+    this.form._events.next(new FormSubmittedEvent(this.control));
     return $event?.target?.method === "dialog";
   }
   /**
@@ -3107,6 +3107,7 @@ var NgForm = class _NgForm extends ControlContainer {
   resetForm(value = void 0) {
     this.form.reset(value);
     this.submittedReactive.set(false);
+    this.form._events.next(new FormResetEvent(this.form));
   }
   _setUpdateStrategy() {
     if (this.options && this.options.updateOn != null) {
@@ -3313,14 +3314,13 @@ var AbstractFormGroupDirective = class _AbstractFormGroupDirective extends Contr
    *
    * @internal
    */
-  // TODO(issue/24571): remove '!'.
   _parent;
-  /** @nodoc */
+  /** @docs-private */
   ngOnInit() {
     this._checkParentType();
     this.formDirective.addFormGroup(this);
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnDestroy() {
     if (this.formDirective) {
       this.formDirective.removeFormGroup(this);
@@ -3509,13 +3509,13 @@ var NgModel = class _NgModel extends NgControl {
   // match the native "disabled attribute" semantics which can be observed on input elements.
   // This static member tells the compiler that values of type "string" can also be assigned
   // to the input in a template.
-  /** @nodoc */
+  /** @docs-private */
   static ngAcceptInputType_isDisabled;
   /** @internal */
   _registered = false;
   /**
    * Internal reference to the view model value.
-   * @nodoc
+   * @docs-private
    */
   viewModel;
   /**
@@ -3528,7 +3528,6 @@ var NgModel = class _NgModel extends NgControl {
    * @description
    * Tracks whether the control is disabled.
    */
-  // TODO(issue/24571): remove '!'.
   isDisabled;
   /**
    * @description
@@ -3551,7 +3550,6 @@ var NgModel = class _NgModel extends NgControl {
    * Defaults to 'change'. Possible values: `'change'` | `'blur'` | `'submit'`.
    *
    */
-  // TODO(issue/24571): remove '!'.
   options;
   /**
    * @description
@@ -3568,7 +3566,7 @@ var NgModel = class _NgModel extends NgControl {
     this._setAsyncValidators(asyncValidators);
     this.valueAccessor = selectValueAccessor(this, valueAccessors);
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnChanges(changes) {
     this._checkForErrors();
     if (!this._registered || "name" in changes) {
@@ -3592,7 +3590,7 @@ var NgModel = class _NgModel extends NgControl {
       this.viewModel = this.model;
     }
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnDestroy() {
     this.formDirective && this.formDirective.removeControl(this);
   }
@@ -3817,7 +3815,7 @@ var NUMBER_VALUE_ACCESSOR = {
 var NumberValueAccessor = class _NumberValueAccessor extends BuiltInControlValueAccessor {
   /**
    * Sets the "value" property on the input element.
-   * @nodoc
+   * @docs-private
    */
   writeValue(value) {
     const normalizedValue = value == null ? "" : value;
@@ -3825,7 +3823,7 @@ var NumberValueAccessor = class _NumberValueAccessor extends BuiltInControlValue
   }
   /**
    * Registers a function called when the control value changes.
-   * @nodoc
+   * @docs-private
    */
   registerOnChange(fn) {
     this.onChange = (value) => {
@@ -3936,13 +3934,10 @@ var RadioControlValueAccessor = class _RadioControlValueAccessor extends BuiltIn
   _registry;
   _injector;
   /** @internal */
-  // TODO(issue/24571): remove '!'.
   _state;
   /** @internal */
-  // TODO(issue/24571): remove '!'.
   _control;
   /** @internal */
-  // TODO(issue/24571): remove '!'.
   _fn;
   setDisabledStateFired = false;
   /**
@@ -3950,7 +3945,7 @@ var RadioControlValueAccessor = class _RadioControlValueAccessor extends BuiltIn
    * Note: we declare `onChange` here (also used as host listener) as a function with no arguments
    * to override the `onChange` function (which expects 1 argument) in the parent
    * `BaseControlValueAccessor` class.
-   * @nodoc
+   * @docs-private
    */
   onChange = () => {
   };
@@ -3958,14 +3953,12 @@ var RadioControlValueAccessor = class _RadioControlValueAccessor extends BuiltIn
    * @description
    * Tracks the name of the radio input element.
    */
-  // TODO(issue/24571): remove '!'.
   name;
   /**
    * @description
    * Tracks the name of the `FormControl` bound to the directive. The name corresponds
    * to a key in the parent `FormGroup` or `FormArray`.
    */
-  // TODO(issue/24571): remove '!'.
   formControlName;
   /**
    * @description
@@ -3980,19 +3973,19 @@ var RadioControlValueAccessor = class _RadioControlValueAccessor extends BuiltIn
     this._registry = _registry;
     this._injector = _injector;
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnInit() {
     this._control = this._injector.get(NgControl);
     this._checkName();
     this._registry.add(this._control, this);
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnDestroy() {
     this._registry.remove(this);
   }
   /**
    * Sets the "checked" property value on the radio input element.
-   * @nodoc
+   * @docs-private
    */
   writeValue(value) {
     this._state = value === this.value;
@@ -4000,7 +3993,7 @@ var RadioControlValueAccessor = class _RadioControlValueAccessor extends BuiltIn
   }
   /**
    * Registers a function called when the control value changes.
-   * @nodoc
+   * @docs-private
    */
   registerOnChange(fn) {
     this._fn = fn;
@@ -4009,7 +4002,7 @@ var RadioControlValueAccessor = class _RadioControlValueAccessor extends BuiltIn
       this._registry.select(this);
     };
   }
-  /** @nodoc */
+  /** @docs-private */
   setDisabledState(isDisabled) {
     if (this.setDisabledStateFired || isDisabled || this.callSetDisabledState === "whenDisabledForLegacyCode") {
       this.setProperty("disabled", isDisabled);
@@ -4094,14 +4087,14 @@ var RANGE_VALUE_ACCESSOR = {
 var RangeValueAccessor = class _RangeValueAccessor extends BuiltInControlValueAccessor {
   /**
    * Sets the "value" property on the input element.
-   * @nodoc
+   * @docs-private
    */
   writeValue(value) {
     this.setProperty("value", parseFloat(value));
   }
   /**
    * Registers a function called when the control value changes.
-   * @nodoc
+   * @docs-private
    */
   registerOnChange(fn) {
     this.onChange = (value) => {
@@ -4157,14 +4150,13 @@ var FormControlDirective = class _FormControlDirective extends NgControl {
   callSetDisabledState;
   /**
    * Internal reference to the view model value.
-   * @nodoc
+   * @docs-private
    */
   viewModel;
   /**
    * @description
    * Tracks the `FormControl` instance bound to the directive.
    */
-  // TODO(issue/24571): remove '!'.
   form;
   /**
    * @description
@@ -4204,7 +4196,7 @@ var FormControlDirective = class _FormControlDirective extends NgControl {
     this._setAsyncValidators(asyncValidators);
     this.valueAccessor = selectValueAccessor(this, valueAccessors);
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnChanges(changes) {
     if (this._isControlChanged(changes)) {
       const previousForm = changes["form"].previousValue;
@@ -4229,7 +4221,7 @@ var FormControlDirective = class _FormControlDirective extends NgControl {
       this.viewModel = this.model;
     }
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnDestroy() {
     if (this.form) {
       cleanUpControl(
@@ -4412,7 +4404,7 @@ var FormGroupDirective = class _FormGroupDirective extends ControlContainer {
     this._setValidators(validators);
     this._setAsyncValidators(asyncValidators);
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnChanges(changes) {
     if ((typeof ngDevMode === "undefined" || ngDevMode) && !this.form) {
       throw missingFormException();
@@ -4424,7 +4416,7 @@ var FormGroupDirective = class _FormGroupDirective extends ControlContainer {
       this._oldForm = this.form;
     }
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnDestroy() {
     if (this.form) {
       cleanUpValidators(this.form, this);
@@ -4827,7 +4819,7 @@ var FormArrayName = class _FormArrayName extends ControlContainer {
   /**
    * A lifecycle method called when the directive's inputs are initialized. For internal use only.
    * @throws If the directive does not have a valid parent.
-   * @nodoc
+   * @docs-private
    */
   ngOnInit() {
     if (hasInvalidParent(this._parent) && (typeof ngDevMode === "undefined" || ngDevMode)) {
@@ -4837,7 +4829,7 @@ var FormArrayName = class _FormArrayName extends ControlContainer {
   }
   /**
    * A lifecycle method called before the directive's instance is destroyed. For internal use only.
-   * @nodoc
+   * @docs-private
    */
   ngOnDestroy() {
     this.formDirective?.removeFormArray(this);
@@ -4940,7 +4932,6 @@ var FormControlName = class _FormControlName extends NgControl {
    * @description
    * Tracks the `FormControl` instance bound to the directive.
    */
-  // TODO(issue/24571): remove '!'.
   control;
   /**
    * @description
@@ -4990,7 +4981,7 @@ var FormControlName = class _FormControlName extends NgControl {
     this._setAsyncValidators(asyncValidators);
     this.valueAccessor = selectValueAccessor(this, valueAccessors);
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnChanges(changes) {
     if (!this._added) this._setUpControl();
     if (isPropertyUpdated(changes, this.viewModel)) {
@@ -5001,7 +4992,7 @@ var FormControlName = class _FormControlName extends NgControl {
       this.formDirective.updateModel(this, this.model);
     }
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnDestroy() {
     if (this.formDirective) {
       this.formDirective.removeControl(this);
@@ -5152,7 +5143,7 @@ function _extractId$1(valueString) {
   return valueString.split(":")[0];
 }
 var SelectControlValueAccessor = class _SelectControlValueAccessor extends BuiltInControlValueAccessor {
-  /** @nodoc */
+  /** @docs-private */
   value;
   /** @internal */
   _optionMap = /* @__PURE__ */ new Map();
@@ -5172,7 +5163,7 @@ var SelectControlValueAccessor = class _SelectControlValueAccessor extends Built
   _compareWith = Object.is;
   /**
    * Sets the "value" property on the select element.
-   * @nodoc
+   * @docs-private
    */
   writeValue(value) {
     this.value = value;
@@ -5182,7 +5173,7 @@ var SelectControlValueAccessor = class _SelectControlValueAccessor extends Built
   }
   /**
    * Registers a function called when the control value changes.
-   * @nodoc
+   * @docs-private
    */
   registerOnChange(fn) {
     this.onChange = (valueString) => {
@@ -5257,7 +5248,6 @@ var NgSelectOption = class _NgSelectOption {
    * @description
    * ID of the option element
    */
-  // TODO(issue/24571): remove '!'.
   id;
   constructor(_element, _renderer, _select) {
     this._element = _element;
@@ -5289,7 +5279,7 @@ var NgSelectOption = class _NgSelectOption {
   _setElementValue(value) {
     this._renderer.setProperty(this._element.nativeElement, "value", value);
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnDestroy() {
     if (this._select) {
       this._select._optionMap.delete(this.id);
@@ -5355,7 +5345,7 @@ function _extractId(valueString) {
 var SelectMultipleControlValueAccessor = class _SelectMultipleControlValueAccessor extends BuiltInControlValueAccessor {
   /**
    * The current value.
-   * @nodoc
+   * @docs-private
    */
   value;
   /** @internal */
@@ -5376,7 +5366,7 @@ var SelectMultipleControlValueAccessor = class _SelectMultipleControlValueAccess
   _compareWith = Object.is;
   /**
    * Sets the "value" property on one or of more of the select's options.
-   * @nodoc
+   * @docs-private
    */
   writeValue(value) {
     this.value = value;
@@ -5396,7 +5386,7 @@ var SelectMultipleControlValueAccessor = class _SelectMultipleControlValueAccess
   /**
    * Registers a function called when the control value changes
    * and writes an array of the selected options.
-   * @nodoc
+   * @docs-private
    */
   registerOnChange(fn) {
     this.onChange = (element) => {
@@ -5488,7 +5478,6 @@ var ɵNgSelectMultipleOption = class _ɵNgSelectMultipleOption {
   _element;
   _renderer;
   _select;
-  // TODO(issue/24571): remove '!'.
   id;
   /** @internal */
   _value;
@@ -5533,7 +5522,7 @@ var ɵNgSelectMultipleOption = class _ɵNgSelectMultipleOption {
   _setSelected(selected) {
     this._renderer.setProperty(this._element.nativeElement, "selected", selected);
   }
-  /** @nodoc */
+  /** @docs-private */
   ngOnDestroy() {
     if (this._select) {
       this._select._optionMap.delete(this.id);
@@ -5599,7 +5588,7 @@ var AbstractValidatorDirective = class _AbstractValidatorDirective {
    * @internal
    */
   _enabled;
-  /** @nodoc */
+  /** @docs-private */
   ngOnChanges(changes) {
     if (this.inputName in changes) {
       const input = this.normalizeInput(changes[this.inputName].currentValue);
@@ -5610,11 +5599,11 @@ var AbstractValidatorDirective = class _AbstractValidatorDirective {
       }
     }
   }
-  /** @nodoc */
+  /** @docs-private */
   validate(control) {
     return this._validator(control);
   }
-  /** @nodoc */
+  /** @docs-private */
   registerOnValidatorChange(fn) {
     this._onChange = fn;
   }
@@ -5775,7 +5764,7 @@ var RequiredValidator = class _RequiredValidator extends AbstractValidatorDirect
   normalizeInput = booleanAttribute;
   /** @internal */
   createValidator = (input) => requiredValidator;
-  /** @nodoc */
+  /** @docs-private */
   enabled(input) {
     return input;
   }
@@ -5870,7 +5859,7 @@ var EmailValidator = class _EmailValidator extends AbstractValidatorDirective {
   normalizeInput = booleanAttribute;
   /** @internal */
   createValidator = (input) => emailValidator;
-  /** @nodoc */
+  /** @docs-private */
   enabled(input) {
     return input;
   }
@@ -6719,7 +6708,7 @@ var UntypedFormBuilder = class _UntypedFormBuilder extends FormBuilder {
     }]
   }], null, null);
 })();
-var VERSION = new Version("19.2.1");
+var VERSION = new Version("19.2.14");
 var FormsModule = class _FormsModule {
   /**
    * @description
@@ -6872,7 +6861,7 @@ export {
 
 @angular/forms/fesm2022/forms.mjs:
   (**
-   * @license Angular v19.2.1
+   * @license Angular v19.2.14
    * (c) 2010-2025 Google LLC. https://angular.io/
    * License: MIT
    *)
