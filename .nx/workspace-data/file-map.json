@@ -9,7 +9,7 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "13485950229108015672"
+          "hash": "15462784634652572914"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js",
@@ -261,15 +261,15 @@
         },
         {
           "file": "src/app/app.config.ts",
-          "hash": "11661848469754691961"
+          "hash": "13808869083381304665"
         },
         {
           "file": "src/app/app.routes.ts",
-          "hash": "18355671554406664356"
+          "hash": "9074232901386831853"
         },
         {
           "file": "src/app/core/guards/auth.guard.ts",
-          "hash": "16386342216388123162"
+          "hash": "1859459752285164936"
         },
         {
           "file": "src/app/core/models/AppState.ts",
@@ -281,147 +281,163 @@
         },
         {
           "file": "src/app/core/models/AuthState.ts",
-          "hash": "3007567140887769401"
+          "hash": "4482329225657789445"
         },
         {
-          "file": "src/app/core/services/AuthCallBack.component.html",
+          "file": "src/app/core/services/apiservice/api.service.ts",
+          "hash": "5505263452515010138"
+        },
+        {
+          "file": "src/app/core/services/authservice/AuthCallBack.component.html",
           "hash": "14584761888098336410"
         },
         {
-          "file": "src/app/core/services/AuthCallBack.component.ts",
+          "file": "src/app/core/services/authservice/AuthCallBack.component.ts",
           "hash": "11037420325253562878"
         },
         {
-          "file": "src/app/core/services/auth.actions.ts",
-          "hash": "7058177912379434077"
+          "file": "src/app/core/services/authservice/auth.actions.ts",
+          "hash": "1244187239336116550"
         },
         {
-          "file": "src/app/core/services/auth.effects.ts",
-          "hash": "2612576769242927104"
+          "file": "src/app/core/services/authservice/auth.effects.ts",
+          "hash": "15099918806076264715"
         },
         {
-          "file": "src/app/core/services/auth.guard.ts",
+          "file": "src/app/core/services/authservice/auth.guard.ts",
           "hash": "7730823123672398502"
         },
         {
-          "file": "src/app/core/services/auth.interceptor.ts",
+          "file": "src/app/core/services/authservice/auth.interceptor.ts",
           "hash": "7375332731114029620"
         },
         {
-          "file": "src/app/core/services/auth.reducer.ts",
-          "hash": "2518355870220648541"
+          "file": "src/app/core/services/authservice/auth.reducer.ts",
+          "hash": "13743731083976550471"
         },
         {
-          "file": "src/app/core/services/auth.selectors.ts",
-          "hash": "8190694225800261758"
+          "file": "src/app/core/services/authservice/auth.selectors.ts",
+          "hash": "17709399705558642853"
         },
         {
-          "file": "src/app/core/services/auth.service.ts",
-          "hash": "12207180310555332193"
+          "file": "src/app/core/services/authservice/auth.service.ts",
+          "hash": "6420356978445165922"
         },
         {
           "file": "src/app/dto/user.dto.ts",
           "hash": "13590552303205112211"
         },
         {
-          "file": "src/app/pages/applicant-components/applicant-page/applicant-page.component.html",
+          "file": "src/app/pages/applicant-page/applicant-page/applicant-page.component.html",
           "hash": "9824592492372184534"
         },
         {
-          "file": "src/app/pages/applicant-components/applicant-page/applicant-page.component.scss",
-          "hash": "5029262272523959526"
+          "file": "src/app/pages/applicant-page/applicant-page/applicant-page.component.scss",
+          "hash": "4862554476228259814"
         },
         {
-          "file": "src/app/pages/applicant-components/applicant-page/applicant-page.component.ts",
+          "file": "src/app/pages/applicant-page/applicant-page/applicant-page.component.ts",
           "hash": "1380375548430366419"
         },
         {
-          "file": "src/app/pages/applicant-components/applicant-profile-page/applicant-profile-page.component.html",
-          "hash": "6458985087519723330"
+          "file": "src/app/pages/applicant-page/applicant-profile-page/animation.ts",
+          "hash": "273892708492878860"
         },
         {
-          "file": "src/app/pages/applicant-components/applicant-profile-page/applicant-profile-page.component.scss",
-          "hash": "9958320009454478384"
+          "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.html",
+          "hash": "6295676894462230199"
         },
         {
-          "file": "src/app/pages/applicant-components/applicant-profile-page/applicant-profile-page.component.ts",
-          "hash": "6793030106240421689"
+          "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.scss",
+          "hash": "12376145924968116615"
         },
         {
-          "file": "src/app/pages/applicant-components/jobs-page/jobs-page.component.html",
-          "hash": "18094231866087758866"
+          "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts",
+          "hash": "10979426216715397584"
         },
         {
-          "file": "src/app/pages/applicant-components/jobs-page/jobs-page.component.scss",
-          "hash": "3244421341483603138"
+          "file": "src/app/pages/applicant-page/jobs-page/jobs-page.component.html",
+          "hash": "14018495866006008656"
         },
         {
-          "file": "src/app/pages/applicant-components/jobs-page/jobs-page.component.ts",
-          "hash": "5593915760434018162"
+          "file": "src/app/pages/applicant-page/jobs-page/jobs-page.component.scss",
+          "hash": "3415341189591186827"
         },
         {
-          "file": "src/app/pages/applicant-components/navigation-panel/navigation-panel.component.html",
+          "file": "src/app/pages/applicant-page/jobs-page/jobs-page.component.ts",
+          "hash": "15285357470699279362"
+        },
+        {
+          "file": "src/app/pages/applicant-page/model/job_model.ts",
+          "hash": "245707643887925774"
+        },
+        {
+          "file": "src/app/pages/applicant-page/navigation-panel/navigation-panel.component.html",
           "hash": "389780285390936953"
         },
         {
-          "file": "src/app/pages/applicant-components/navigation-panel/navigation-panel.component.scss",
-          "hash": "8186707728157681443"
+          "file": "src/app/pages/applicant-page/navigation-panel/navigation-panel.component.scss",
+          "hash": "9776097082152524114"
         },
         {
-          "file": "src/app/pages/applicant-components/navigation-panel/navigation-panel.component.ts",
+          "file": "src/app/pages/applicant-page/navigation-panel/navigation-panel.component.ts",
           "hash": "3478647149028145446"
         },
         {
-          "file": "src/app/pages/company-components/company-navigation-panel/navigation-panel.component.html",
+          "file": "src/app/pages/applicant-page/service/job.service.ts",
+          "hash": "15509667365329579585"
+        },
+        {
+          "file": "src/app/pages/company-page/company-navigation-panel/navigation-panel.component.html",
           "hash": "4298131110148159437"
         },
         {
-          "file": "src/app/pages/company-components/company-navigation-panel/navigation-panel.component.scss",
+          "file": "src/app/pages/company-page/company-navigation-panel/navigation-panel.component.scss",
           "hash": "8186707728157681443"
         },
         {
-          "file": "src/app/pages/company-components/company-navigation-panel/navigation-panel.component.ts",
+          "file": "src/app/pages/company-page/company-navigation-panel/navigation-panel.component.ts",
           "hash": "7869032750928015506"
         },
         {
-          "file": "src/app/pages/company-components/company-page/company-page.component.html",
+          "file": "src/app/pages/company-page/company-page/company-page.component.html",
           "hash": "16954117864194858706"
         },
         {
-          "file": "src/app/pages/company-components/company-page/company-page.component.scss",
+          "file": "src/app/pages/company-page/company-page/company-page.component.scss",
           "hash": "5029262272523959526"
         },
         {
-          "file": "src/app/pages/company-components/company-page/company-page.component.ts",
+          "file": "src/app/pages/company-page/company-page/company-page.component.ts",
           "hash": "16966977298013872627"
         },
         {
-          "file": "src/app/pages/company-components/company-profile/company-profile.component.html",
+          "file": "src/app/pages/company-page/company-profile/company-profile.component.html",
           "hash": "712946970628858792"
         },
         {
-          "file": "src/app/pages/company-components/company-profile/company-profile.component.scss",
+          "file": "src/app/pages/company-page/company-profile/company-profile.component.scss",
           "hash": "3244421341483603138"
         },
         {
-          "file": "src/app/pages/company-components/company-profile/company-profile.component.spec.ts",
+          "file": "src/app/pages/company-page/company-profile/company-profile.component.spec.ts",
           "hash": "9371326598721594060"
         },
         {
-          "file": "src/app/pages/company-components/company-profile/company-profile.component.ts",
+          "file": "src/app/pages/company-page/company-profile/company-profile.component.ts",
           "hash": "15038629364319403076"
         },
         {
-          "file": "src/app/pages/company-components/publish-component/publish-component.component.html",
+          "file": "src/app/pages/company-page/publish-component/candidate-component.component.html",
           "hash": "8802835988523600101"
         },
         {
-          "file": "src/app/pages/company-components/publish-component/publish-component.component.scss",
-          "hash": "3244421341483603138"
+          "file": "src/app/pages/company-page/publish-component/candidate-component.component.scss",
+          "hash": "4055606894390288348"
         },
         {
-          "file": "src/app/pages/company-components/publish-component/publish-component.component.ts",
-          "hash": "1106373838567489397"
+          "file": "src/app/pages/company-page/publish-component/candidate-component.component.ts",
+          "hash": "14831560248763298040"
         },
         {
           "file": "src/app/pages/landing-page/landing.animation.ts",
@@ -453,7 +469,7 @@
         },
         {
           "file": "src/app/shared/components/auth-modal/auth-modal.component.ts",
-          "hash": "5206733126832416567"
+          "hash": "7363403489709640247"
         },
         {
           "file": "src/app/shared/components/choose-role/choose-role.component.html",
@@ -461,7 +477,7 @@
         },
         {
           "file": "src/app/shared/components/choose-role/choose-role.component.ts",
-          "hash": "15324031965894103848"
+          "hash": "15024296008083211460"
         },
         {
           "file": "src/app/shared/components/choose-role/choose-role.components.scss",
@@ -484,6 +500,10 @@
           "hash": "4532176075047545978"
         },
         {
+          "file": "src/assets/png/foravatar.jpeg",
+          "hash": "8478140806803587483"
+        },
+        {
           "file": "src/assets/png/setting.png",
           "hash": "15164072849042115073"
         },
@@ -493,7 +513,7 @@
         },
         {
           "file": "src/index.html",
-          "hash": "5222801328253327092"
+          "hash": "6468644006569429940"
         },
         {
           "file": "src/main.ts",

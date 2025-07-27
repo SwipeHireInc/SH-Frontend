@@ -1,0 +1,28 @@
+<div class="block-top">
+
+  <div class="avatar">
+    <img alt="avatar" ngSrc="assets/png/foravatar.jpeg"  width="200" height="200">
+  </div>
+
+  <div class="avatar-btn">
+
+    <h2>beyonce</h2>
+
+    <div class="btn">
+      <button>Edit</button>
+      <button>Settings</button>
+    </div>
+
+  </div>
+</div>
+
+<div class="section">
+  <div>
+    <button (click)="switchTab('resume')">Resume</button>
+  </div>
+  <div>
+    <button (click)="switchTab('feedback')" class="btn-resume" [appUnderLineAnimation]="underlineRef">Feedback</button>
+  </div>
+</div>
+<div #underline class="underline" ></div>
+<div class="line"></div>

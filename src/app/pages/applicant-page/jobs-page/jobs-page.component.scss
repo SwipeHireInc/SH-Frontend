@@ -1,0 +1,101 @@
+.outside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100hv;
+}
+
+.container{
+  height: 600px;
+  width: 400px;
+  background: #262a33;
+  border: none 1px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  font-family: "Lato", sans-serif;
+  font-size: small;
+  color: white;
+
+}
+
+.main-tab{
+  display: flex;
+  gap: 10px;
+  padding: 50px 0 10px 20px;
+  background: #5b2a84;
+}
+
+.title-tab{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px
+}
+
+.grid-main{
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px 10px
+}
+
+.avatar img{
+  border-radius: 10px;
+}
+
+.require-tab{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+.tag-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag{
+  padding: 2px 6px;
+  border: 1px solid rebeccapurple;
+  border-radius: 999px;
+  color: rebeccapurple;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ben-tab{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+.ben-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.post{
+  position: relative;
+  bottom: 30px;
+  left: 120px;
+}
+
+.post-tag{
+  padding: 6px 8px;
+  border: 1px solid  rgba(255, 255, 255, 0.3);
+  border-radius: 999px;
+  backdrop-filter: blur(4px);
+  opacity: inherit;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  width: fit-content;
+}

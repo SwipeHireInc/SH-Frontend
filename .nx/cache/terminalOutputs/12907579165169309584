@@ -1,0 +1,701 @@
+[1m[33mComponent HMR has been enabled.[39m[22m
+[1m[33mIf you encounter application reload issues, you can manually reload the page to bypass HMR and/or disable this feature with the `--no-hmr` command line option.[39m[22m
+[1m[33mPlease consider reporting any issues you encounter here: https://github.com/angular/angular-cli/issues[39m[22m
+[1m[33m[39m[22m
+[?25l[2m◼[22m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[33m⠹[39m Building...
+[2K[1A[2K[G[33m⠸[39m Building...
+[2K[1A[2K[G[33m⠼[39m Building...
+[2K[1A[2K[G[33m⠴[39m Building...
+[2K[1A[2K[G[33m⠦[39m Building...
+[2K[1A[2K[G[33m⠧[39m Building...
+[2K[1A[2K[G[33m⠇[39m Building...
+[2K[1A[2K[G[33m⠏[39m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[33m⠹[39m Building...
+[2K[1A[2K[G[33m⠸[39m Building...
+[2K[1A[2K[G[33m⠼[39m Building...
+[2K[1A[2K[G[33m⠴[39m Building...
+[2K[1A[2K[G[33m⠦[39m Building...
+[2K[1A[2K[G[33m⠧[39m Building...
+[2K[1A[2K[G[32m✔[39m Building...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[39m
+[37m[32mpolyfills.js[39m[37m       [2m | [22m[2mpolyfills[22m    [2m | [22m [36m90.20 kB[39m[37m[2m | [22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m         [2m | [22m [36m60.65 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m         [2m | [22m[2mstyles[22m       [2m | [22m[36m226 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m[1m151.08 kB[22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [1.801 seconds][39m
+[37m[39m
+[37mWatch mode enabled. Watching for file changes...[39m
+[37mNOTE: Raw file sizes do not reflect development server per-request transformations.[39m
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[39m
+[37mNo output file changes.[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.343 seconds][39m
+[37m[39m
+[37mComponent update sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[39m
+[37mNo output file changes.[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.497 seconds][39m
+[37m[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠦[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠧[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠇[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.800 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠦[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.610 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2345: Argument of type '{ role: "applicant" | "employer"; }' is not assignable to parameter of type '{ role: string; accessToken: string; }'.[39m[22m
+[1m[31m  Property 'accessToken' is missing in type '{ role: "applicant" | "employer"; }' but required in type '{ role: string; accessToken: string; }'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:21:44:[39m[22m
+[1m[31m[37m      21 │     this.store.dispatch(AuthActions.setRole([32m{ role }[37m))[39m[22m
+[1m[31m         ╵                                             [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  'accessToken' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.actions.ts:26:28:[39m[22m
+[1m[31m[37m      26 │       props<{ role: string; [32maccessToken[37m: string }>()[39m[22m
+[1m[31m         ╵                             [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.451 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'AuthState'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.selectors.ts:19:19:[39m[22m
+[1m[31m[37m      19 │   (state) => state.[32maccessToken[37m[39m[22m
+[1m[31m         ╵                    [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2345: Argument of type '{ role: "applicant" | "employer"; }' is not assignable to parameter of type '{ role: string; accessToken: string; }'.[39m[22m
+[1m[31m  Property 'accessToken' is missing in type '{ role: "applicant" | "employer"; }' but required in type '{ role: string; accessToken: string; }'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:21:44:[39m[22m
+[1m[31m[37m      21 │     this.store.dispatch(AuthActions.setRole([32m{ role }[37m))[39m[22m
+[1m[31m         ╵                                             [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  'accessToken' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.actions.ts:26:28:[39m[22m
+[1m[31m[37m      26 │       props<{ role: string; [32maccessToken[37m: string }>()[39m[22m
+[1m[31m         ╵                             [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.270 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2741: Property 'accessToken' is missing in type '{ token: null; loading: false; error: null; }' but required in type 'AuthState'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.reducer.ts:6:13:[39m[22m
+[1m[31m[37m      6 │ export const [32minitialState[37m: AuthState = {[39m[22m
+[1m[31m        ╵              [32m~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  'accessToken' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/models/AuthState.ts:5:4:[39m[22m
+[1m[31m[37m      5 │     [32maccessToken[37m: string | null[39m[22m
+[1m[31m        ╵     [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2345: Argument of type '{ role: "applicant" | "employer"; }' is not assignable to parameter of type '{ role: string; accessToken: string; }'.[39m[22m
+[1m[31m  Property 'accessToken' is missing in type '{ role: "applicant" | "employer"; }' but required in type '{ role: string; accessToken: string; }'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:21:44:[39m[22m
+[1m[31m[37m      21 │     this.store.dispatch(AuthActions.setRole([32m{ role }[37m))[39m[22m
+[1m[31m         ╵                                             [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  'accessToken' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.actions.ts:26:28:[39m[22m
+[1m[31m[37m      26 │       props<{ rol[39m[22m[1m[31me: string; [32maccessToken[37m: string }>()[39m[22m
+[1m[31m         ╵                             [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠦[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.699 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2345: Argument of type '{ role: "applicant" | "employer"; }' is not assignable to parameter of type '{ role: string; accessToken: string; }'.[39m[22m
+[1m[31m  Property 'accessToken' is missing in type '{ role: "applicant" | "employer"; }' but required in type '{ role: string; accessToken: string; }'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:21:44:[39m[22m
+[1m[31m[37m      21 │     this.store.dispatch(AuthActions.setRole([32m{ role }[37m))[39m[22m
+[1m[31m         ╵                                             [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  'accessToken' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.actions.ts:26:28:[39m[22m
+[1m[31m[37m      26 │       props<{ role: string; [32maccessToken[37m: string }>()[39m[22m
+[1m[31m         ╵                             [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.289 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2345: Argument of type '{ role: "applicant" | "employer"; }' is not assignable to parameter of type '{ role: string; accessToken: string; }'.[39m[22m
+[1m[31m  Property 'accessToken' is missing in type '{ role: "applicant" | "employer"; }' but required in type '{ role: string; accessToken: string; }'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:21:44:[39m[22m
+[1m[31m[37m      21 │     this.store.dispatch(AuthActions.setRole([32m{ role }[37m))[39m[22m
+[1m[31m         ╵                                             [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  'accessToken' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.actions.ts:26:28:[39m[22m
+[1m[31m[37m      26 │       props<{ role: string; [32maccessToken[37m: string }>()[39m[22m
+[1m[31m         ╵                             [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.318 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2345: Argument of type '{ role: "applicant" | "employer"; }' is not assignable to parameter of type '{ role: string; accessToken: string; }'.[39m[22m
+[1m[31m  Property 'accessToken' is missing in type '{ role: "applicant" | "employer"; }' but required in type '{ role: string; accessToken: string; }'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:21:44:[39m[22m
+[1m[31m[37m      21 │     this.store.dispatch(AuthActions.setRole([32m{ role }[37m))[39m[22m
+[1m[31m         ╵                                             [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  'accessToken' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.actions.ts:26:28:[39m[22m
+[1m[31m[37m      26 │       props<{ role: string; [32maccessToken[37m: string }>()[39m[22m
+[1m[31m         ╵                             [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠦[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠧[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.772 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mExpected identifier but found ";"[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:14:8:[39m[22m
+[1m[31m[37m      14 │         [32m;[37m[39m[22m
+[1m[31m         ╵         [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1003: Identifier expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:22:2:[39m[22m
+[1m[31m[37m      22 │   [32m}[37m[39m[22m
+[1m[31m         ╵   [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.545 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2555: Expected at least 1 arguments, but got 0.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:21:15:[39m[22m
+[1m[31m[37m      21 │     this.store.[32mselect[37m()[39m[22m
+[1m[31m         ╵                [32m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  An argument for 'mapFn' was not provided.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    node_modules/@ngrx/store/src/store.d.ts:13:14:[39m[22m
+[1m[31m[37m      13 │     select<K>([32mmapFn: (state: T) => K[37m): Observable<K>;[39m[22m
+[1m[31m         ╵               [32m~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.246 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.376 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'res'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:23:65:[39m[22m
+[1m[31m[37m      23 │     this.store.select(selectAccessToken).pipe(take(1)).subscribe([32mres[37m)[39m[22m
+[1m[31m         ╵                                                                  [32m~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.339 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2345: Argument of type 'string' is not assignable to parameter of type '{ role: string; accessToken: string; }'.[39m[22m
+[1m[31m  Type 'string' is not assignable to type '{ role: string; accessToken: string; }'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:25:48:[39m[22m
+[1m[31m[37m      25 │         this.store.dispatch(AuthActions.setRole([32mrole[37m));[39m[22m
+[1m[31m         ╵                                                 [32m~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.561 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2353: Object literal may only specify known properties, and 'token' does not exist in type '{ role: string; accessToken: string; }'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:25:55:[39m[22m
+[1m[31m[37m      25 │         this.store.dispatch(AuthActions.setRole({role, [32mtoken[37m}));[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.180 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'accessToken'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:74:39:[39m[22m
+[1m[31m[37m      74 │               Authorization: `Bearer ${[32maccessToken[37m}`[39m[22m
+[1m[31m         ╵                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'accessToken' does not exist on type 'Object'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/core/services/auth.effects.ts:79:66:[39m[22m
+[1m[31m[37m      79 │ ...p(res => AuthActions.loginSuccess({accessToken: res.[32maccessToken[37m}))[39m[22m
+[1m[31m         ╵                                                        [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[39m
+[37m[32mpolyfills.js[39m[37m       [2m | [22m[2mpolyfills[22m    [2m | [22m [36m90.20 kB[39m[37m[2m | [22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m         [2m | [22m [36m61.09 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m         [2m | [22m[2mstyles[22m       [2m | [22m[36m226 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m[1m151.51 kB[22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.424 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m[1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m [2m | [22m[36m61.08 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.383 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m[1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m [2m | [22m[36m61.09 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.568 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠦[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠧[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠇[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m[1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m [2m | [22m[36m61.00 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.972 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m[1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m [2m | [22m[36m61.16 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.582 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.286 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2353: Object literal may only specify known properties, and 'accessToken' does not exist in type '{ role: string; }'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/shared/components/choose-role/choose-role.component.ts:25:55:[39m[22m
+[1m[31m[37m      25 │ ...s.store.dispatch(AuthActions.setRole({role, [32maccessToken[37m: token}));[39m[22m
+[1m[31m         ╵                                                [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[39m
+[37m[32mpolyfills.js[39m[37m       [2m | [22m[2mpolyfills[22m    [2m | [22m [36m90.20 kB[39m[37m[2m | [22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m         [2m | [22m [36m61.14 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m         [2m | [22m[2mstyles[22m       [2m | [22m[36m226 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m[1m151.56 kB[22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.436 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠦[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m[1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m [2m | [22m[36m61.32 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.693 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠦[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠧[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m[1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m [2m | [22m[36m61.32 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.732 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25hfatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+github.com/evanw/esbuild/internal/helpers.(*ThreadSafeWaitGroup).Wait(...)
+	github.com/evanw/esbuild/internal/helpers/waitgroup.go:36
+main.runService.func2()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:114 +0x88
+main.runService(0x1)
+	github.com/evanw/esbuild/cmd/esbuild/service.go:160 +0x47c
+main.main()
+	github.com/evanw/esbuild/cmd/esbuild/main.go:241 +0x898
+
+goroutine 35 [chan receive]:
+main.runService.func1()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:98 +0x40
+created by main.runService in goroutine 1
+	github.com/evanw/esbuild/cmd/esbuild/service.go:97 +0x19c
+
+goroutine 36 [chan receive]:
+main.(*serviceType).sendRequest(0x140001942a0, {0x104cf24a0, 0x14000b84d80})
+	github.com/evanw/esbuild/cmd/esbuild/service.go:192 +0x138
+main.runService.func3()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:125 +0x44
+created by main.runService in goroutine 1
+	github.com/evanw/esbuild/cmd/esbuild/service.go:122 +0x2e4

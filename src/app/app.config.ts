@@ -5,9 +5,9 @@ import { provideStoreDevtools } from '@ngrx/store-devtools';
 import { routes } from './app.routes';
 import { provideStore } from '@ngrx/store';
 import { provideEffects } from '@ngrx/effects';
-import { authReducer } from './core/services/auth.reducer';
+import { authReducer } from './core/services/authservice/auth.reducer';
 import { provideHttpClient } from '@angular/common/http';
-import { loginEffect, loginSuccess, SetRoleEffect } from './core/services/auth.effects';
+import { loginEffect, loginSuccess, SetRoleEffect } from './core/services/authservice/auth.effects';
 
 export const appConfig: ApplicationConfig = {
   providers: [

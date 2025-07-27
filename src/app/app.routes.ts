@@ -1,15 +1,17 @@
 import { Routes } from '@angular/router';
 import { LandingComponent } from './pages/landing-page/landing.component';
 import { authGuard } from './core/guards/auth.guard';
-import { AuthCallbackComponent } from './core/services/AuthCallBack.component';
-import {ApplicantPageComponent} from './pages/applicant-components/applicant-page/applicant-page.component';
-import {CompanyPageComponent} from './pages/company-components/company-page/company-page.component';
+import { AuthCallbackComponent } from './core/services/authservice/AuthCallBack.component';
+import {ApplicantPageComponent} from './pages/applicant-page/applicant-page/applicant-page.component';
+import {CompanyPageComponent} from './pages/company-page/company-page/company-page.component';
 import {
   ApplicantProfilePageComponent
-} from './pages/applicant-components/applicant-profile-page/applicant-profile-page.component';
-import {JobsPageComponent} from './pages/applicant-components/jobs-page/jobs-page.component';
-import {CompanyProfileComponent} from './pages/company-components/company-profile/company-profile.component';
-import {PublishComponentComponent} from './pages/company-components/publish-component/publish-component.component';
+} from './pages/applicant-page/applicant-profile-page/applicant-profile-page.component';
+import {JobsPageComponent} from './pages/applicant-page/jobs-page/jobs-page.component';
+import {CompanyProfileComponent} from './pages/company-page/company-profile/company-profile.component';
+import {
+  CandidateComponentComponent,
+} from './pages/company-page/publish-component/candidate-component.component';
 import {ChooseRoleComponent} from './shared/components/choose-role/choose-role.component';
 
 export const routes: Routes = [
@@ -24,7 +26,7 @@ export const routes: Routes = [
     {
       path: "applicant",
       component: ApplicantPageComponent,
-      canActivate: [],
+      // canActivate: [],
       children: [
         {
           path: "profile",
@@ -45,7 +47,7 @@ export const routes: Routes = [
           path: "profile", component: CompanyProfileComponent
         },
         {
-          path: "publish", component: PublishComponentComponent
+          path: "candidates", component: CandidateComponentComponent
         },
       ]
     },
@@ -53,6 +55,4 @@ export const routes: Routes = [
       path: "choose",
       component: ChooseRoleComponent
     }
-
-
 ];

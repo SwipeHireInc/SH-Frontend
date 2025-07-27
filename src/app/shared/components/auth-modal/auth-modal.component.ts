@@ -2,13 +2,13 @@ import { Component, ElementRef, EventEmitter, Output, ViewChild, AfterViewInit} 
 import { animateOpen, animateClose } from './auth-modal.animation';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { Store } from '@ngrx/store';
-import * as AuthActions from '../../../core/services/auth.actions';
+import * as AuthActions from '../../../core/services/authservice/auth.actions';
 import { Observable } from 'rxjs';
 import { AppState } from '../../../core/models/AppState';
 import { AsyncPipe } from '@angular/common';
 import { environment } from '../../../../environments/environment';
 import { LoadingComponent } from "../loading/loading.component";
-import {selectError, selectLoading} from '../../../core/services/auth.selectors';
+import {selectError, selectLoading} from '../../../core/services/authservice/auth.selectors';
 
 @Component({
   selector: 'app-auth-modal',

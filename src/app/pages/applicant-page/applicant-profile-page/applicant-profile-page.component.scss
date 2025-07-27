@@ -1,0 +1,69 @@
+.block-top{
+  display: flex;
+  gap: 30px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+}
+
+.avatar-btn{
+  padding-top: 40px;
+  color: white;
+}
+
+.avatar-btn button{
+  padding: 13px 15px;
+  border-radius: 7px;
+  border: none 1px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(130, 75, 238);
+}
+
+.btn{
+  display: flex;
+  padding-top: 10px;
+  gap:10px;
+  font-size: xxx-large;
+}
+
+
+.section{
+  padding-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.section button{
+  padding: 10px 30px;
+  background-color: rgb(22, 24, 34);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.underline{
+  background-color: white;
+  width: 110px;
+  height: 2px;
+  transition: margin-left 0.3s ease;
+}
+
+.line {
+  width: 100%;
+  height: 0.1px;
+  background-color: #333;
+}
+

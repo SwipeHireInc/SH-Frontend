@@ -1,0 +1,57 @@
+<div class="outside">
+  <div class="container">
+    <header>
+
+      <div>
+        @for (job of Jobs; track job.id){
+          <div class="main-tab">
+            <div class="avatar">
+              <img alt="avatar" ngSrc="assets/png/foravatar.jpeg"  width="48" height="48">
+            </div>
+            <div class="company-tab">
+              <h3>{{job.company}}</h3>
+              <h3>{{job.location}}</h3>
+            </div>
+            <div class="post">
+              <span class="post-tag">{{job.posted}}</span>
+            </div>
+
+          </div>
+
+          <div class="title-tab">
+            <h3>{{job.title}}</h3>
+            <h3>{{job.description}}</h3>
+          </div>
+
+          <div class="grid-main">
+            <h3>{{job.salary}}</h3>
+            <h3>{{job.type}}</h3>
+            <h3>{{job.experience}}</h3>
+            <h3>{{job.teamSize}}</h3>
+          </div>
+
+          <div class="require-tab">
+            <h2>Requirements</h2>
+            <div class="tag-list">
+              @for (req of job.requirements.split(','); track req) {
+                <span class="tag">{{req.trim()}}</span>
+              }
+            </div>
+          </div>
+
+          <div class="ben-tab">
+            <h2>Benefits</h2>
+            <div class="ben-list">
+              @for (benefit of job.benefits.split(','); track benefit) {
+                <span class="ben-tag"> • {{ benefit.trim()}}</span>
+              }
+            </div>
+          </div>
+        }
+      </div>
+
+    </header>
+
+
+  </div>
+</div>
