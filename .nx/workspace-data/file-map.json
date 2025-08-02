@@ -9,11 +9,11 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "15462784634652572914"
+          "hash": "10295642005157873817"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js",
-          "hash": "15059397066365975190"
+          "hash": "12760581462061125366"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common.js.map",
@@ -21,7 +21,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common_http.js",
-          "hash": "3027146642345203658"
+          "hash": "16479099354058290986"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_common_http.js.map",
@@ -29,7 +29,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_core.js",
-          "hash": "279524598446413986"
+          "hash": "9874795319705289702"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_core.js.map",
@@ -37,7 +37,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_forms.js",
-          "hash": "13767347820439658430"
+          "hash": "9574715424173971694"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_forms.js.map",
@@ -45,7 +45,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_platform-browser.js",
-          "hash": "5410739063912674601"
+          "hash": "6141643737926441436"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_platform-browser.js.map",
@@ -53,7 +53,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_router.js",
-          "hash": "13840929621068219060"
+          "hash": "14402871319308526509"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@angular_router.js.map",
@@ -61,7 +61,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_effects.js",
-          "hash": "3715304027541350549"
+          "hash": "17639612766405462875"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_effects.js.map",
@@ -69,7 +69,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_store-devtools.js",
-          "hash": "13715829456165487706"
+          "hash": "13056340155931909768"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_store-devtools.js.map",
@@ -77,7 +77,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_store.js",
-          "hash": "2274607081287075570"
+          "hash": "5832393543935363687"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/@ngrx_store.js.map",
@@ -85,7 +85,15 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/_metadata.json",
-          "hash": "16330598947286647672"
+          "hash": "870288248180431133"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-3OV72XIM.js",
+          "hash": "3311392950272252623"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-3OV72XIM.js.map",
+          "hash": "9947606979680686569"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-4S3KYZTJ.js",
@@ -96,36 +104,52 @@
           "hash": "2648502907036039507"
         },
         {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-D423XIIK.js",
-          "hash": "8388340412519268086"
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-4WISVZP3.js",
+          "hash": "7207925045093364373"
         },
         {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-D423XIIK.js.map",
-          "hash": "15164382838542895249"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-JQO6NOLH.js",
-          "hash": "14354544479011729088"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-JQO6NOLH.js.map",
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-4WISVZP3.js.map",
           "hash": "2574386570532915455"
         },
         {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-N2U3IBLX.js",
-          "hash": "15022760030297083040"
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-5EL7Q7SR.js",
+          "hash": "16298772436050522547"
         },
         {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-N2U3IBLX.js.map",
-          "hash": "12459761697278565614"
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-5EL7Q7SR.js.map",
+          "hash": "9094753857614128447"
         },
         {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-NXWU6C4K.js",
-          "hash": "6170757516309246585"
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-6PQ2L4HR.js",
+          "hash": "7940331717697898508"
         },
         {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-NXWU6C4K.js.map",
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-6PQ2L4HR.js.map",
+          "hash": "15164382838542895249"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-7RYEEBR4.js",
+          "hash": "17628124963180277451"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-7RYEEBR4.js.map",
+          "hash": "14786695334440484805"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-IDJXROSY.js",
+          "hash": "14933014920475786321"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-IDJXROSY.js.map",
           "hash": "6958759837449119412"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-MIK6G4CC.js",
+          "hash": "2133267689142273075"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-MIK6G4CC.js.map",
+          "hash": "12459761697278565614"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-PEBH6BBU.js",
@@ -136,22 +160,6 @@
           "hash": "5134453755794423192"
         },
         {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-W5MEW2QJ.js",
-          "hash": "5368376186301675433"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-W5MEW2QJ.js.map",
-          "hash": "9094753857614128447"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-WDMUDEB6.js",
-          "hash": "3393899181551614386"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-WDMUDEB6.js.map",
-          "hash": "9947606979680686569"
-        },
-        {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-WPM5VTLQ.js",
           "hash": "10000189167578774718"
         },
@@ -160,24 +168,24 @@
           "hash": "2189203602704055510"
         },
         {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-Y4JT7NI6.js",
-          "hash": "956951941560002561"
-        },
-        {
-          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/chunk-Y4JT7NI6.js.map",
-          "hash": "14786695334440484805"
-        },
-        {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/gsap.js",
-          "hash": "4771055653997789725"
+          "hash": "1823975561343910516"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/gsap.js.map",
           "hash": "4540217537158536337"
         },
         {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/hammerjs.js",
+          "hash": "671773442203155900"
+        },
+        {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/hammerjs.js.map",
+          "hash": "5934229308749204869"
+        },
+        {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/jwt-decode.js",
-          "hash": "9814224366293183540"
+          "hash": "10287220289695704224"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/jwt-decode.js.map",
@@ -189,7 +197,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/rxjs.js",
-          "hash": "9558951007017055195"
+          "hash": "12396717457517234947"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/rxjs.js.map",
@@ -197,7 +205,7 @@
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/rxjs_operators.js",
-          "hash": "993022405116687097"
+          "hash": "17583025814408021835"
         },
         {
           "file": ".angular/cache/19.2.0/SwipeHire/vite/deps/rxjs_operators.js.map",
@@ -212,12 +220,20 @@
           "hash": "8630294688235076505"
         },
         {
+          "file": ".angular/cache/19.2.0/SwipeHire/vite/deps_temp_3dca8a59/package.json",
+          "hash": "8630294688235076505"
+        },
+        {
           "file": ".gitignore",
           "hash": "12493616588611996523"
         },
         {
           "file": ".vscode/extensions.json",
           "hash": "13239487146024742121"
+        },
+        {
+          "file": "11.5.1",
+          "hash": "11494802790814877196"
         },
         {
           "file": "README.md",
@@ -233,11 +249,11 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "17402217249394652149"
+          "hash": "3036585385973314133"
         },
         {
           "file": "package.json",
-          "hash": "1924542372741921319"
+          "hash": "13683533901732213366"
         },
         {
           "file": "project.json",
@@ -333,7 +349,7 @@
         },
         {
           "file": "src/app/pages/applicant-page/applicant-page/applicant-page.component.scss",
-          "hash": "4862554476228259814"
+          "hash": "7930932882496538831"
         },
         {
           "file": "src/app/pages/applicant-page/applicant-page/applicant-page.component.ts",
@@ -341,35 +357,55 @@
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/animation.ts",
-          "hash": "273892708492878860"
+          "hash": "1959403827594772858"
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.html",
-          "hash": "6295676894462230199"
+          "hash": "5590893014270090269"
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.scss",
-          "hash": "12376145924968116615"
+          "hash": "11369451129574649280"
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts",
-          "hash": "10979426216715397584"
+          "hash": "590498745376288517"
+        },
+        {
+          "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html",
+          "hash": "4178273541956790903"
+        },
+        {
+          "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts",
+          "hash": "7689053697484052304"
+        },
+        {
+          "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/resume_entity/resume_entity.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/pages/applicant-page/jobs-page/animation.ts",
+          "hash": "6539647480872409843"
         },
         {
           "file": "src/app/pages/applicant-page/jobs-page/jobs-page.component.html",
-          "hash": "14018495866006008656"
+          "hash": "15424934204490196118"
         },
         {
           "file": "src/app/pages/applicant-page/jobs-page/jobs-page.component.scss",
-          "hash": "3415341189591186827"
+          "hash": "7057943343199146503"
         },
         {
           "file": "src/app/pages/applicant-page/jobs-page/jobs-page.component.ts",
-          "hash": "15285357470699279362"
+          "hash": "4034486401848410027"
         },
         {
           "file": "src/app/pages/applicant-page/model/job_model.ts",
-          "hash": "245707643887925774"
+          "hash": "13450524881141311705"
         },
         {
           "file": "src/app/pages/applicant-page/navigation-panel/navigation-panel.component.html",
@@ -377,7 +413,7 @@
         },
         {
           "file": "src/app/pages/applicant-page/navigation-panel/navigation-panel.component.scss",
-          "hash": "9776097082152524114"
+          "hash": "14289011971333307349"
         },
         {
           "file": "src/app/pages/applicant-page/navigation-panel/navigation-panel.component.ts",

@@ -16,6 +16,12 @@
   object-fit: cover;
   display: block;
   border-radius: 50%;
+
+  @media (max-width: 393px) {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+  }
 }
 
 .avatar-btn{

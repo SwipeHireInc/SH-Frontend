@@ -1,40 +1,45 @@
 <div class="outside">
-  <div class="container">
-    <header>
-
-      <div>
-        @for (job of Jobs; track job.id){
+  @for (i of [currjob]; track i) {
+    <div class="container"
+         cdkDrag
+         cdkDragLockAxis="x"
+         cdkDragBoundary=".outside"
+         (cdkDragEnded)="onDragEnded($event)">
+      <header>
+        <div>
           <div class="main-tab">
             <div class="avatar">
-              <img alt="avatar" ngSrc="assets/png/foravatar.jpeg"  width="48" height="48">
+              <img alt="avatar"
+                   ngSrc="assets/png/foravatar.jpeg"
+                   width="48" height="48"
+                   style="object-fit:cover;border-radius:10px">
             </div>
             <div class="company-tab">
-              <h3>{{job.company}}</h3>
-              <h3>{{job.location}}</h3>
+              <h3>{{ Jobs[i].company }}</h3>
+              <h3>{{ Jobs[i].location }}</h3>
             </div>
             <div class="post">
-              <span class="post-tag">{{job.posted}}</span>
+              <span class="post-tag">{{ Jobs[i].posted }}</span>
             </div>
-
           </div>
 
           <div class="title-tab">
-            <h3>{{job.title}}</h3>
-            <h3>{{job.description}}</h3>
+            <h3>{{ Jobs[i].title }}</h3>
+            <h3>{{ Jobs[i].description }}</h3>
           </div>
 
           <div class="grid-main">
-            <h3>{{job.salary}}</h3>
-            <h3>{{job.type}}</h3>
-            <h3>{{job.experience}}</h3>
-            <h3>{{job.teamSize}}</h3>
+            <h3>{{ Jobs[i].salary }}</h3>
+            <h3>{{ Jobs[i].type }}</h3>
+            <h3>{{ Jobs[i].experience }}</h3>
+            <h3>{{ Jobs[i].teamSize }}</h3>
           </div>
 
           <div class="require-tab">
             <h2>Requirements</h2>
             <div class="tag-list">
-              @for (req of job.requirements.split(','); track req) {
-                <span class="tag">{{req.trim()}}</span>
+              @for (req of Jobs[i].requirements.split(','); track $index) {
+                <span>{{ req.trim() }}</span>
               }
             </div>
           </div>
@@ -42,16 +47,14 @@
           <div class="ben-tab">
             <h2>Benefits</h2>
             <div class="ben-list">
-              @for (benefit of job.benefits.split(','); track benefit) {
-                <span class="ben-tag"> • {{ benefit.trim()}}</span>
+              @for (ben of Jobs[i].benefits.split(','); track $index) {
+                {{ ben.trim() }}
               }
             </div>
           </div>
-        }
-      </div>
+        </div>
 
-    </header>
-
-
-  </div>
+      </header>
+    </div>
+  }
 </div>

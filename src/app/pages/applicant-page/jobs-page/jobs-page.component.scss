@@ -1,8 +1,10 @@
 .outside{
-  display: flex;
+  display: flex;;
   justify-content: center;
+  position: relative;
   align-items: center;
   height: 100hv;
+  user-select: none;
 }
 
 .container{
@@ -12,25 +14,54 @@
   border: none 1px;
   border-radius: 10px;
   overflow: hidden;
+  cursor: move;
 
   font-family: "Lato", sans-serif;
   font-size: small;
   color: white;
 
+  transition: box-shadow 200ms cubic-bezier(0, 0, 0.2, 1);
+
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+  0 2px 2px 0 rgba(0, 0, 0, 0.14),
+  0 1px 5px 0 rgba(0, 0, 0, 0.12);;
+
+  @media (max-width: 768px) {
+    width: 90%;
+    height: auto;
+    font-size: 14px;
+  }
 }
+
+.container {
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+  0 8px 10px 1px rgba(0, 0, 0, 0.14),
+  0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
 
 .main-tab{
   display: flex;
   gap: 10px;
   padding: 50px 0 10px 20px;
   background: #5b2a84;
+
+  @media (max-width: 768px) {
+    padding: 20px 10px;
+    gap: 8px;
+  }
 }
 
 .title-tab{
   display: flex;
   flex-direction: column;
   padding: 20px;
-  gap: 10px
+  gap: 10px;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+    gap: 8px;
+  }
 }
 
 .grid-main{
@@ -38,7 +69,12 @@
   padding: 20px;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
-  gap: 10px 10px
+  gap: 10px 10px;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+    grid-template-columns: 1fr;
+  }
 }
 
 .avatar img{
@@ -50,6 +86,11 @@
   flex-direction: column;
   padding: 20px;
   gap: 10px;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+    gap: 8px;
+  }
 }
 
 .tag-list{
@@ -65,6 +106,11 @@
   color: rebeccapurple;
   font-weight: bold;
   font-size: 14px;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+    padding: 2px 4px;
+  }
 }
 
 .ben-tab{
@@ -72,6 +118,11 @@
   flex-direction: column;
   padding: 20px;
   gap: 10px;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+    gap: 8px;
+  }
 }
 
 .ben-list{
@@ -84,6 +135,11 @@
   position: relative;
   bottom: 30px;
   left: 120px;
+
+  @media (max-width: 768px) {
+    left: 60px;
+    bottom: 20px;
+  }
 }
 
 .post-tag{
@@ -98,4 +154,9 @@
   font-size: 12px;
   display: inline-block;
   width: fit-content;
+
+  @media (max-width: 768px) {
+    font-size: 10px;
+    padding: 4px 6px;
+  }
 }

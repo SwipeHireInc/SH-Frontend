@@ -1,4 +1,4 @@
-import {Directive, ElementRef, HostListener, Input, Renderer2} from '@angular/core';
+import {Directive, ElementRef, HostListener, Input, Renderer2, ViewChild} from '@angular/core';
 
 @Directive({
   selector:'[appUnderLineAnimation]',
@@ -6,18 +6,37 @@ import {Directive, ElementRef, HostListener, Input, Renderer2} from '@angular/co
 })
 
 export class UnderLineAnimation{
-  @Input('appUnderLineAnimation') underline!: ElementRef<HTMLElement>;
+  @Input('appUnderLineAnimation') underline!: HTMLDivElement;
 
   constructor(private renderer: Renderer2) {
   }
 
   @HostListener("mouseleave")
   onleave() {
-    this.renderer.setStyle(this.underline.nativeElement, "margin-left", "0px")
+    this.renderer.setStyle(this.underline, "margin-left", "0px")
   }
 
   @HostListener("mouseenter")
   onmove() {
-    this.renderer.setStyle(this.underline.nativeElement, "margin-left", "110px")
+    this.renderer.setStyle(this.underline, "margin-left", "110px")
   }
+
+  //name
+  //surname
+  //age
+  //height
+  //image
+  //phone number
+  //location
+  //languages
+  //Skills
+  //Experience
+  //study
+  //habits
+
+  //+
+  //
+
+
+
 }

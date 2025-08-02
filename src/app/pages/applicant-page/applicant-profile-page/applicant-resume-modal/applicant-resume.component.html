@@ -1,0 +1,14 @@
+
+
+<button class="btn-trg" (click)="trigger(true)">
+  +
+</button>
+
+@if(close){
+  <div class="overlay">
+    <div class="modal">
+      <button (click)="trigger(false)">X</button>
+    </div>
+
+  </div>
+}
