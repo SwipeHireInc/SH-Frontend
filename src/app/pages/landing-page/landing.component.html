@@ -1,14 +1,15 @@
-<header>
-  <div class="landing-container" [ngClass]="{ 'hidden-header': !isHeaderVisible() }">
-    <div>
-      fsd
+<header class="header">
+  <div class="container">
+    <div class="landing-container" [ngClass]="{ 'hidden-header': !isHeaderVisible() }">
+      <div>
+      </div>
+
+      <h1 id="txt">
+        <span class="primary">{{ titlePrimary() }}</span>
+      </h1>
+
+      <button (click)="openModal()" class="login-btn">Log in</button>
     </div>
-
-    <h1 id="txt">
-      <span class="primary">{{ titlePrimary() }}</span>
-    </h1>
-
-    <button (click)="openModal()" class="login-btn">Log in</button>
   </div>
 
   @if (isModalOpen) {

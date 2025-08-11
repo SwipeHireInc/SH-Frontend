@@ -1,0 +1,31 @@
+[0m[2m[35m$[0m [2m[1mnx lint cleaned-frontend --fix[0m
+[?25l
+Linting "cleaned-frontend"...
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts[24m[0m
+[0m  [2m20:3[22m  [31merror[39m  Output bindings, including aliases, should not be named as standard DOM events  [2m@angular-eslint/no-output-native[22m[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/shared/components/auth-modal/auth-modal.component.ts[24m[0m
+[0m  [2m25:13[22m  [31merror[39m  Output bindings, including aliases, should not be named as standard DOM events  [2m@angular-eslint/no-output-native[22m[0m
+[0m[0m
+[0m[31m[1m✖ 2 problems (2 errors, 0 warnings)[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
+✖ 2 problems (2 errors, 0 warnings)
+
+[0K
+[2m[31m——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————[39m[22m[0K
+[0K
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRan target [1mlint[22m for project [1mcleaned-frontend[22m[39m[2m (2s)[22m[0K
+[0K
+      [2m[31mWith additional flags:[39m[22m[0K
+[2m[31m        --fix=true[39m[22m[0K
+[0K
+   [31m✖[39m  1/1 failed[0K
+   [2m✔[22m  0/1 succeeded [2m[0 read from cache][22m[0K
+[0K
+[0J[?25h
+[0m[7m[1m[33m NX [39m[22m[27m[0m  [33mNx Cloud encountered some problems[39m
+
+This workspace is more than three days old and is not connected. Workspaces must be connected within 3 days of creation. Claim your workspace at https://cloud.nx.app. (code: 401)
+
+[?25h[?25h[0m[31merror[0m[2m:[0m script [1m"lint:fix"[0m exited with code 1[0m

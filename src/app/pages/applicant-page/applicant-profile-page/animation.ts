@@ -1,4 +1,4 @@
-import {Directive, ElementRef, HostListener, Input, Renderer2, ViewChild} from '@angular/core';
+import { Directive, ElementRef, HostListener, Input, Renderer2, ViewChild, inject } from '@angular/core';
 
 @Directive({
   selector:'[appUnderLineAnimation]',
@@ -6,10 +6,9 @@ import {Directive, ElementRef, HostListener, Input, Renderer2, ViewChild} from '
 })
 
 export class UnderLineAnimation{
-  @Input('appUnderLineAnimation') underline!: HTMLDivElement;
+  private renderer = inject(Renderer2);
 
-  constructor(private renderer: Renderer2) {
-  }
+  @Input('appUnderLineAnimation') underline!: HTMLDivElement;
 
   @HostListener("mouseleave")
   onleave() {

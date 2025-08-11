@@ -16,9 +16,14 @@ import {ApplicantResumeComponent} from './applicant-resume-modal/applicant-resum
 })
 export class ApplicantProfilePageComponent{
   activeTab: "resume"| "feedback" = "feedback";
+  close = false;
 
   switchTab(tab: "resume" | "feedback") {
     this.activeTab = tab;
+  }
+
+  trigger(value: boolean){
+    this.close = value
   }
 }
 

@@ -1,14 +1,76 @@
 
-
-<button class="btn-trg" (click)="trigger(true)">
-  +
-</button>
-
-@if(close){
   <div class="overlay">
     <div class="modal">
-      <button (click)="trigger(false)">X</button>
+      <button class="close-btn" (click)="closeModal()">X</button>
+
+      <form [formGroup]="resumeform" (ngSubmit)="onSave()">
+        <div class="main-upload">
+          <div class="about-user">
+
+            <div class="input-wrapper">
+              <label>Name </label>
+              <input type="text" formControlName="name">
+            </div>
+
+            <div class="input-wrapper">
+              <label>Surname </label>
+              <input type="text" formControlName="surname">
+            </div>
+
+            <div class="input-wrapper">
+              <label>Age </label>
+              <input type="number" formControlName="age">
+            </div>
+
+            <div class="input-wrapper">
+              <label>Height </label>
+              <input type="number" formControlName="height">
+            </div>
+          </div>
+          <img ngSrc="assets/png/foravatar.jpeg"  width="150" height="150">
+        </div>
+
+        <div class="input-wrapper">
+          <label>Location</label>
+          <input type="text"  placeholder="location" formControlName="location">
+        </div>
+
+
+        <div class="input-wrapper">
+          <label>Phone</label>
+          <input type="text"  placeholder="phone" formControlName="phone">
+        </div>
+
+        <div class="input-wrapper">
+          <label>Languages</label>
+          <input type="text"  placeholder="languages" formControlName="languages">
+        </div>
+
+        <div class="input-wrapper">
+          <div>
+            <label>Skills</label>
+            <input type="text"  placeholder="skills" formControlName="skills">
+          </div>
+
+          <div class="input-wrapper">
+            <label>Experience</label>
+            <input type="text"  placeholder="experience" formControlName="experience">
+          </div>
+
+          <div class="input-wrapper">
+            <label>Study</label>
+            <input type="text"  placeholder="study" formControlName="study">
+          </div>
+
+          <div class="input-wrapper">
+            <label>habits</label>
+            <input type="text"  placeholder="habits" formControlName="habits">
+          </div>
+        </div>
+
+        <button type="submit" class="submit-btn">Save</button>
+
+      </form>
     </div>
 
   </div>
-}

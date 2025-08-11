@@ -16,7 +16,7 @@ import {ChooseRoleComponent} from './shared/components/choose-role/choose-role.c
 
 export const routes: Routes = [
     {
-      path: 'landing-page',
+      path: 'landing',
       component: LandingComponent
     },
     {

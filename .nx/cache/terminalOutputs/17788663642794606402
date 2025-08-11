@@ -1,0 +1,20 @@
+[0m[2m[35m$[0m [2m[1mnx run-many --target=lint --all[0m
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  [36mRunning target [1mlint[22m for 2 projects:[39m
+
+[2m-[22m cleaned-frontend
+[2m-[22m SwipeHire
+
+
+
+[2m> [22m[2mnx run[22m cleaned-frontend:lint
+
+
+Linting "cleaned-frontend"...
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mFailed to load plugin '@nx' declared in 'src/.eslintrc.json » ../.eslintrc.base.json': Cannot find module '@nx/eslint-plugin'[39m
+
+Require stack:
+- /Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/__placeholder__.js
+Pass --verbose to see the stacktrace.
+

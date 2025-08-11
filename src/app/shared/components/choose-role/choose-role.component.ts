@@ -13,11 +13,10 @@ import {take} from 'rxjs';
 })
 
 export class ChooseRoleComponent{
+  private readonly store = inject<Store<AuthState>>(Store);
+
   http = inject(HttpClient)
   private baseUrl = 'http://localhost:8080'
-
-  constructor(private readonly store: Store<AuthState>) {
-  }
 
   choose(role: "applicant" | "employer"){
     this.store.select(selectAccessToken).pipe(take(1)).subscribe(token => {

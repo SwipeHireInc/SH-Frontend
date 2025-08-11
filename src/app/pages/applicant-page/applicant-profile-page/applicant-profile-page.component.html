@@ -24,7 +24,15 @@
     <button (click)="switchTab('feedback')" class="btn-resume" [appUnderLineAnimation]="underlineRef">Feedback</button>
   </div>
 </div>
+
 <div #underlineRef class="underline" ></div>
 <div class="line"></div>
 
-<app-applicant-resume></app-applicant-resume>
+<button class="btn-trg" (click)="trigger(true)">
+  +
+</button>
+
+@if(close){
+  <app-applicant-resume (close)="trigger($event)"></app-applicant-resume>
+}
+

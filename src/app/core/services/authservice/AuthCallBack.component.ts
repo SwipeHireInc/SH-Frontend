@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import {AfterViewInit, Component, inject, OnInit} from '@angular/core';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
@@ -7,7 +7,8 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: `./AuthCallBack.component.html`
 })
 export class AuthCallbackComponent implements OnInit{
-  constructor(private http: HttpClient, private router: Router) {}
+  http = inject(HttpClient)
+  router = inject(Router)
 
   ngOnInit() {
     //=>httponlycookies

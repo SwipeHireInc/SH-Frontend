@@ -1,4 +1,4 @@
-import { Component, ElementRef, EventEmitter, Output, ViewChild, AfterViewInit} from '@angular/core';
+import {Component, ElementRef, EventEmitter, Output, ViewChild, AfterViewInit, inject, output} from '@angular/core';
 import { animateOpen, animateClose } from './auth-modal.animation';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { Store } from '@ngrx/store';
@@ -17,9 +17,12 @@ import {selectError, selectLoading} from '../../../core/services/authservice/aut
   styleUrl: './auth-modal.component.scss'
 })
 export class AuthModalComponent implements AfterViewInit {
+  private fb = inject(FormBuilder);
+  private readonly store = inject<Store<AppState>>(Store);
+
   private url = environment.googleauth
 
-  @Output() close = new EventEmitter<void>();
+  closed = output<void>()
   @ViewChild('modalOverlay', { static: false }) modalOverlay!: ElementRef;
   @ViewChild('modalContent', { static: false }) modalContent!: ElementRef;
 
@@ -27,7 +30,7 @@ export class AuthModalComponent implements AfterViewInit {
   loading$: Observable<boolean>
   error$: Observable<string | null>
 
-  constructor(private fb: FormBuilder, private readonly store: Store<AppState>){
+  constructor(){
     this.loading$ = this.store.select(selectLoading)
     this.error$ = this.store.select(selectError);
 
@@ -56,7 +59,7 @@ export class AuthModalComponent implements AfterViewInit {
   }
 
   closeModal() {
-    animateClose(this.modalOverlay, this.modalContent, this.close);
+    animateClose(this.modalOverlay, this.modalContent, () => this.closed.emit());
   }
 
   ngAfterViewInit() {

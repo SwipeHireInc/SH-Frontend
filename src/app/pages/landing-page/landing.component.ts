@@ -1,4 +1,4 @@
-import { Component, effect, signal, computed, WritableSignal } from '@angular/core';
+import { Component, effect, signal, computed, WritableSignal, OnInit, AfterViewInit } from '@angular/core';
 import { AuthModalComponent } from '../../shared/components/auth-modal/auth-modal.component';
 import { CommonModule } from '@angular/common';
 import { changeTitleAnimated, registerScrollAnimation } from './landing.animation';
@@ -11,7 +11,7 @@ import { Scroll } from '@angular/router';
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.scss']
 })
-export class LandingComponent {
+export class LandingComponent implements OnInit, AfterViewInit {
   // Title
   titlePrimary = signal("SH")
 

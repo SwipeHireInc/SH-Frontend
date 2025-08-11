@@ -36,6 +36,14 @@
       "package.json",
       "nx/core/package-json"
     ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "package.json",
+      "nx/core/package-json"
+    ],
     "metadata.js": [
       "package.json",
       "nx/core/package-json"
@@ -133,6 +141,62 @@
       "nx/core/package-json"
     ],
     "targets.watch.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint:fix.metadata.runCommand": [
       "package.json",
       "nx/core/package-json"
     ],
@@ -351,6 +415,36 @@
     "targets.test.parallelism": [
       "nx.json",
       "nx/target-defaults"
+    ]
+  },
+  "src": {
+    "root": [
+      "src/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "src/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "src/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "src/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "src/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "src/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "src/project.json",
+      "nx/core/project-json"
     ]
   }
 }

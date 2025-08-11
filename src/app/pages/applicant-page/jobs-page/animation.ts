@@ -1,21 +1,15 @@
-import {
-  Directive,
-  EventEmitter,
-  HostListener,
-  Output,
-  Renderer2,
-  ElementRef,
-} from '@angular/core';
+import { Directive, EventEmitter, HostListener, Output, Renderer2, ElementRef, inject } from '@angular/core';
 
 @Directive({
   selector: '[appSwipeCard]',
   standalone: true,
 })
 export class SwipeCardDirective {
+  private el = inject(ElementRef);
+  private renderer = inject(Renderer2);
+
   @Output() swipeLeft = new EventEmitter<void>();
   @Output() swipeRight = new EventEmitter<void>();
-
-  constructor(private el: ElementRef, private renderer: Renderer2) {}
 
   @HostListener('swipeleft', ['$event'])
   onSwipeLeft() {

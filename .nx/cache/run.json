@@ -1,18 +1,18 @@
 {
   "run": {
-    "command": "nx serve",
-    "startTime": "2025-07-28T08:37:51.009Z",
-    "endTime": "2025-07-31T19:38:26.467Z",
+    "command": "nx lint cleaned-frontend --skip-nx-cache --output-style=stream",
+    "startTime": "2025-08-11T08:41:20.556Z",
+    "endTime": "2025-08-11T08:41:22.665Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "SwipeHire:serve:development",
-      "target": "serve",
-      "projectName": "SwipeHire",
-      "hash": "2079943528397412605",
-      "startTime": "2025-07-28T08:37:51.053Z",
-      "endTime": "2025-07-31T19:38:26.425Z",
+      "taskId": "cleaned-frontend:lint",
+      "target": "lint",
+      "projectName": "cleaned-frontend",
+      "hash": "117669837834393917",
+      "startTime": "2025-08-11T08:41:20.597Z",
+      "endTime": "2025-08-11T08:41:22.664Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

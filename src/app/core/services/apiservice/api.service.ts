@@ -1,12 +1,11 @@
 import {HttpClient} from '@angular/common/http';
-import {Injectable} from '@angular/core';
+import {inject, Injectable} from '@angular/core';
 import {Observable} from 'rxjs';
 
 @Injectable({providedIn: "root"})
 export class ApiService{
   private baseUrl = 'http://localhost:5432'
-
-  constructor(private http: HttpClient) {}
+  http = inject(HttpClient)
 
   get<T>(endpoint: string): Observable<T>{
     return this.http.get<T>(`${this.baseUrl}/${endpoint}`)

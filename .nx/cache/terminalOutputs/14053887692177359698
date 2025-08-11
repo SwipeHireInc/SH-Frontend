@@ -1,0 +1,13 @@
+
+Linting "cleaned-frontend"...
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts[24m[0m
+[0m  [2m20:3[22m  [31merror[39m  Output bindings, including aliases, should not be named as standard DOM events  [2m@angular-eslint/no-output-native[22m[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/shared/components/auth-modal/auth-modal.component.ts[24m[0m
+[0m  [2m25:13[22m  [31merror[39m  Output bindings, including aliases, should not be named as standard DOM events  [2m@angular-eslint/no-output-native[22m[0m
+[0m[0m
+[0m[31m[1m✖ 2 problems (2 errors, 0 warnings)[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
+✖ 2 problems (2 errors, 0 warnings)
+

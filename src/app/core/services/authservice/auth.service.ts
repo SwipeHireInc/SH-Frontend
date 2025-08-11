@@ -9,12 +9,10 @@ import {User} from '../../../dto/user.dto';
   providedIn: 'root'
 })
 export class AuthService {
+  private http = inject(HttpClient);
+
   private accessToken: string | null = null;
   private baseUrl = 'http://localhost:8080'
-
-  constructor(
-    private http: HttpClient
-  ) {}
 
   login(payload: {username: string, password: string}){
     return this.http.post<TokenResponse>(

@@ -1,4 +1,4 @@
-import { Component, ChangeDetectorRef, NgZone } from '@angular/core';
+import { Component, ChangeDetectorRef, NgZone, inject } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import { Jobs } from '../model/job_model';
 import { CdkDrag, CdkDragEnd } from '@angular/cdk/drag-drop';
@@ -11,11 +11,12 @@ import { CdkDrag, CdkDragEnd } from '@angular/cdk/drag-drop';
   styleUrls: ['./jobs-page.component.scss'],
 })
 export class JobsPageComponent {
+  protected zone = inject(NgZone);
+  private cdr = inject(ChangeDetectorRef);
+
   protected readonly Jobs = Jobs;
   currjob = 0;
   private readonly THRESHOLD = 120;
-
-  constructor(protected zone: NgZone, private cdr: ChangeDetectorRef) {}
 
   onDragEnded(event: CdkDragEnd) {
     const x = event.distance.x;

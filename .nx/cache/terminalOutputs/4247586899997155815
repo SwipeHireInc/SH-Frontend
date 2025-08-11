@@ -1,0 +1,88 @@
+
+Linting "cleaned-frontend"...
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/app.component.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/app.config.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/app.routes.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/guards/auth.guard.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/models/AppState.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/models/Auth.interface.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/models/AuthState.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/services/apiservice/api.service.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/services/authservice/AuthCallBack.component.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/services/authservice/auth.actions.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/services/authservice/auth.effects.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/services/authservice/auth.guard.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/services/authservice/auth.interceptor.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/services/authservice/auth.reducer.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/services/authservice/auth.selectors.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/core/services/authservice/auth.service.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/customfunctions/createformwithmodel.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/dto/user.dto.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/applicant-page/applicant-page.component.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/applicant-profile-page/animation.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/resume_entity/resume_entity.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/jobs-page/animation.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/jobs-page/jobs-page.component.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/model/job_model.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/navigation-panel/navigation-panel.component.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/applicant-page/service/job.service.ts[24m[0m
+[0m  [2m0:0[22m  [31merror[39m  Parsing error: Cannot read file '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/tsconfig.base.json'[0m
+[0m[0m
+[0m[4m/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/pages/company-page/company-navigatio

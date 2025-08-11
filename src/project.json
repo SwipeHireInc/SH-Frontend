@@ -1,0 +1,11 @@
+{
+  "name": "cleaned-frontend",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
+      }
+    }
+  }
+}
