@@ -31,10 +31,10 @@
           </div>
         </div>
 
-        <div class="input-number">
-            <label>Location</label>
+        <div class="select-bar">
+            <label>City</label>
             <select>
-              <option value="" disabled selected>Sity</option>
+              <option value="" disabled selected>City</option>
               @for (city of cities; track cities) {
                 <option>{{city}}</option>
               }
@@ -43,8 +43,8 @@
           <label>Study</label>
           <select>
             <option value="">None</option>
-            @for (city of cities; track cities) {
-              <option>{{city}}</option>
+            @for (study of studies; track studies) {
+              <option>{{study}}</option>
             }
           </select>
         </div>
@@ -57,11 +57,6 @@
         <div class="input-wrapper">
           <label>Languages</label>
           <input type="text"  placeholder="languages" formControlName="languages">
-        </div>
-
-        <div class="input-wrapper">
-          <label>Study</label>
-          <input type="text"  placeholder="study" formControlName="study">
         </div>
 
         <div class="input-wrapper">

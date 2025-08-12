@@ -17,6 +17,8 @@ export class ApplicantResumeComponent {
   private readonly fb = inject(FormBuilder);
 
   cities: string[];
+  studies: string[];
+
   resumeform: FormGroup;
   closed = output<boolean>()
 
@@ -29,6 +31,7 @@ export class ApplicantResumeComponent {
     )
 
     this.cities = ["Almaty", "Astana", "Aqtau"]
+    this.studies = ["Software Development", "Data Science"]
   }
 
   closeModal(){

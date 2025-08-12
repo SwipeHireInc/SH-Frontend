@@ -129,15 +129,15 @@
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html",
-          "hash": "15578971252670320373"
+          "hash": "13818252916092601579"
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.scss",
-          "hash": "3939347879139607263"
+          "hash": "4955829873046244962"
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts",
-          "hash": "3728800158175300268",
+          "hash": "14795776484488689548",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/forms",
@@ -341,7 +341,7 @@
       "SwipeHire": [
         {
           "file": ".angular/cache/19.2.15/SwipeHire/.tsbuildinfo",
-          "hash": "9208708731746684261"
+          "hash": "4121077174775106942"
         },
         {
           "file": ".angular/cache/19.2.15/SwipeHire/vite/deps_temp_adebb464/package.json",
