@@ -1,4 +1,4 @@
-.modal-overlay {
+.modal-overlay{
   position: fixed;
   top: 0;
   left: 0;
@@ -24,7 +24,7 @@
   z-index: 10;
 }
 
-.close-btn {
+.closed-btn{
   position: absolute;
   top: 15px;
   right: 20px;
@@ -34,7 +34,7 @@
   cursor: pointer;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 300;
-  
+
   &:hover {
     color: rgba(255, 255, 255, 1);
   }
@@ -43,14 +43,14 @@
 .modal-header {
   text-align:center;
   margin-bottom: 30px;
-  
+
   h1 {
     margin: 0 0 8px 0;
     color: white;
     font-size: 32px;
     font-weight: 700;
   }
-  
+
   p {
     margin: 0;
     color: rgba(255, 255, 255, 0.8);
@@ -65,7 +65,7 @@
 
 .input-container {
   position: relative;
-  
+
   .input-icon {
     position: absolute;
     right: 15px;
@@ -86,11 +86,11 @@ input[type="password"] {
   color: white;
   transition: all 0.3s ease;
   box-sizing: border-box;
-  
+
   &::placeholder {
     color: rgba(255, 255, 255, 0.7);
   }
-  
+
   &:focus {
     outline: none;
     border-color: rgba(255, 255, 255, 0.5);
@@ -102,7 +102,7 @@ input[type="password"] {
   display: flex;
   align-items: center;
   margin: 25px 0;
-  
+
   input[type="checkbox"] {
     width: 18px;
     height: 18px;
@@ -112,7 +112,7 @@ input[type="password"] {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 3px;
   }
-  
+
   label {
     margin: 0;
     color: rgba(255, 255, 255, 0.9);
@@ -133,12 +133,12 @@ input[type="password"] {
   cursor: pointer;
   transition: all 0.3s ease;
   margin-bottom: 20px;
-  
+
   &:hover:not(:disabled) {
     transform: translateY(-1px);
     box-shadow: 0 8px 25px rgba(255, 255, 255, 0.4);
   }
-  
+
   &:disabled {
     background: rgba(255, 255, 255, 0.2);
     cursor: not-allowed;
@@ -149,7 +149,7 @@ input[type="password"] {
 
 .google-login {
   margin-bottom: 20px;
-  
+
   .google-btn {
     width: 100%;
     padding: 12px 20px;
@@ -165,13 +165,13 @@ input[type="password"] {
     justify-content: center;
     gap: 10px;
     transition: all 0.3s ease;
-    
+
     &:hover {
       background: white;
       transform: translateY(-1px);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
-    
+
     .google-icon {
       display: flex;
       align-items: center;
@@ -183,12 +183,12 @@ input[type="password"] {
 .forgot-link {
   text-align: center;
   margin-bottom: 20px;
-  
+
   a {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     font-size: 14px;
-    
+
     &:hover {
       color: rgba(255, 255, 255, 1);
       text-decoration: underline;
@@ -200,12 +200,12 @@ input[type="password"] {
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
   font-size: 14px;
-  
+
   a {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
     font-weight: 600;
-    
+
     &:hover {
       text-decoration: underline;
     }

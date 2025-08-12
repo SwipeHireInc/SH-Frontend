@@ -16,6 +16,7 @@ import {NgOptimizedImage} from '@angular/common';
 export class ApplicantResumeComponent {
   private readonly fb = inject(FormBuilder);
 
+  cities: string[];
   resumeform: FormGroup;
   closed = output<boolean>()
 
@@ -26,6 +27,8 @@ export class ApplicantResumeComponent {
       fb,
       resumeDefault,
     )
+
+    this.cities = ["Almaty", "Astana", "Aqtau"]
   }
 
   closeModal(){

@@ -16,25 +16,38 @@
               <label>Surname </label>
               <input type="text" formControlName="surname">
             </div>
-
-            <div class="input-wrapper">
-              <label>Age </label>
-              <input type="number" formControlName="age">
-            </div>
-
-            <div class="input-wrapper">
-              <label>Height </label>
-              <input type="number" formControlName="height">
-            </div>
           </div>
           <img ngSrc="assets/png/foravatar.jpeg"  width="150" height="150">
         </div>
-
-        <div class="input-wrapper">
-          <label>Location</label>
-          <input type="text"  placeholder="location" formControlName="location">
+        <div class="input-number">
+        <div>
+          <label>Age </label>
+          <input type="number" formControlName="age">
         </div>
 
+          <div>
+            <label>Height </label>
+            <input type="number" formControlName="height">
+          </div>
+        </div>
+
+        <div class="input-number">
+            <label>Location</label>
+            <select>
+              <option value="" disabled selected>Sity</option>
+              @for (city of cities; track cities) {
+                <option>{{city}}</option>
+              }
+            </select>
+
+          <label>Study</label>
+          <select>
+            <option value="">None</option>
+            @for (city of cities; track cities) {
+              <option>{{city}}</option>
+            }
+          </select>
+        </div>
 
         <div class="input-wrapper">
           <label>Phone</label>
@@ -44,6 +57,11 @@
         <div class="input-wrapper">
           <label>Languages</label>
           <input type="text"  placeholder="languages" formControlName="languages">
+        </div>
+
+        <div class="input-wrapper">
+          <label>Study</label>
+          <input type="text"  placeholder="study" formControlName="study">
         </div>
 
         <div class="input-wrapper">
@@ -57,10 +75,6 @@
             <input type="text"  placeholder="experience" formControlName="experience">
           </div>
 
-          <div class="input-wrapper">
-            <label>Study</label>
-            <input type="text"  placeholder="study" formControlName="study">
-          </div>
 
           <div class="input-wrapper">
             <label>habits</label>

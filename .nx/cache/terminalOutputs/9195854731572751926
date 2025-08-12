@@ -1,0 +1,36 @@
+
+> swipe-hire@0.0.0 lint:fix
+> nx lint cleaned-frontend --fix
+
+[1G[0K[?25l
+Linting "cleaned-frontend"...
+=============
+
+WARNING: You are currently running a version of TypeScript which is not officially supported by @typescript-eslint/typescript-estree.
+
+You may find that it works just fine, or you may not.
+
+SUPPORTED TYPESCRIPT VERSIONS: >=4.3.5 <5.4.0
+
+YOUR TYPESCRIPT VERSION: 5.7.3
+
+Please only submit bug reports when using the officially supported version.
+
+=============
+
+✔ All files pass linting
+
+[0K
+[2m[32m——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————[39m[22m[0K
+[0K
+[0m[7m[1m[32m NX [39m[22m[27m[0m  [32mSuccessfully ran target [1mlint[22m for project cleaned-frontend[39m[2m (2s)[22m[0K
+[0K
+      [2m[32mWith additional flags:[39m[22m[0K
+[2m[32m        --fix=true[39m[22m[0K
+[0K
+[0J[?25h
+[0m[7m[1m[33m NX [39m[22m[27m[0m  [33mNx Cloud encountered some problems[39m
+
+This workspace is more than three days old and is not connected. Workspaces must be connected within 3 days of creation. Claim your workspace at https://cloud.nx.app. (code: 401)
+
+[?25h[?25h[1G[0K⠙[1G[0K

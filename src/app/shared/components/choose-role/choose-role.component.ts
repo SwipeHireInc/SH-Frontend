@@ -9,7 +9,7 @@ import {take} from 'rxjs';
 @Component({
   selector: 'choose-role',
   templateUrl: 'choose-role.component.html',
-  styleUrl: './auth-modal.component.scss'
+  styleUrl: 'choose-role.component.scss'
 })
 
 export class ChooseRoleComponent{

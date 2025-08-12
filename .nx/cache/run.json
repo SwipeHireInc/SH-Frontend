@@ -1,21 +1,21 @@
 {
   "run": {
-    "command": "nx lint cleaned-frontend --skip-nx-cache --output-style=stream",
-    "startTime": "2025-08-11T08:41:20.556Z",
-    "endTime": "2025-08-11T08:41:22.665Z",
+    "command": "nx lint:fix",
+    "startTime": "2025-08-11T08:47:50.887Z",
+    "endTime": "2025-08-11T08:47:54.006Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "cleaned-frontend:lint",
-      "target": "lint",
-      "projectName": "cleaned-frontend",
-      "hash": "117669837834393917",
-      "startTime": "2025-08-11T08:41:20.597Z",
-      "endTime": "2025-08-11T08:41:22.664Z",
+      "taskId": "SwipeHire:lint:fix",
+      "target": "lint:fix",
+      "projectName": "SwipeHire",
+      "hash": "9195854731572751926",
+      "startTime": "2025-08-11T08:47:50.934Z",
+      "endTime": "2025-08-11T08:47:54.004Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 1
+      "status": 0
     }
   ]
 }
