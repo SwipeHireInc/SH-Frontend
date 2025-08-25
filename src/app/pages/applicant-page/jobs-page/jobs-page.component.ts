@@ -2,11 +2,12 @@ import { Component, ChangeDetectorRef, NgZone, inject } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import { Jobs } from '../model/job_model';
 import { CdkDrag, CdkDragEnd } from '@angular/cdk/drag-drop';
+import {SwipeCardDirective} from './swipe-card-directive';
 
 @Component({
   selector: 'app-jobs-page',
   standalone: true,
-  imports: [NgOptimizedImage, CdkDrag],
+  imports: [NgOptimizedImage, CdkDrag, SwipeCardDirective],
   templateUrl: './jobs-page.component.html',
   styleUrls: ['./jobs-page.component.scss'],
 })

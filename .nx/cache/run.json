@@ -1,21 +1,21 @@
 {
   "run": {
-    "command": "nx lint:fix",
-    "startTime": "2025-08-11T08:47:50.887Z",
-    "endTime": "2025-08-11T08:47:54.006Z",
+    "command": "nx serve",
+    "startTime": "2025-08-25T05:05:18.966Z",
+    "endTime": "2025-08-25T05:05:20.200Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "SwipeHire:lint:fix",
-      "target": "lint:fix",
+      "taskId": "SwipeHire:serve:development",
+      "target": "serve",
       "projectName": "SwipeHire",
-      "hash": "9195854731572751926",
-      "startTime": "2025-08-11T08:47:50.934Z",
-      "endTime": "2025-08-11T08:47:54.004Z",
+      "hash": "1154810468634943558",
+      "startTime": "2025-08-25T05:05:19.019Z",
+      "endTime": "2025-08-25T05:05:20.198Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 0
+      "status": 1
     }
   ]
 }

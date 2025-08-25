@@ -19,6 +19,7 @@
           </div>
           <img ngSrc="assets/png/foravatar.jpeg"  width="150" height="150">
         </div>
+
         <div class="input-number">
         <div>
           <label>Age </label>
@@ -54,32 +55,19 @@
           <input type="text"  placeholder="phone" formControlName="phone">
         </div>
 
-        <div class="input-wrapper">
-          <label>Languages</label>
-          <input type="text"  placeholder="languages" formControlName="languages">
-        </div>
+        <app-selectable-grid
+          label="Languages"
+          [initialItems]="['English', 'Russian', 'Kazakh']"
+          (selectedChange)="onLanguagesChange($event)">
+        </app-selectable-grid>
 
-        <div class="input-wrapper">
-          <div>
-            <label>Skills</label>
-            <input type="text"  placeholder="skills" formControlName="skills">
-          </div>
-
-          <div class="input-wrapper">
-            <label>Experience</label>
-            <input type="text"  placeholder="experience" formControlName="experience">
-          </div>
-
-
-          <div class="input-wrapper">
-            <label>habits</label>
-            <input type="text"  placeholder="habits" formControlName="habits">
-          </div>
-        </div>
-
+        <app-selectable-grid
+          label="Skills"
+          [initialItems]="['React', 'Js', 'Html']"
+          (selectedChange)="onLanguagesChange($event)">
+        </app-selectable-grid>
         <button type="submit" class="submit-btn">Save</button>
 
       </form>
     </div>
-
   </div>

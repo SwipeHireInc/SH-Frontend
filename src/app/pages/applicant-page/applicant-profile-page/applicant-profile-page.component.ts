@@ -1,6 +1,6 @@
 import {Component, ElementRef, Input, ViewChild} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
-import {UnderLineAnimation} from './animation';
+import {UnderLineAnimation} from './under-line-animation';
 import {ApplicantResumeComponent} from './applicant-resume-modal/applicant-resume.component';
 
 @Component({

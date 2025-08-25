@@ -66,3 +66,11 @@ export class AuthModalComponent implements AfterViewInit {
     animateOpen(this.modalOverlay, this.modalContent);
   }
 }
+
+
+
+
+
+
+
+

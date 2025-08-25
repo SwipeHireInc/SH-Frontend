@@ -1,14 +1,16 @@
 import { Component, EventEmitter, output, Output, inject } from '@angular/core';
 import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
-import {createFormWithModel} from '../../../../customfunctions/createformwithmodel';
+import {createFormWithModel} from '../../../../custom/createformwithmodel';
 import {Resume, resumeDefault} from './resume_entity/resume_entity';
 import {NgOptimizedImage} from '@angular/common';
+import {SelectableGridComponent} from '../../../../custom/SelectableGridComponent';
 
 @Component({
   selector: 'app-applicant-resume',
   imports: [
     ReactiveFormsModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    SelectableGridComponent
   ],
   templateUrl: './applicant-resume.component.html',
   styleUrl: './applicant-resume.component.scss'
@@ -44,5 +46,9 @@ export class ApplicantResumeComponent {
     }else{
       this.resumeform.markAllAsTouched()
     }
+  }
+
+  onLanguagesChange($event: string[]) {
+    console.log($event)
   }
 }

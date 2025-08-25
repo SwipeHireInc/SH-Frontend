@@ -1,0 +1,5 @@
+[1m[33mComponent HMR has been enabled, see https://angular.dev/hmr for more info.[39m[22m
+Error: The current version of "@angular/build" supports Angular versions ^19.0.0 || ^19.2.0-next.0,
+but detected Angular version 20.2.1 instead.
+Please visit the link below to find instructions on how to update Angular.
+https://update.angular.dev/

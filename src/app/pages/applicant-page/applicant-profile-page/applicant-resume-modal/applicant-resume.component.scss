@@ -12,7 +12,6 @@
 }
 
 .modal {
-  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 2px solid rgba(255, 255, 255, 0.3);
@@ -92,7 +91,7 @@
   align-items: center;
   gap: 1rem;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .input-number{
@@ -105,10 +104,11 @@ label {
   flex: 0 0 50px;
   font-size: 14px;
   color: white;
-  text-align: right;
+  text-align: left;
 }
 
 input[type="text"],
+input[type="number"]::placeholder,
 input[type="password"], {
   flex: 1;
   padding: 12px 15px;
@@ -165,4 +165,8 @@ input[type="password"]:focus {
   align-items: center;
   padding: 20px 0 20px 15px;
   gap: 6px;
+
+  label{
+    flex: 0 0 10px;
+  }
 }
