@@ -1,22 +1,27 @@
 // selectable-grid.component.ts
 import { Component, input, output, signal } from '@angular/core';
+import {ReactiveFormsModule} from '@angular/forms';
+import {Select} from 'primeng/select';
 
 
 @Component({
   selector: 'app-selectable-grid',
   standalone: true,
-  imports: [],
+  imports: [
+    ReactiveFormsModule,
+    Select
+  ],
   template: `
     <div class="input-wrapper">
       <label>{{ label() }}</label>
 
       @if (available().length > 0) {
-        <select (change)="onSelect($event)">
-          <option value="">{{ label().toLowerCase() }}</option>
-          @for (item of available(); track item) {
-            <option [value]="item">{{ item }}</option>
-          }
-        </select>
+        <p-select
+          [options]="options"
+          (onChange)="onSelect($event)"
+          placeholder="{{ label().toLowerCase() }}"
+          [style]="{ width: '150px' }">
+        </p-select>
       } @else {
         <p class="empty">There are no elements</p>
       }
@@ -116,17 +121,17 @@ export class SelectableGridComponent {
     this.selectedChange.emit(this.selected());
   }
 
-  onSelect(event: Event) {
-    const value = (event.target as HTMLSelectElement).value;
+  get options() {
+    return this.available().map(item => ({ label: item, value: item }));
+  }
+  onSelect(event: any) {
+    const value = event.value;
     if (!value) return;
 
     if (!this.selected().includes(value)) {
       this.updateSelected([...this.selected(), value]);
       this.available.set(this.available().filter(i => i !== value));
     }
-
-    // сбрасываем select после выбора
-    (event.target as HTMLSelectElement).value = '';
   }
 
   deselectItem(item: string) {
@@ -136,4 +141,5 @@ export class SelectableGridComponent {
       this.available.set([...this.available(), item]);
     }
   }
+
 }

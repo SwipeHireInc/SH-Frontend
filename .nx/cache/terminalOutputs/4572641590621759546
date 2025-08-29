@@ -1,8 +1,0 @@
-
-Linting "cleaned-frontend"...
-
-[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mFailed to load config "eslint-angular/recommended" to extend from.[39m
-
-Referenced from: /Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/.eslintrc.base.json
-Pass --verbose to see the stacktrace.
-

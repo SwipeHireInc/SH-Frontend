@@ -1,16 +1,32 @@
-import { Component, EventEmitter, output, Output, inject } from '@angular/core';
-import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
+import { Component, output, inject } from '@angular/core';
+import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators} from '@angular/forms';
 import {createFormWithModel} from '../../../../custom/createformwithmodel';
 import {Resume, resumeDefault} from './resume_entity/resume_entity';
 import {NgOptimizedImage} from '@angular/common';
 import {SelectableGridComponent} from '../../../../custom/SelectableGridComponent';
+import {Select} from 'primeng/select';
+import {MultiSelect} from 'primeng/multiselect';
+
+interface City {
+  name: string;
+  code: string;
+}
+
+interface Study{
+  name: string;
+}
+
+interface Language{
+  name: string;
+}
 
 @Component({
   selector: 'app-applicant-resume',
   imports: [
     ReactiveFormsModule,
     NgOptimizedImage,
-    SelectableGridComponent
+    Select,
+    MultiSelect,
   ],
   templateUrl: './applicant-resume.component.html',
   styleUrl: './applicant-resume.component.scss'
@@ -18,11 +34,19 @@ import {SelectableGridComponent} from '../../../../custom/SelectableGridComponen
 export class ApplicantResumeComponent {
   private readonly fb = inject(FormBuilder);
 
-  cities: string[];
-  studies: string[];
+  cities: City[] | undefined;
+  studies: Study[] | undefined;
+  languages: Language[] | undefined;
+
+  selectedCity: City | undefined;
+  selectedStudies: Study | undefined;
+  selectedLanguages: Language[] | undefined
+
 
   resumeform: FormGroup;
+
   closed = output<boolean>()
+
 
   constructor() {
     const fb = this.fb;
@@ -32,23 +56,33 @@ export class ApplicantResumeComponent {
       resumeDefault,
     )
 
-    this.cities = ["Almaty", "Astana", "Aqtau"]
-    this.studies = ["Software Development", "Data Science"]
+    this.languages = [{name: "Eng"},{name:"Kz"},{name:"Rus"}]
+
+    this.cities = [
+      { name: 'New York', code: 'NY' },
+      { name: 'Rome', code: 'RM' },
+      { name: 'London', code: 'LDN' },
+      { name: 'Istanbul', code: 'IST' },
+      { name: 'Paris', code: 'PRS' }
+    ];
+
+    this.studies = [{name: "soft"}, {name: "design"}]
+
+    this.selectedCity = this.cities[0];
+    this.selectedStudies = this.studies[0];
+    this.selectedLanguages = this.studies;
   }
 
   closeModal(){
     this.closed.emit(false)
   }
 
-  onSave(){
-    if(this.resumeform.valid){
-
-    }else{
-      this.resumeform.markAllAsTouched()
+  onSave() {
+    if (this.resumeform.valid) {
+      const data: Resume = this.resumeform.value;
+      console.log('Форма отправлена:', data);
+    } else {
+      this.resumeform.markAllAsTouched();
     }
-  }
-
-  onLanguagesChange($event: string[]) {
-    console.log($event)
   }
 }
