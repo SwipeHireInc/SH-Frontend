@@ -1,9 +1,8 @@
-import { Component, output, inject } from '@angular/core';
-import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators} from '@angular/forms';
+import {Component, output, inject } from '@angular/core';
+import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
 import {createFormWithModel} from '../../../../custom/createformwithmodel';
 import {Resume, resumeDefault} from './resume_entity/resume_entity';
 import {NgOptimizedImage} from '@angular/common';
-import {SelectableGridComponent} from '../../../../custom/SelectableGridComponent';
 import {Select} from 'primeng/select';
 import {MultiSelect} from 'primeng/multiselect';
 
@@ -38,10 +37,6 @@ export class ApplicantResumeComponent {
   studies: Study[] | undefined;
   languages: Language[] | undefined;
 
-  selectedCity: City | undefined;
-  selectedStudies: Study | undefined;
-  selectedLanguages: Language[] | undefined
-
 
   resumeform: FormGroup;
 
@@ -54,6 +49,7 @@ export class ApplicantResumeComponent {
     this.resumeform = createFormWithModel<Resume>(
       fb,
       resumeDefault,
+      {name: [Validators.required]}
     )
 
     this.languages = [{name: "Eng"},{name:"Kz"},{name:"Rus"}]
@@ -67,10 +63,6 @@ export class ApplicantResumeComponent {
     ];
 
     this.studies = [{name: "soft"}, {name: "design"}]
-
-    this.selectedCity = this.cities[0];
-    this.selectedStudies = this.studies[0];
-    this.selectedLanguages = this.studies;
   }
 
   closeModal(){

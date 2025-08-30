@@ -1,18 +1,22 @@
-import {FormBuilder, FormGroup} from '@angular/forms';
+import {FormBuilder, FormControl, FormGroup, ValidatorFn} from '@angular/forms';
+
+type ValidatorsMap<T> = {
+  [K in keyof T]?: ValidatorFn | ValidatorFn[];
+};
 
 export function createFormWithModel<T extends object>(
   fb: FormBuilder,
   model: T,
-  validatorsMap?: Partial<Record<keyof T, any>>
-):FormGroup{
-  const group: any = {}
+  validatorsMap?: ValidatorsMap<T>
+): FormGroup {
+  const group: { [K in keyof T]: FormControl } = {} as any;
 
-  for(const key in model){
-    if(model.hasOwnProperty(key)){
-      const validators = validatorsMap?.[key] || []
-      group[key] = [model[key], validators];
+  for (const key in model) {
+    if (Object.prototype.hasOwnProperty.call(model, key)) {
+      const validators = validatorsMap?.[key] ?? [];
+      group[key] = new FormControl(model[key], validators);
     }
   }
 
-  return fb.group(group)
+  return fb.group(group);
 }
