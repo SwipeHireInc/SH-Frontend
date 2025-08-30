@@ -49,7 +49,9 @@ export class ApplicantResumeComponent {
     this.resumeform = createFormWithModel<Resume>(
       fb,
       resumeDefault,
-      {name: [Validators.required]}
+      {name: [Validators.required],
+        surname: [Validators.required]
+      },
     )
 
     this.languages = [{name: "Eng"},{name:"Kz"},{name:"Rus"}]
