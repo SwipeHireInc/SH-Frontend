@@ -57,6 +57,7 @@
   border-radius: 50%;
   min-width: 150px;
   height: 150px;
+  margin: 20px 0 0 0;
 }
 
 .about-user {
@@ -169,4 +170,16 @@ input[type="password"]:focus {
   .skills{
     margin-right: 22px;
   }
+}
+
+::ng-deep .p-fileupload{
+  width: 150px;
+  height: 160px;
+  position: absolute;
+  left: 67%;
+  bottom: 65px;
+}
+
+::ng-deep .p-fileupload-content{
+  padding: 21px;
 }

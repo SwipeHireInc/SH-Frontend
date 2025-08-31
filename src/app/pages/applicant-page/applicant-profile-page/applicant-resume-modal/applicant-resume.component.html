@@ -25,7 +25,20 @@
               <input type="text" formControlName="surname">
             </div>
           </div>
-          <img ngSrc="assets/png/foravatar.jpeg" alt="avatar" width="150" height="150">
+
+          <div class="relative w-[150px] h-[150px] cursor-pointer">
+            <img [src]="imageSrc" alt="Image" width="150" height="150" (click)="fileInput.click()" />
+
+            <!-- Hidden file input -->
+            <input
+              #fileInput
+              type="file"
+              accept="image/*"
+              (change)="onFileSelected($event)"
+              class="hidden"
+            />
+          </div>
+
         </div>
 
         <div class="input-number">
@@ -79,6 +92,8 @@
             [style]="{ width: '250px' }">
           </p-multiSelect>
         </div>
+
+        <app-upload-file></app-upload-file>
 
         <p-button
           class="submit-btn"

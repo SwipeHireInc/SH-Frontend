@@ -2,11 +2,12 @@ import {Component, output, inject } from '@angular/core';
 import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
 import {createFormWithModel} from '../../../../custom/createformwithmodel';
 import {Resume, resumeDefault} from './resume_entity/resume_entity';
-import {NgOptimizedImage} from '@angular/common';
 import {Select} from 'primeng/select';
 import {MultiSelect} from 'primeng/multiselect';
 import {Button} from 'primeng/button';
 import { ButtonModule } from 'primeng/button';
+import {MessageService} from 'primeng/api';
+import {CustomFileUpload} from '../../../../custom/customfileupload';
 
 interface City {
   name: string;
@@ -25,17 +26,19 @@ interface Language{
   selector: 'app-applicant-resume',
   imports: [
     ReactiveFormsModule,
-    NgOptimizedImage,
     Select,
     MultiSelect,
     Button,
-    ButtonModule
+    ButtonModule,
+    CustomFileUpload,
   ],
+  providers: [MessageService],
   templateUrl: './applicant-resume.component.html',
   styleUrl: './applicant-resume.component.scss'
 })
 export class ApplicantResumeComponent {
   private readonly fb = inject(FormBuilder);
+  private readonly ms = inject(MessageService)
 
   cities: City[] | undefined;
   studies: Study[] | undefined;
@@ -45,6 +48,8 @@ export class ApplicantResumeComponent {
   resumeform: FormGroup;
 
   closed = output<boolean>()
+  protected previewImage: string | undefined;
+  imageSrc: string | undefined;
 
 
   constructor() {
@@ -82,5 +87,19 @@ export class ApplicantResumeComponent {
     } else {
       this.resumeform.markAllAsTouched();
     }
+  }
+
+  choose($event: MouseEvent, chooseCallback: any) {
+
+  }
+
+  onFileSelected(event: Event) {
+    const input = event.target as HTMLInputElement;
+    if (!input.files?.length) return;
+
+    const file = input.files[0];
+    const reader = new FileReader();
+    reader.onload = e => this.imageSrc = e.target?.result as string;
+    reader.readAsDataURL(file);
   }
 }

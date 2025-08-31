@@ -52,6 +52,12 @@ function W(t2, e) {
     [e].flat().filter(Boolean).forEach((n) => n.split(" ").forEach(o));
   }
 }
+function B() {
+  return window.innerWidth - document.documentElement.offsetWidth;
+}
+function st(t2) {
+  typeof t2 == "string" ? W(document.body, t2 || "p-overflow-hidden") : (t2 != null && t2.variableName && document.body.style.setProperty(t2.variableName, B() + "px"), W(document.body, (t2 == null ? void 0 : t2.className) || "p-overflow-hidden"));
+}
 function O(t2, e) {
   if (t2 && e) {
     let o = (n) => {
@@ -176,6 +182,12 @@ function A(t2, e = {}) {
     });
   }
 }
+function U(t2, e = {}, ...o) {
+  if (t2) {
+    let n = document.createElement(t2);
+    return A(n, e), n.append(...o), n;
+  }
+}
 function ht(t2, e) {
   if (t2) {
     t2.style.opacity = "0";
@@ -264,6 +276,9 @@ function Jt(t2, e) {
   let o = getComputedStyle(t2).getPropertyValue("borderTopWidth"), n = o ? parseFloat(o) : 0, r = getComputedStyle(t2).getPropertyValue("paddingTop"), i2 = r ? parseFloat(r) : 0, l2 = t2.getBoundingClientRect(), s4 = e.getBoundingClientRect().top + document.body.scrollTop - (l2.top + document.body.scrollTop) - n - i2, a2 = t2.scrollTop, u = t2.clientHeight, c2 = C(e);
   s4 < 0 ? t2.scrollTop = a2 + s4 : s4 + c2 > u && (t2.scrollTop = a2 + s4 - u + c2);
 }
+function Kt(t2, e = "", o) {
+  p(t2) && o !== null && o !== void 0 && t2.setAttribute(e, o);
+}
 
 // node_modules/@primeuix/utils/dist/eventbus/index.mjs
 function s() {
@@ -344,7 +359,7 @@ function c(e, t2) {
 function k2(e, t2, n) {
   return n ? c(e, n) === c(t2, n) : y2(e, t2);
 }
-function B(e, t2) {
+function B2(e, t2) {
   if (e != null && t2 && t2.length) {
     for (let n of t2) if (k2(e, n)) return true;
   }
@@ -1337,6 +1352,7 @@ export {
   f,
   R,
   W,
+  st,
   O,
   dt,
   x,
@@ -1347,6 +1363,7 @@ export {
   j,
   ut,
   A,
+  U,
   ht,
   z,
   bt,
@@ -1362,13 +1379,14 @@ export {
   Qt,
   Zt,
   Jt,
+  Kt,
   s,
   a,
   y2 as y,
   s2,
   c,
   k2,
-  B,
+  B2 as B,
   i,
   M,
   m,
@@ -1397,4 +1415,4 @@ export {
   TranslationKeys,
   TreeDragDropService
 };
-//# sourceMappingURL=chunk-WNS4NYGO.js.map
+//# sourceMappingURL=chunk-BT5VHKMK.js.map
