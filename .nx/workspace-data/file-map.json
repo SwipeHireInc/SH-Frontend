@@ -157,14 +157,16 @@
         },
         {
           "file": "src/app/custom/SelectableGridComponent.ts",
-          "hash": "7776204831057264175",
+          "hash": "15856699115681771262",
           "deps": [
-            "npm:@angular/core@20.2.1"
+            "npm:@angular/core@20.2.1",
+            "npm:@angular/forms@20.2.1",
+            "npm:primeng@20.0.1"
           ]
         },
         {
           "file": "src/app/custom/createformwithmodel.ts",
-          "hash": "1205740397773305777",
+          "hash": "2759666408814930370",
           "deps": [
             "npm:@angular/forms@20.2.1"
           ]
@@ -207,15 +209,15 @@
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html",
-          "hash": "12074275141796595390"
+          "hash": "6247005133841746627"
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.scss",
-          "hash": "2839496301410056950"
+          "hash": "6281721085707448679"
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts",
-          "hash": "12710284062567464490",
+          "hash": "5871783508274544082",
           "deps": [
             "npm:@angular/core@20.2.1",
             "npm:@angular/forms@20.2.1",
@@ -225,7 +227,7 @@
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/resume_entity/resume_entity.ts",
-          "hash": "10105972059413518634"
+          "hash": "1171318276852857909"
         },
         {
           "file": "src/app/pages/applicant-page/applicant-profile-page/under-line-animation.ts",
@@ -466,7 +468,7 @@
         },
         {
           "file": "src/styles.scss",
-          "hash": "534832612014887104"
+          "hash": "11974516073137926751"
         }
       ],
       "SwipeHire": [
@@ -476,10 +478,334 @@
         },
         {
           "file": ".angular/cache/20.2.0/SwipeHire/.tsbuildinfo",
-          "hash": "10315828703881740952"
+          "hash": "2222324667251010590"
         },
         {
-          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps_temp_7f2ce494/package.json",
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_cdk_drag-drop.js",
+          "hash": "18269672842621747277"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_cdk_drag-drop.js.map",
+          "hash": "14192449309396174496"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_common.js",
+          "hash": "7975640846133867095"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_common.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_common_http.js",
+          "hash": "16998780118179710167"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_common_http.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_core.js",
+          "hash": "12612673952715313734"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_core.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_forms.js",
+          "hash": "8825248308235093015"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_forms.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_platform-browser.js",
+          "hash": "2846011300399343847"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_platform-browser.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_platform-browser_animations.js",
+          "hash": "8274745466543273398"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_platform-browser_animations.js.map",
+          "hash": "14775175858096748819"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_platform-browser_animations_async.js",
+          "hash": "5138310800657337244"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_platform-browser_animations_async.js.map",
+          "hash": "16122795659008212435"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_router.js",
+          "hash": "846226240814035683"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@angular_router.js.map",
+          "hash": "1746721231906782088"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@ngrx_effects.js",
+          "hash": "18070353271191001088"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@ngrx_effects.js.map",
+          "hash": "17568125919427246499"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@ngrx_store-devtools.js",
+          "hash": "6447362078663886850"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@ngrx_store-devtools.js.map",
+          "hash": "9363807737771356109"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@ngrx_store.js",
+          "hash": "17034095956409714536"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@ngrx_store.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@primeuix_themes_aura.js",
+          "hash": "7035080332574678295"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/@primeuix_themes_aura.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/_metadata.json",
+          "hash": "14179984347496558890"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/browser-G5LIOGPZ.js",
+          "hash": "13421181927907172277"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/browser-G5LIOGPZ.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-5ONLROKE.js",
+          "hash": "6945385520712301364"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-5ONLROKE.js.map",
+          "hash": "14488585920275748920"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-5YGIF2TK.js",
+          "hash": "6594891164600548117"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-5YGIF2TK.js.map",
+          "hash": "9899148097042661867"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-6WMB7ZBK.js",
+          "hash": "14536219511926612446"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-6WMB7ZBK.js.map",
+          "hash": "459384105963787604"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-7BCU3HWD.js",
+          "hash": "17333309797528506208"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-7BCU3HWD.js.map",
+          "hash": "15884511289846253730"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-CSPLI7JI.js",
+          "hash": "11946619262587044487"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-CSPLI7JI.js.map",
+          "hash": "18363806530067809692"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-HWYXSU2G.js",
+          "hash": "5469500415343401607"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-HWYXSU2G.js.map",
+          "hash": "9568921713545865456"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-JRFR6BLO.js",
+          "hash": "17810935877921968651"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-JRFR6BLO.js.map",
+          "hash": "4050072333179275062"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-LIAKAOWN.js",
+          "hash": "9330676843772656842"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-LIAKAOWN.js.map",
+          "hash": "1995429928527011572"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-MARUHEWW.js",
+          "hash": "2921752674536186890"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-MARUHEWW.js.map",
+          "hash": "13433390867113790089"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-QQPLYHSY.js",
+          "hash": "4865811508780279782"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-QQPLYHSY.js.map",
+          "hash": "3205450675877740812"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-QWAZFJW6.js",
+          "hash": "3619130979889925121"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-QWAZFJW6.js.map",
+          "hash": "7281643961554590992"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-UUCXCR4X.js",
+          "hash": "9456982390139413813"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-UUCXCR4X.js.map",
+          "hash": "12981285099400914722"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-WDMUDEB6.js",
+          "hash": "3393899181551614386"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-WDMUDEB6.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-WIW3NUPL.js",
+          "hash": "5297751995714326563"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-WIW3NUPL.js.map",
+          "hash": "18319915609973131903"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-WVTMP6TY.js",
+          "hash": "5202075586721473280"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-WVTMP6TY.js.map",
+          "hash": "12861272122123761844"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-ZCL3EIHY.js",
+          "hash": "13454738159649120744"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-ZCL3EIHY.js.map",
+          "hash": "1708103599098388733"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-ZSW6XITM.js",
+          "hash": "16103929506964181417"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/chunk-ZSW6XITM.js.map",
+          "hash": "17180086075778591774"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/gsap.js",
+          "hash": "2602531795521167703"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/gsap.js.map",
+          "hash": "3513570214510013231"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/jwt-decode.js",
+          "hash": "9814224366293183540"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/jwt-decode.js.map",
+          "hash": "9947680532416725885"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/package.json",
+          "hash": "8630294688235076505"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/primeng_config.js",
+          "hash": "16490360653290048220"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/primeng_config.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/primeng_multiselect.js",
+          "hash": "2518345028309975008"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/primeng_multiselect.js.map",
+          "hash": "8437638934595512566"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/primeng_select.js",
+          "hash": "16529340080035208591"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/primeng_select.js.map",
+          "hash": "18147672057698054068"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/rxjs.js",
+          "hash": "17989720194268660538"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/rxjs.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/rxjs_operators.js",
+          "hash": "13190128467688825924"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/rxjs_operators.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/zone__js.js",
+          "hash": "12704328833797604064"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps/zone__js.js.map",
+          "hash": "13015539677990086732"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps_ssr/_metadata.json",
+          "hash": "9091864292020928948"
+        },
+        {
+          "file": ".angular/cache/20.2.0/SwipeHire/vite/deps_ssr/package.json",
           "hash": "8630294688235076505"
         },
         {
@@ -616,6 +942,10 @@
         {
           "file": "public/favicon.ico",
           "hash": "3988961587069885523"
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "6574659528954399047"
         },
         {
           "file": "tsconfig.app.json",

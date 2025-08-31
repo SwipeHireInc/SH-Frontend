@@ -1,7 +1,15 @@
 
   <div class="overlay">
     <div class="modal">
-      <button class="close-btn" (click)="closeModal()">X</button>
+        <p-button
+          class="p-close"
+          icon="pi pi-times"
+          (click)="closeModal()"
+          [rounded]="true"
+          [text]="true"
+          [raised]="true"
+          severity="danger"
+        />
 
       <form [formGroup]="resumeform" (ngSubmit)="onSave()">
         <div class="main-upload">
@@ -39,26 +47,28 @@
           <p-select [options]="studies" formControlName="study" optionLabel="name" optionValue="name" placeholder="Select a Study" [editable]="true" [style]="{ width: '150px' }" />
         </div>
 
-        <div class="input-wrapper">
+        <div class="input-wrapper phone-input">
           <label>Phone</label>
-          <input type="text"  placeholder="phone" formControlName="phone">
+          <input type="text" formControlName="phone">
         </div>
 
-        <div>
+        <div class="multi-sel">
           <label>Language</label>
-          <p-multiSelect
-            [options]="languages"
-            formControlName="languages"
-            optionLabel="name"
-            optionValue="name"
-            placeholder="Select Language"
-            display="chip"
-            [style]="{ width: '250px' }">
-          </p-multiSelect>
+          <div>
+            <p-multiSelect
+              [options]="languages"
+              formControlName="languages"
+              optionLabel="name"
+              optionValue="name"
+              placeholder="Select Language"
+              display="chip"
+              [style]="{ width: '250px' }">
+            </p-multiSelect>
+          </div>
         </div>
 
-        <div>
-          <label>Skills</label>
+        <div class="multi-sel">
+          <label class="skills">Skills</label>
           <p-multiSelect
             [options]="languages"
             formControlName="skills"
@@ -70,7 +80,12 @@
           </p-multiSelect>
         </div>
 
-        <button type="submit" class="submit-btn">Save</button>
+        <p-button
+          class="submit-btn"
+          type="submit"
+          icon="pi pi-check"
+          label="Save">
+        </p-button>
       </form>
     </div>
   </div>

@@ -28,9 +28,12 @@
 <div #underlineRef class="underline" ></div>
 <div class="line"></div>
 
-<button class="btn-trg" (click)="trigger(true)">
-  +
-</button>
+<div class="btn-trg" >
+  <button (click)="trigger(true)">
+    <i class="pi pi-plus"></i>
+  </button>
+
+</div>
 
 @if(close){
   <app-applicant-resume (closed)="trigger($event)"></app-applicant-resume>

@@ -1,4 +1,4 @@
-import {Component, ElementRef, Input, ViewChild} from '@angular/core';
+import {Component} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
 import {UnderLineAnimation} from './under-line-animation';
 import {ApplicantResumeComponent} from './applicant-resume-modal/applicant-resume.component';
@@ -16,7 +16,9 @@ import {ApplicantResumeComponent} from './applicant-resume-modal/applicant-resum
 })
 export class ApplicantProfilePageComponent{
   activeTab: "resume"| "feedback" = "feedback";
+
   close = false;
+
 
   switchTab(tab: "resume" | "feedback") {
     this.activeTab = tab;

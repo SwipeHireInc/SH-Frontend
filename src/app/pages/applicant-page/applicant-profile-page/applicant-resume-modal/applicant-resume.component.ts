@@ -5,6 +5,8 @@ import {Resume, resumeDefault} from './resume_entity/resume_entity';
 import {NgOptimizedImage} from '@angular/common';
 import {Select} from 'primeng/select';
 import {MultiSelect} from 'primeng/multiselect';
+import {Button} from 'primeng/button';
+import { ButtonModule } from 'primeng/button';
 
 interface City {
   name: string;
@@ -26,6 +28,8 @@ interface Language{
     NgOptimizedImage,
     Select,
     MultiSelect,
+    Button,
+    ButtonModule
   ],
   templateUrl: './applicant-resume.component.html',
   styleUrl: './applicant-resume.component.scss'

@@ -17,34 +17,25 @@
   border: 2px solid rgba(255, 255, 255, 0.3);
   padding: 40px 30px;
   border-radius: 20px;
-  width: 600px;
+  height: 550px;
   max-width: 90vw;
   position: relative;
   z-index: 10;
 }
 
-.close-btn {
+.p-close {
   position: absolute;
   top: 15px;
-  right: 20px;
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  color: rgba(255, 255, 255, 0.7);
-  font-weight: 300;
-
-  padding: 30px 30px;
-}
-
-.close-btn:hover {
-  color: rgba(255, 255, 255, 1);
+  right: 47%;
+  display: flex;
+  z-index: 20;
 }
 
 .submit-btn {
-  width: 6rem;
-  padding: 0.75rem 1rem;
-  background: rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 50%;
+  top: 493px;
+  transform: translateX(-50%);
   color: white;
   border: none;
   border-radius: 1rem;
@@ -54,22 +45,11 @@
   transition: all 0.3s ease;
 }
 
-.submit-btn:hover:not(:disabled) {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
-}
-
-.submit-btn:disabled {
-  background: rgba(255, 255, 255, 0.2);
-  cursor: not-allowed;
-  transform: none;
-  box-shadow: none;
-}
-
 .main-upload {
   display: flex;
   flex-direction: row;
-  gap: 5rem;
+  margin-top: 10px;
+  gap: 3rem;
   align-items: center;
 }
 
@@ -160,13 +140,33 @@ input[type="password"]:focus {
   background: rgba(0, 0, 0, 0.3);
 }
 
+.phone-input input {
+  max-width: 600px;
+  flex: 0 0 250px;
+}
+
 .select-bar{
   display: flex;
   align-items: center;
-  padding: 20px 0 20px 15px;
+  padding: 20px 0 20px 39px;
   gap: 6px;
 
   label{
     flex: 0 0 10px;
+  }
+}
+
+.multi-sel{
+  display: flex;
+  align-items: center;
+  padding: 20px 0 0 0;
+  gap: 10px;
+
+  label{
+    flex: 0 0 10px;
+  }
+
+  .skills{
+    margin-right: 22px;
   }
 }
