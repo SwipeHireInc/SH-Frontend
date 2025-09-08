@@ -8,19 +8,11 @@ import {Button} from 'primeng/button';
 import { ButtonModule } from 'primeng/button';
 import {MessageService} from 'primeng/api';
 import {CustomFileUpload} from '../../../../custom/customfileupload';
-
-interface City {
-  name: string;
-  code: string;
-}
-
-interface Study{
-  name: string;
-}
-
-interface Language{
-  name: string;
-}
+import {cities, City} from '../../../../formdata/cities';
+import {NgOptimizedImage} from '@angular/common';
+import {languages, Languages} from '../../../../formdata/languages';
+import {Skill, skills} from '../../../../formdata/skills';
+import {studies, Study} from '../../../../formdata/studies';
 
 @Component({
   selector: 'app-applicant-resume',
@@ -31,6 +23,7 @@ interface Language{
     Button,
     ButtonModule,
     CustomFileUpload,
+    NgOptimizedImage,
   ],
   providers: [MessageService],
   templateUrl: './applicant-resume.component.html',
@@ -38,42 +31,29 @@ interface Language{
 })
 export class ApplicantResumeComponent {
   private readonly fb = inject(FormBuilder);
-  private readonly ms = inject(MessageService)
-
-  cities: City[] | undefined;
-  studies: Study[] | undefined;
-  languages: Language[] | undefined;
-
+  protected readonly cities: City[] = cities;
+  protected readonly languages: Languages[] = languages;
+  protected readonly studies: Study[] = studies;
+  protected readonly skills: Skill[] = skills
 
   resumeform: FormGroup;
 
   closed = output<boolean>()
-  protected previewImage: string | undefined;
   imageSrc: string | undefined;
 
-
   constructor() {
-    const fb = this.fb;
-
     this.resumeform = createFormWithModel<Resume>(
-      fb,
+      this.fb,
       resumeDefault,
       {name: [Validators.required],
-        surname: [Validators.required]
+        surname: [Validators.required],
+        age: [Validators.required],
+        height: [Validators.required],
+        image: [Validators.required],
+        phone: [Validators.required],
+
       },
     )
-
-    this.languages = [{name: "Eng"},{name:"Kz"},{name:"Rus"}]
-
-    this.cities = [
-      { name: 'New York', code: 'NY' },
-      { name: 'Rome', code: 'RM' },
-      { name: 'London', code: 'LDN' },
-      { name: 'Istanbul', code: 'IST' },
-      { name: 'Paris', code: 'PRS' }
-    ];
-
-    this.studies = [{name: "soft"}, {name: "design"}]
   }
 
   closeModal(){
@@ -83,7 +63,7 @@ export class ApplicantResumeComponent {
   onSave() {
     if (this.resumeform.valid) {
       const data: Resume = this.resumeform.value;
-      console.log('Форма отправлена:', data);
+      console.log("form: ", data);
     } else {
       this.resumeform.markAllAsTouched();
     }

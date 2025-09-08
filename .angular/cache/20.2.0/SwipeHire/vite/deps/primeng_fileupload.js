@@ -1,37 +1,26 @@
 import {
+  Badge,
   Button
-} from "./chunk-BGBSUN47.js";
+} from "./chunk-APLOULEL.js";
+import "./chunk-5D57O2QH.js";
 import {
-  Badge
-} from "./chunk-MHXCISFD.js";
-import "./chunk-AZ5ARDDR.js";
-import {
-  Ripple
-} from "./chunk-HYF3MRBL.js";
-import {
-  ProgressBar
-} from "./chunk-TYVNRTOD.js";
-import "./chunk-6PBBDZZF.js";
-import "./chunk-47OQJQ3I.js";
-import "./chunk-7X7ALZCZ.js";
-import {
+  BaseComponent,
   PlusIcon,
+  Ripple,
   TimesIcon,
-  UploadIcon
-} from "./chunk-BZQRM5M2.js";
-import {
-  BaseComponent
-} from "./chunk-NXOEHORD.js";
+  UploadIcon,
+  style as style2
+} from "./chunk-AVXT3VC3.js";
 import {
   BaseStyle
-} from "./chunk-JYNX35UW.js";
+} from "./chunk-ZBS2NOLR.js";
 import {
   O,
   PrimeTemplate,
   SharedModule,
   TranslationKeys,
   W
-} from "./chunk-BT5VHKMK.js";
+} from "./chunk-WNS4NYGO.js";
 import {
   DomSanitizer
 } from "./chunk-UUCXCR4X.js";
@@ -44,7 +33,7 @@ import {
   style,
   transition,
   trigger
-} from "./chunk-HTGTBAD7.js";
+} from "./chunk-WIW3NUPL.js";
 import "./chunk-5ONLROKE.js";
 import "./chunk-WVTMP6TY.js";
 import {
@@ -125,6 +114,7 @@ import {
   ɵɵtext,
   ɵɵtextInterpolate,
   ɵɵtextInterpolate1,
+  ɵɵtextInterpolate2,
   ɵɵviewQuery
 } from "./chunk-7BCU3HWD.js";
 import "./chunk-JRFR6BLO.js";
@@ -133,7 +123,7 @@ import "./chunk-MARUHEWW.js";
 import "./chunk-WDMUDEB6.js";
 
 // node_modules/@primeuix/styles/dist/message/index.mjs
-var style2 = "\n    .p-message {\n        border-radius: dt('message.border.radius');\n        outline-width: dt('message.border.width');\n        outline-style: solid;\n    }\n\n    .p-message-content {\n        display: flex;\n        align-items: center;\n        padding: dt('message.content.padding');\n        gap: dt('message.content.gap');\n        height: 100%;\n    }\n\n    .p-message-icon {\n        flex-shrink: 0;\n    }\n\n    .p-message-close-button {\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        flex-shrink: 0;\n        margin-inline-start: auto;\n        overflow: hidden;\n        position: relative;\n        width: dt('message.close.button.width');\n        height: dt('message.close.button.height');\n        border-radius: dt('message.close.button.border.radius');\n        background: transparent;\n        transition:\n            background dt('message.transition.duration'),\n            color dt('message.transition.duration'),\n            outline-color dt('message.transition.duration'),\n            box-shadow dt('message.transition.duration'),\n            opacity 0.3s;\n        outline-color: transparent;\n        color: inherit;\n        padding: 0;\n        border: none;\n        cursor: pointer;\n        user-select: none;\n    }\n\n    .p-message-close-icon {\n        font-size: dt('message.close.icon.size');\n        width: dt('message.close.icon.size');\n        height: dt('message.close.icon.size');\n    }\n\n    .p-message-close-button:focus-visible {\n        outline-width: dt('message.close.button.focus.ring.width');\n        outline-style: dt('message.close.button.focus.ring.style');\n        outline-offset: dt('message.close.button.focus.ring.offset');\n    }\n\n    .p-message-info {\n        background: dt('message.info.background');\n        outline-color: dt('message.info.border.color');\n        color: dt('message.info.color');\n        box-shadow: dt('message.info.shadow');\n    }\n\n    .p-message-info .p-message-close-button:focus-visible {\n        outline-color: dt('message.info.close.button.focus.ring.color');\n        box-shadow: dt('message.info.close.button.focus.ring.shadow');\n    }\n\n    .p-message-info .p-message-close-button:hover {\n        background: dt('message.info.close.button.hover.background');\n    }\n\n    .p-message-info.p-message-outlined {\n        color: dt('message.info.outlined.color');\n        outline-color: dt('message.info.outlined.border.color');\n    }\n\n    .p-message-info.p-message-simple {\n        color: dt('message.info.simple.color');\n    }\n\n    .p-message-success {\n        background: dt('message.success.background');\n        outline-color: dt('message.success.border.color');\n        color: dt('message.success.color');\n        box-shadow: dt('message.success.shadow');\n    }\n\n    .p-message-success .p-message-close-button:focus-visible {\n        outline-color: dt('message.success.close.button.focus.ring.color');\n        box-shadow: dt('message.success.close.button.focus.ring.shadow');\n    }\n\n    .p-message-success .p-message-close-button:hover {\n        background: dt('message.success.close.button.hover.background');\n    }\n\n    .p-message-success.p-message-outlined {\n        color: dt('message.success.outlined.color');\n        outline-color: dt('message.success.outlined.border.color');\n    }\n\n    .p-message-success.p-message-simple {\n        color: dt('message.success.simple.color');\n    }\n\n    .p-message-warn {\n        background: dt('message.warn.background');\n        outline-color: dt('message.warn.border.color');\n        color: dt('message.warn.color');\n        box-shadow: dt('message.warn.shadow');\n    }\n\n    .p-message-warn .p-message-close-button:focus-visible {\n        outline-color: dt('message.warn.close.button.focus.ring.color');\n        box-shadow: dt('message.warn.close.button.focus.ring.shadow');\n    }\n\n    .p-message-warn .p-message-close-button:hover {\n        background: dt('message.warn.close.button.hover.background');\n    }\n\n    .p-message-warn.p-message-outlined {\n        color: dt('message.warn.outlined.color');\n        outline-color: dt('message.warn.outlined.border.color');\n    }\n\n    .p-message-warn.p-message-simple {\n        color: dt('message.warn.simple.color');\n    }\n\n    .p-message-error {\n        background: dt('message.error.background');\n        outline-color: dt('message.error.border.color');\n        color: dt('message.error.color');\n        box-shadow: dt('message.error.shadow');\n    }\n\n    .p-message-error .p-message-close-button:focus-visible {\n        outline-color: dt('message.error.close.button.focus.ring.color');\n        box-shadow: dt('message.error.close.button.focus.ring.shadow');\n    }\n\n    .p-message-error .p-message-close-button:hover {\n        background: dt('message.error.close.button.hover.background');\n    }\n\n    .p-message-error.p-message-outlined {\n        color: dt('message.error.outlined.color');\n        outline-color: dt('message.error.outlined.border.color');\n    }\n\n    .p-message-error.p-message-simple {\n        color: dt('message.error.simple.color');\n    }\n\n    .p-message-secondary {\n        background: dt('message.secondary.background');\n        outline-color: dt('message.secondary.border.color');\n        color: dt('message.secondary.color');\n        box-shadow: dt('message.secondary.shadow');\n    }\n\n    .p-message-secondary .p-message-close-button:focus-visible {\n        outline-color: dt('message.secondary.close.button.focus.ring.color');\n        box-shadow: dt('message.secondary.close.button.focus.ring.shadow');\n    }\n\n    .p-message-secondary .p-message-close-button:hover {\n        background: dt('message.secondary.close.button.hover.background');\n    }\n\n    .p-message-secondary.p-message-outlined {\n        color: dt('message.secondary.outlined.color');\n        outline-color: dt('message.secondary.outlined.border.color');\n    }\n\n    .p-message-secondary.p-message-simple {\n        color: dt('message.secondary.simple.color');\n    }\n\n    .p-message-contrast {\n        background: dt('message.contrast.background');\n        outline-color: dt('message.contrast.border.color');\n        color: dt('message.contrast.color');\n        box-shadow: dt('message.contrast.shadow');\n    }\n\n    .p-message-contrast .p-message-close-button:focus-visible {\n        outline-color: dt('message.contrast.close.button.focus.ring.color');\n        box-shadow: dt('message.contrast.close.button.focus.ring.shadow');\n    }\n\n    .p-message-contrast .p-message-close-button:hover {\n        background: dt('message.contrast.close.button.hover.background');\n    }\n\n    .p-message-contrast.p-message-outlined {\n        color: dt('message.contrast.outlined.color');\n        outline-color: dt('message.contrast.outlined.border.color');\n    }\n\n    .p-message-contrast.p-message-simple {\n        color: dt('message.contrast.simple.color');\n    }\n\n    .p-message-text {\n        font-size: dt('message.text.font.size');\n        font-weight: dt('message.text.font.weight');\n    }\n\n    .p-message-icon {\n        font-size: dt('message.icon.size');\n        width: dt('message.icon.size');\n        height: dt('message.icon.size');\n    }\n\n    .p-message-enter-from {\n        opacity: 0;\n    }\n\n    .p-message-enter-active {\n        transition: opacity 0.3s;\n    }\n\n    .p-message.p-message-leave-from {\n        max-height: 1000px;\n    }\n\n    .p-message.p-message-leave-to {\n        max-height: 0;\n        opacity: 0;\n        margin: 0;\n    }\n\n    .p-message-leave-active {\n        overflow: hidden;\n        transition:\n            max-height 0.45s cubic-bezier(0, 1, 0, 1),\n            opacity 0.3s,\n            margin 0.3s;\n    }\n\n    .p-message-leave-active .p-message-close-button {\n        opacity: 0;\n    }\n\n    .p-message-sm .p-message-content {\n        padding: dt('message.content.sm.padding');\n    }\n\n    .p-message-sm .p-message-text {\n        font-size: dt('message.text.sm.font.size');\n    }\n\n    .p-message-sm .p-message-icon {\n        font-size: dt('message.icon.sm.size');\n        width: dt('message.icon.sm.size');\n        height: dt('message.icon.sm.size');\n    }\n\n    .p-message-sm .p-message-close-icon {\n        font-size: dt('message.close.icon.sm.size');\n        width: dt('message.close.icon.sm.size');\n        height: dt('message.close.icon.sm.size');\n    }\n\n    .p-message-lg .p-message-content {\n        padding: dt('message.content.lg.padding');\n    }\n\n    .p-message-lg .p-message-text {\n        font-size: dt('message.text.lg.font.size');\n    }\n\n    .p-message-lg .p-message-icon {\n        font-size: dt('message.icon.lg.size');\n        width: dt('message.icon.lg.size');\n        height: dt('message.icon.lg.size');\n    }\n\n    .p-message-lg .p-message-close-icon {\n        font-size: dt('message.close.icon.lg.size');\n        width: dt('message.close.icon.lg.size');\n        height: dt('message.close.icon.lg.size');\n    }\n\n    .p-message-outlined {\n        background: transparent;\n        outline-width: dt('message.outlined.border.width');\n    }\n\n    .p-message-simple {\n        background: transparent;\n        outline-color: transparent;\n        box-shadow: none;\n    }\n\n    .p-message-simple .p-message-content {\n        padding: dt('message.simple.content.padding');\n    }\n\n    .p-message-outlined .p-message-close-button:hover,\n    .p-message-simple .p-message-close-button:hover {\n        background: transparent;\n    }\n";
+var style3 = "\n    .p-message {\n        border-radius: dt('message.border.radius');\n        outline-width: dt('message.border.width');\n        outline-style: solid;\n    }\n\n    .p-message-content {\n        display: flex;\n        align-items: center;\n        padding: dt('message.content.padding');\n        gap: dt('message.content.gap');\n        height: 100%;\n    }\n\n    .p-message-icon {\n        flex-shrink: 0;\n    }\n\n    .p-message-close-button {\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        flex-shrink: 0;\n        margin-inline-start: auto;\n        overflow: hidden;\n        position: relative;\n        width: dt('message.close.button.width');\n        height: dt('message.close.button.height');\n        border-radius: dt('message.close.button.border.radius');\n        background: transparent;\n        transition:\n            background dt('message.transition.duration'),\n            color dt('message.transition.duration'),\n            outline-color dt('message.transition.duration'),\n            box-shadow dt('message.transition.duration'),\n            opacity 0.3s;\n        outline-color: transparent;\n        color: inherit;\n        padding: 0;\n        border: none;\n        cursor: pointer;\n        user-select: none;\n    }\n\n    .p-message-close-icon {\n        font-size: dt('message.close.icon.size');\n        width: dt('message.close.icon.size');\n        height: dt('message.close.icon.size');\n    }\n\n    .p-message-close-button:focus-visible {\n        outline-width: dt('message.close.button.focus.ring.width');\n        outline-style: dt('message.close.button.focus.ring.style');\n        outline-offset: dt('message.close.button.focus.ring.offset');\n    }\n\n    .p-message-info {\n        background: dt('message.info.background');\n        outline-color: dt('message.info.border.color');\n        color: dt('message.info.color');\n        box-shadow: dt('message.info.shadow');\n    }\n\n    .p-message-info .p-message-close-button:focus-visible {\n        outline-color: dt('message.info.close.button.focus.ring.color');\n        box-shadow: dt('message.info.close.button.focus.ring.shadow');\n    }\n\n    .p-message-info .p-message-close-button:hover {\n        background: dt('message.info.close.button.hover.background');\n    }\n\n    .p-message-info.p-message-outlined {\n        color: dt('message.info.outlined.color');\n        outline-color: dt('message.info.outlined.border.color');\n    }\n\n    .p-message-info.p-message-simple {\n        color: dt('message.info.simple.color');\n    }\n\n    .p-message-success {\n        background: dt('message.success.background');\n        outline-color: dt('message.success.border.color');\n        color: dt('message.success.color');\n        box-shadow: dt('message.success.shadow');\n    }\n\n    .p-message-success .p-message-close-button:focus-visible {\n        outline-color: dt('message.success.close.button.focus.ring.color');\n        box-shadow: dt('message.success.close.button.focus.ring.shadow');\n    }\n\n    .p-message-success .p-message-close-button:hover {\n        background: dt('message.success.close.button.hover.background');\n    }\n\n    .p-message-success.p-message-outlined {\n        color: dt('message.success.outlined.color');\n        outline-color: dt('message.success.outlined.border.color');\n    }\n\n    .p-message-success.p-message-simple {\n        color: dt('message.success.simple.color');\n    }\n\n    .p-message-warn {\n        background: dt('message.warn.background');\n        outline-color: dt('message.warn.border.color');\n        color: dt('message.warn.color');\n        box-shadow: dt('message.warn.shadow');\n    }\n\n    .p-message-warn .p-message-close-button:focus-visible {\n        outline-color: dt('message.warn.close.button.focus.ring.color');\n        box-shadow: dt('message.warn.close.button.focus.ring.shadow');\n    }\n\n    .p-message-warn .p-message-close-button:hover {\n        background: dt('message.warn.close.button.hover.background');\n    }\n\n    .p-message-warn.p-message-outlined {\n        color: dt('message.warn.outlined.color');\n        outline-color: dt('message.warn.outlined.border.color');\n    }\n\n    .p-message-warn.p-message-simple {\n        color: dt('message.warn.simple.color');\n    }\n\n    .p-message-error {\n        background: dt('message.error.background');\n        outline-color: dt('message.error.border.color');\n        color: dt('message.error.color');\n        box-shadow: dt('message.error.shadow');\n    }\n\n    .p-message-error .p-message-close-button:focus-visible {\n        outline-color: dt('message.error.close.button.focus.ring.color');\n        box-shadow: dt('message.error.close.button.focus.ring.shadow');\n    }\n\n    .p-message-error .p-message-close-button:hover {\n        background: dt('message.error.close.button.hover.background');\n    }\n\n    .p-message-error.p-message-outlined {\n        color: dt('message.error.outlined.color');\n        outline-color: dt('message.error.outlined.border.color');\n    }\n\n    .p-message-error.p-message-simple {\n        color: dt('message.error.simple.color');\n    }\n\n    .p-message-secondary {\n        background: dt('message.secondary.background');\n        outline-color: dt('message.secondary.border.color');\n        color: dt('message.secondary.color');\n        box-shadow: dt('message.secondary.shadow');\n    }\n\n    .p-message-secondary .p-message-close-button:focus-visible {\n        outline-color: dt('message.secondary.close.button.focus.ring.color');\n        box-shadow: dt('message.secondary.close.button.focus.ring.shadow');\n    }\n\n    .p-message-secondary .p-message-close-button:hover {\n        background: dt('message.secondary.close.button.hover.background');\n    }\n\n    .p-message-secondary.p-message-outlined {\n        color: dt('message.secondary.outlined.color');\n        outline-color: dt('message.secondary.outlined.border.color');\n    }\n\n    .p-message-secondary.p-message-simple {\n        color: dt('message.secondary.simple.color');\n    }\n\n    .p-message-contrast {\n        background: dt('message.contrast.background');\n        outline-color: dt('message.contrast.border.color');\n        color: dt('message.contrast.color');\n        box-shadow: dt('message.contrast.shadow');\n    }\n\n    .p-message-contrast .p-message-close-button:focus-visible {\n        outline-color: dt('message.contrast.close.button.focus.ring.color');\n        box-shadow: dt('message.contrast.close.button.focus.ring.shadow');\n    }\n\n    .p-message-contrast .p-message-close-button:hover {\n        background: dt('message.contrast.close.button.hover.background');\n    }\n\n    .p-message-contrast.p-message-outlined {\n        color: dt('message.contrast.outlined.color');\n        outline-color: dt('message.contrast.outlined.border.color');\n    }\n\n    .p-message-contrast.p-message-simple {\n        color: dt('message.contrast.simple.color');\n    }\n\n    .p-message-text {\n        font-size: dt('message.text.font.size');\n        font-weight: dt('message.text.font.weight');\n    }\n\n    .p-message-icon {\n        font-size: dt('message.icon.size');\n        width: dt('message.icon.size');\n        height: dt('message.icon.size');\n    }\n\n    .p-message-enter-from {\n        opacity: 0;\n    }\n\n    .p-message-enter-active {\n        transition: opacity 0.3s;\n    }\n\n    .p-message.p-message-leave-from {\n        max-height: 1000px;\n    }\n\n    .p-message.p-message-leave-to {\n        max-height: 0;\n        opacity: 0;\n        margin: 0;\n    }\n\n    .p-message-leave-active {\n        overflow: hidden;\n        transition:\n            max-height 0.45s cubic-bezier(0, 1, 0, 1),\n            opacity 0.3s,\n            margin 0.3s;\n    }\n\n    .p-message-leave-active .p-message-close-button {\n        opacity: 0;\n    }\n\n    .p-message-sm .p-message-content {\n        padding: dt('message.content.sm.padding');\n    }\n\n    .p-message-sm .p-message-text {\n        font-size: dt('message.text.sm.font.size');\n    }\n\n    .p-message-sm .p-message-icon {\n        font-size: dt('message.icon.sm.size');\n        width: dt('message.icon.sm.size');\n        height: dt('message.icon.sm.size');\n    }\n\n    .p-message-sm .p-message-close-icon {\n        font-size: dt('message.close.icon.sm.size');\n        width: dt('message.close.icon.sm.size');\n        height: dt('message.close.icon.sm.size');\n    }\n\n    .p-message-lg .p-message-content {\n        padding: dt('message.content.lg.padding');\n    }\n\n    .p-message-lg .p-message-text {\n        font-size: dt('message.text.lg.font.size');\n    }\n\n    .p-message-lg .p-message-icon {\n        font-size: dt('message.icon.lg.size');\n        width: dt('message.icon.lg.size');\n        height: dt('message.icon.lg.size');\n    }\n\n    .p-message-lg .p-message-close-icon {\n        font-size: dt('message.close.icon.lg.size');\n        width: dt('message.close.icon.lg.size');\n        height: dt('message.close.icon.lg.size');\n    }\n\n    .p-message-outlined {\n        background: transparent;\n        outline-width: dt('message.outlined.border.width');\n    }\n\n    .p-message-simple {\n        background: transparent;\n        outline-color: transparent;\n        box-shadow: none;\n    }\n\n    .p-message-simple .p-message-content {\n        padding: dt('message.simple.content.padding');\n    }\n\n    .p-message-outlined .p-message-close-button:hover,\n    .p-message-simple .p-message-close-button:hover {\n        background: transparent;\n    }\n";
 
 // node_modules/primeng/fesm2022/primeng-message.mjs
 var _c0 = ["container"];
@@ -347,7 +337,7 @@ var classes = {
 };
 var MessageStyle = class _MessageStyle extends BaseStyle {
   name = "message";
-  theme = style2;
+  theme = style3;
   classes = classes;
   static ɵfac = /* @__PURE__ */ (() => {
     let ɵMessageStyle_BaseFactory;
@@ -761,12 +751,305 @@ var MessageModule = class _MessageModule {
   }], null, null);
 })();
 
+// node_modules/primeng/fesm2022/primeng-progressbar.mjs
+var _c02 = ["content"];
+var _c12 = (a0) => ({
+  $implicit: a0
+});
+function ProgressBar_div_0_div_2_Template(rf, ctx) {
+  if (rf & 1) {
+    ɵɵelementStart(0, "div");
+    ɵɵtext(1);
+    ɵɵelementEnd();
+  }
+  if (rf & 2) {
+    const ctx_r0 = ɵɵnextContext(2);
+    ɵɵstyleProp("display", ctx_r0.value != null && ctx_r0.value !== 0 ? "flex" : "none");
+    ɵɵattribute("data-pc-section", "label");
+    ɵɵadvance();
+    ɵɵtextInterpolate2("", ctx_r0.value, "", ctx_r0.unit);
+  }
+}
+function ProgressBar_div_0_ng_container_3_Template(rf, ctx) {
+  if (rf & 1) {
+    ɵɵelementContainer(0);
+  }
+}
+function ProgressBar_div_0_Template(rf, ctx) {
+  if (rf & 1) {
+    ɵɵelementStart(0, "div")(1, "div");
+    ɵɵtemplate(2, ProgressBar_div_0_div_2_Template, 2, 5, "div", 2)(3, ProgressBar_div_0_ng_container_3_Template, 1, 0, "ng-container", 3);
+    ɵɵelementEnd()();
+  }
+  if (rf & 2) {
+    const ctx_r0 = ɵɵnextContext();
+    ɵɵclassMap(ctx_r0.cn(ctx_r0.cx("value"), ctx_r0.valueStyleClass));
+    ɵɵstyleProp("width", ctx_r0.value + "%")("display", "flex")("background", ctx_r0.color);
+    ɵɵattribute("data-pc-section", "value");
+    ɵɵadvance();
+    ɵɵclassMap(ctx_r0.cx("label"));
+    ɵɵadvance();
+    ɵɵproperty("ngIf", ctx_r0.showValue && !ctx_r0.contentTemplate && !ctx_r0._contentTemplate);
+    ɵɵadvance();
+    ɵɵproperty("ngTemplateOutlet", ctx_r0.contentTemplate || ctx_r0._contentTemplate)("ngTemplateOutletContext", ɵɵpureFunction1(14, _c12, ctx_r0.value));
+  }
+}
+function ProgressBar_div_1_Template(rf, ctx) {
+  if (rf & 1) {
+    ɵɵelement(0, "div");
+  }
+  if (rf & 2) {
+    const ctx_r0 = ɵɵnextContext();
+    ɵɵclassMap(ctx_r0.cn(ctx_r0.cx("value"), ctx_r0.valueStyleClass));
+    ɵɵstyleProp("background", ctx_r0.color);
+    ɵɵattribute("data-pc-section", "value");
+  }
+}
+var classes2 = {
+  root: ({
+    instance
+  }) => ["p-progressbar p-component", {
+    "p-progressbar-determinate": instance.mode == "determinate",
+    "p-progressbar-indeterminate": instance.mode == "indeterminate"
+  }],
+  value: "p-progressbar-value",
+  label: "p-progressbar-label"
+};
+var ProgressBarStyle = class _ProgressBarStyle extends BaseStyle {
+  name = "progressbar";
+  theme = style2;
+  classes = classes2;
+  static ɵfac = /* @__PURE__ */ (() => {
+    let ɵProgressBarStyle_BaseFactory;
+    return function ProgressBarStyle_Factory(__ngFactoryType__) {
+      return (ɵProgressBarStyle_BaseFactory || (ɵProgressBarStyle_BaseFactory = ɵɵgetInheritedFactory(_ProgressBarStyle)))(__ngFactoryType__ || _ProgressBarStyle);
+    };
+  })();
+  static ɵprov = ɵɵdefineInjectable({
+    token: _ProgressBarStyle,
+    factory: _ProgressBarStyle.ɵfac
+  });
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(ProgressBarStyle, [{
+    type: Injectable
+  }], null, null);
+})();
+var ProgressBarClasses;
+(function(ProgressBarClasses2) {
+  ProgressBarClasses2["root"] = "p-progressbar";
+  ProgressBarClasses2["value"] = "p-progressbar-value";
+  ProgressBarClasses2["label"] = "p-progressbar-label";
+})(ProgressBarClasses || (ProgressBarClasses = {}));
+var ProgressBar = class _ProgressBar extends BaseComponent {
+  /**
+   * Current value of the progress.
+   * @group Props
+   */
+  value;
+  /**
+   * Whether to display the progress bar value.
+   * @group Props
+   */
+  showValue = true;
+  /**
+   * Style class of the element.
+   * @deprecated since v20.0.0, use `class` instead.
+   * @group Props
+   */
+  styleClass;
+  /**
+   * Style class of the value element.
+   * @group Props
+   */
+  valueStyleClass;
+  /**
+   * Unit sign appended to the value.
+   * @group Props
+   */
+  unit = "%";
+  /**
+   * Defines the mode of the progress
+   * @group Props
+   */
+  mode = "determinate";
+  /**
+   * Color for the background of the progress.
+   * @group Props
+   */
+  color;
+  /**
+   * Template of the content.
+   * @group templates
+   */
+  contentTemplate;
+  _componentStyle = inject(ProgressBarStyle);
+  templates;
+  _contentTemplate;
+  ngAfterContentInit() {
+    this.templates?.forEach((item) => {
+      switch (item.getType()) {
+        case "content":
+          this._contentTemplate = item.template;
+          break;
+        default:
+          this._contentTemplate = item.template;
+      }
+    });
+  }
+  static ɵfac = /* @__PURE__ */ (() => {
+    let ɵProgressBar_BaseFactory;
+    return function ProgressBar_Factory(__ngFactoryType__) {
+      return (ɵProgressBar_BaseFactory || (ɵProgressBar_BaseFactory = ɵɵgetInheritedFactory(_ProgressBar)))(__ngFactoryType__ || _ProgressBar);
+    };
+  })();
+  static ɵcmp = ɵɵdefineComponent({
+    type: _ProgressBar,
+    selectors: [["p-progressBar"], ["p-progressbar"], ["p-progress-bar"]],
+    contentQueries: function ProgressBar_ContentQueries(rf, ctx, dirIndex) {
+      if (rf & 1) {
+        ɵɵcontentQuery(dirIndex, _c02, 4);
+        ɵɵcontentQuery(dirIndex, PrimeTemplate, 4);
+      }
+      if (rf & 2) {
+        let _t;
+        ɵɵqueryRefresh(_t = ɵɵloadQuery()) && (ctx.contentTemplate = _t.first);
+        ɵɵqueryRefresh(_t = ɵɵloadQuery()) && (ctx.templates = _t);
+      }
+    },
+    hostVars: 8,
+    hostBindings: function ProgressBar_HostBindings(rf, ctx) {
+      if (rf & 2) {
+        ɵɵattribute("aria-valuemin", 0)("aria-valuenow", ctx.value)("aria-valuemax", 100)("data-pc-name", "progressbar")("data-pc-section", "root")("aria-level", ctx.value + ctx.unit);
+        ɵɵclassMap(ctx.cn(ctx.cx("root"), ctx.styleClass));
+      }
+    },
+    inputs: {
+      value: [2, "value", "value", numberAttribute],
+      showValue: [2, "showValue", "showValue", booleanAttribute],
+      styleClass: "styleClass",
+      valueStyleClass: "valueStyleClass",
+      unit: "unit",
+      mode: "mode",
+      color: "color"
+    },
+    features: [ɵɵProvidersFeature([ProgressBarStyle]), ɵɵInheritDefinitionFeature],
+    decls: 2,
+    vars: 2,
+    consts: [[3, "class", "width", "display", "background", 4, "ngIf"], [3, "class", "background", 4, "ngIf"], [3, "display", 4, "ngIf"], [4, "ngTemplateOutlet", "ngTemplateOutletContext"]],
+    template: function ProgressBar_Template(rf, ctx) {
+      if (rf & 1) {
+        ɵɵtemplate(0, ProgressBar_div_0_Template, 4, 16, "div", 0)(1, ProgressBar_div_1_Template, 1, 5, "div", 1);
+      }
+      if (rf & 2) {
+        ɵɵproperty("ngIf", ctx.mode === "determinate");
+        ɵɵadvance();
+        ɵɵproperty("ngIf", ctx.mode === "indeterminate");
+      }
+    },
+    dependencies: [CommonModule, NgIf, NgTemplateOutlet, SharedModule],
+    encapsulation: 2,
+    changeDetection: 0
+  });
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(ProgressBar, [{
+    type: Component,
+    args: [{
+      selector: "p-progressBar, p-progressbar, p-progress-bar",
+      standalone: true,
+      imports: [CommonModule, SharedModule],
+      template: `
+        <div *ngIf="mode === 'determinate'" [class]="cn(cx('value'), valueStyleClass)" [style.width]="value + '%'" [style.display]="'flex'" [style.background]="color" [attr.data-pc-section]="'value'">
+            <div [class]="cx('label')">
+                <div *ngIf="showValue && !contentTemplate && !_contentTemplate" [style.display]="value != null && value !== 0 ? 'flex' : 'none'" [attr.data-pc-section]="'label'">{{ value }}{{ unit }}</div>
+                <ng-container *ngTemplateOutlet="contentTemplate || _contentTemplate; context: { $implicit: value }"></ng-container>
+            </div>
+        </div>
+        <div *ngIf="mode === 'indeterminate'" [class]="cn(cx('value'), valueStyleClass)" [style.background]="color" [attr.data-pc-section]="'value'"></div>
+    `,
+      changeDetection: ChangeDetectionStrategy.OnPush,
+      encapsulation: ViewEncapsulation.None,
+      providers: [ProgressBarStyle],
+      host: {
+        "[attr.aria-valuemin]": "0",
+        "[attr.aria-valuenow]": "value",
+        "[attr.aria-valuemax]": "100",
+        "[attr.data-pc-name]": "'progressbar'",
+        "[attr.data-pc-section]": "'root'",
+        "[attr.aria-level]": "value + unit",
+        "[class]": "cn(cx('root'), styleClass)"
+      }
+    }]
+  }], null, {
+    value: [{
+      type: Input,
+      args: [{
+        transform: numberAttribute
+      }]
+    }],
+    showValue: [{
+      type: Input,
+      args: [{
+        transform: booleanAttribute
+      }]
+    }],
+    styleClass: [{
+      type: Input
+    }],
+    valueStyleClass: [{
+      type: Input
+    }],
+    unit: [{
+      type: Input
+    }],
+    mode: [{
+      type: Input
+    }],
+    color: [{
+      type: Input
+    }],
+    contentTemplate: [{
+      type: ContentChild,
+      args: ["content", {
+        descendants: false
+      }]
+    }],
+    templates: [{
+      type: ContentChildren,
+      args: [PrimeTemplate]
+    }]
+  });
+})();
+var ProgressBarModule = class _ProgressBarModule {
+  static ɵfac = function ProgressBarModule_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || _ProgressBarModule)();
+  };
+  static ɵmod = ɵɵdefineNgModule({
+    type: _ProgressBarModule,
+    imports: [ProgressBar, SharedModule],
+    exports: [ProgressBar, SharedModule]
+  });
+  static ɵinj = ɵɵdefineInjector({
+    imports: [ProgressBar, SharedModule, SharedModule]
+  });
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(ProgressBarModule, [{
+    type: NgModule,
+    args: [{
+      imports: [ProgressBar, SharedModule],
+      exports: [ProgressBar, SharedModule]
+    }]
+  }], null, null);
+})();
+
 // node_modules/@primeuix/styles/dist/fileupload/index.mjs
-var style3 = "\n    .p-fileupload input[type='file'] {\n        display: none;\n    }\n\n    .p-fileupload-advanced {\n        border: 1px solid dt('fileupload.border.color');\n        border-radius: dt('fileupload.border.radius');\n        background: dt('fileupload.background');\n        color: dt('fileupload.color');\n    }\n\n    .p-fileupload-header {\n        display: flex;\n        align-items: center;\n        padding: dt('fileupload.header.padding');\n        background: dt('fileupload.header.background');\n        color: dt('fileupload.header.color');\n        border-style: solid;\n        border-width: dt('fileupload.header.border.width');\n        border-color: dt('fileupload.header.border.color');\n        border-radius: dt('fileupload.header.border.radius');\n        gap: dt('fileupload.header.gap');\n    }\n\n    .p-fileupload-content {\n        border: 1px solid transparent;\n        display: flex;\n        flex-direction: column;\n        gap: dt('fileupload.content.gap');\n        transition: border-color dt('fileupload.transition.duration');\n        padding: dt('fileupload.content.padding');\n    }\n\n    .p-fileupload-content .p-progressbar {\n        width: 100%;\n        height: dt('fileupload.progressbar.height');\n    }\n\n    .p-fileupload-file-list {\n        display: flex;\n        flex-direction: column;\n        gap: dt('fileupload.filelist.gap');\n    }\n\n    .p-fileupload-file {\n        display: flex;\n        flex-wrap: wrap;\n        align-items: center;\n        padding: dt('fileupload.file.padding');\n        border-block-end: 1px solid dt('fileupload.file.border.color');\n        gap: dt('fileupload.file.gap');\n    }\n\n    .p-fileupload-file:last-child {\n        border-block-end: 0;\n    }\n\n    .p-fileupload-file-info {\n        display: flex;\n        flex-direction: column;\n        gap: dt('fileupload.file.info.gap');\n    }\n\n    .p-fileupload-file-thumbnail {\n        flex-shrink: 0;\n    }\n\n    .p-fileupload-file-actions {\n        margin-inline-start: auto;\n    }\n\n    .p-fileupload-highlight {\n        border: 1px dashed dt('fileupload.content.highlight.border.color');\n    }\n\n    .p-fileupload-basic .p-message {\n        margin-block-end: dt('fileupload.basic.gap');\n    }\n\n    .p-fileupload-basic-content {\n        display: flex;\n        flex-wrap: wrap;\n        align-items: center;\n        gap: dt('fileupload.basic.gap');\n    }\n";
+var style4 = "\n    .p-fileupload input[type='file'] {\n        display: none;\n    }\n\n    .p-fileupload-advanced {\n        border: 1px solid dt('fileupload.border.color');\n        border-radius: dt('fileupload.border.radius');\n        background: dt('fileupload.background');\n        color: dt('fileupload.color');\n    }\n\n    .p-fileupload-header {\n        display: flex;\n        align-items: center;\n        padding: dt('fileupload.header.padding');\n        background: dt('fileupload.header.background');\n        color: dt('fileupload.header.color');\n        border-style: solid;\n        border-width: dt('fileupload.header.border.width');\n        border-color: dt('fileupload.header.border.color');\n        border-radius: dt('fileupload.header.border.radius');\n        gap: dt('fileupload.header.gap');\n    }\n\n    .p-fileupload-content {\n        border: 1px solid transparent;\n        display: flex;\n        flex-direction: column;\n        gap: dt('fileupload.content.gap');\n        transition: border-color dt('fileupload.transition.duration');\n        padding: dt('fileupload.content.padding');\n    }\n\n    .p-fileupload-content .p-progressbar {\n        width: 100%;\n        height: dt('fileupload.progressbar.height');\n    }\n\n    .p-fileupload-file-list {\n        display: flex;\n        flex-direction: column;\n        gap: dt('fileupload.filelist.gap');\n    }\n\n    .p-fileupload-file {\n        display: flex;\n        flex-wrap: wrap;\n        align-items: center;\n        padding: dt('fileupload.file.padding');\n        border-block-end: 1px solid dt('fileupload.file.border.color');\n        gap: dt('fileupload.file.gap');\n    }\n\n    .p-fileupload-file:last-child {\n        border-block-end: 0;\n    }\n\n    .p-fileupload-file-info {\n        display: flex;\n        flex-direction: column;\n        gap: dt('fileupload.file.info.gap');\n    }\n\n    .p-fileupload-file-thumbnail {\n        flex-shrink: 0;\n    }\n\n    .p-fileupload-file-actions {\n        margin-inline-start: auto;\n    }\n\n    .p-fileupload-highlight {\n        border: 1px dashed dt('fileupload.content.highlight.border.color');\n    }\n\n    .p-fileupload-basic .p-message {\n        margin-block-end: dt('fileupload.basic.gap');\n    }\n\n    .p-fileupload-basic-content {\n        display: flex;\n        flex-wrap: wrap;\n        align-items: center;\n        gap: dt('fileupload.basic.gap');\n    }\n";
 
 // node_modules/primeng/fesm2022/primeng-fileupload.mjs
-var _c02 = ["pFileContent", ""];
-var _c12 = (a0, a1, a2) => ({
+var _c03 = ["pFileContent", ""];
+var _c13 = (a0, a1, a2) => ({
   class: a0,
   file: a1,
   index: a2
@@ -789,7 +1072,7 @@ function FileContent_For_1_ng_template_10_Conditional_0_Template(rf, ctx) {
     const file_r6 = ctx_r4.$implicit;
     const ɵ$index_1_r2 = ctx_r4.$index;
     const ctx_r2 = ɵɵnextContext();
-    ɵɵproperty("ngTemplateOutlet", ctx_r2.fileRemoveIconTemplate())("ngTemplateOutletContext", ɵɵpureFunction3(2, _c12, iconClass_r4, file_r6, ɵ$index_1_r2));
+    ɵɵproperty("ngTemplateOutlet", ctx_r2.fileRemoveIconTemplate())("ngTemplateOutletContext", ɵɵpureFunction3(2, _c13, iconClass_r4, file_r6, ɵ$index_1_r2));
   }
 }
 function FileContent_For_1_ng_template_10_Conditional_1_Template(rf, ctx) {
@@ -871,7 +1154,7 @@ var _c9 = ["cancelicon"];
 var _c10 = ["empty"];
 var _c11 = ["advancedfileinput"];
 var _c122 = ["basicfileinput"];
-var _c13 = (a0, a1, a2, a3, a4) => ({
+var _c132 = (a0, a1, a2, a3, a4) => ({
   $implicit: a0,
   uploadedFiles: a1,
   chooseCallback: a2,
@@ -1348,7 +1631,7 @@ function FileUpload_div_0_Template(rf, ctx) {
     ɵɵadvance();
     ɵɵproperty("ngIf", !ctx_r1.headerTemplate && !ctx_r1._headerTemplate);
     ɵɵadvance();
-    ɵɵproperty("ngTemplateOutlet", ctx_r1.headerTemplate || ctx_r1._headerTemplate)("ngTemplateOutletContext", ɵɵpureFunction5(24, _c13, ctx_r1.files, ctx_r1.uploadedFiles, ctx_r1.choose.bind(ctx_r1), ctx_r1.clear.bind(ctx_r1), ctx_r1.upload.bind(ctx_r1)));
+    ɵɵproperty("ngTemplateOutlet", ctx_r1.headerTemplate || ctx_r1._headerTemplate)("ngTemplateOutletContext", ɵɵpureFunction5(24, _c132, ctx_r1.files, ctx_r1.uploadedFiles, ctx_r1.choose.bind(ctx_r1), ctx_r1.clear.bind(ctx_r1), ctx_r1.upload.bind(ctx_r1)));
     ɵɵadvance();
     ɵɵproperty("ngTemplateOutlet", ctx_r1.toolbarTemplate || ctx_r1._toolbarTemplate);
     ɵɵadvance();
@@ -1577,7 +1860,7 @@ function FileUpload_div_1_Template(rf, ctx) {
     ɵɵconditional(!ctx_r1.auto ? 9 : -1);
   }
 }
-var classes2 = {
+var classes3 = {
   root: ({
     instance
   }) => `p-fileupload p-fileupload-${instance.mode} p-component`,
@@ -1599,8 +1882,8 @@ var classes2 = {
 };
 var FileUploadStyle = class _FileUploadStyle extends BaseStyle {
   name = "fileupload";
-  theme = style3;
-  classes = classes2;
+  theme = style4;
+  classes = classes3;
   static ɵfac = /* @__PURE__ */ (() => {
     let ɵFileUploadStyle_BaseFactory;
     return function FileUploadStyle_Factory(__ngFactoryType__) {
@@ -1691,7 +1974,7 @@ var FileContent = class _FileContent extends BaseComponent {
       onRemove: "onRemove"
     },
     features: [ɵɵProvidersFeature([FileUploadStyle]), ɵɵInheritDefinitionFeature],
-    attrs: _c02,
+    attrs: _c03,
     decls: 2,
     vars: 0,
     consts: [["icon", ""], [3, "class"], ["role", "presentation", 3, "src", "width"], [3, "value", "severity"], ["text", "", "rounded", "", "severity", "danger", 3, "onClick", "styleClass"], ["data-p-icon", "times", 3, "class"], [4, "ngTemplateOutlet", "ngTemplateOutletContext"], ["data-p-icon", "times"]],

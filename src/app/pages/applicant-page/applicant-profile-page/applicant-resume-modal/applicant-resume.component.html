@@ -27,9 +27,8 @@
           </div>
 
           <div class="relative w-[150px] h-[150px] cursor-pointer">
-            <img [src]="imageSrc" alt="Image" width="150" height="150" (click)="fileInput.click()" />
+            <img ngSrc="imageSrc" alt="Image" width="150" height="150" (click)="fileInput.click()" />
 
-            <!-- Hidden file input -->
             <input
               #fileInput
               type="file"
@@ -55,9 +54,21 @@
 
         <div class="select-bar">
             <label>City</label>
-          <p-select [options]="cities" formControlName="location" optionLabel="name" optionValue="code" placeholder="Select a City" [editable]="true" [style]="{ width: '150px' }" />
+          <p-select [options]="cities"
+                    formControlName="location"
+                    optionLabel="name"
+                    optionValue="code"
+                    placeholder="Select a City"
+                    [editable]="true"
+                    [style]="{ width: '150px' }" />
           <label>Study</label>
-          <p-select [options]="studies" formControlName="study" optionLabel="name" optionValue="name" placeholder="Select a Study" [editable]="true" [style]="{ width: '150px' }" />
+          <p-select [options]="studies"
+                    formControlName="study"
+                    optionLabel="name"
+                    optionValue="name"
+                    placeholder="Select a Study"
+                    [editable]="true"
+                    [style]="{ width: '150px' }" />
         </div>
 
         <div class="input-wrapper phone-input">
@@ -83,7 +94,7 @@
         <div class="multi-sel">
           <label class="skills">Skills</label>
           <p-multiSelect
-            [options]="languages"
+            [options]="skills"
             formControlName="skills"
             optionLabel="name"
             optionValue="name"

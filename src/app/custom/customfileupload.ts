@@ -1,15 +1,13 @@
 import {Component, ViewEncapsulation} from '@angular/core';
 import {FileSelectEvent, FileUpload} from 'primeng/fileupload';
 import {Button} from 'primeng/button';
-import {NgOptimizedImage} from '@angular/common';
 
 
 @Component({
   selector: 'app-upload-file',
   imports: [
     FileUpload,
-    Button,
-    NgOptimizedImage
+    Button
   ],
   encapsulation: ViewEncapsulation.None,
   template: `
@@ -23,7 +21,6 @@ import {NgOptimizedImage} from '@angular/common';
       (onSelect)="onSelectedFiles($event)"
     >
 
-      <!-- Пустой header, чтобы скрыть кнопки -->
       <ng-template #header let-files let-chooseCallback="chooseCallback" let-clearCallback="clearCallback"
                    let-uploadCallback="uploadCallback">
         <div class="flex justify-center items-center w-full">
@@ -36,7 +33,6 @@ import {NgOptimizedImage} from '@angular/common';
         </div>
       </ng-template>
 
-      <!-- drag & drop -->
       <ng-template #empty>
         <div class="flex items-center justify-center flex-col rounded-md p-6">
           <p class="mt-6 mb-0 text-center">Drag Your Resume here</p>
@@ -54,6 +50,7 @@ import {NgOptimizedImage} from '@angular/common';
           </div>
         </ng-template>
       }
+
 
     </p-fileupload>
   `,
@@ -78,7 +75,6 @@ export class CustomFileUpload{
   onSelectedFiles($event: FileSelectEvent) {
 
   }
-//file -> choose ->
 
   choose(_event: MouseEvent, chooseCallback: () => void) {
     chooseCallback();
