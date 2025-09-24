@@ -1,0 +1,1122 @@
+[?25l[2m◼[22m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[33m⠹[39m Building...
+[2K[1A[2K[G[33m⠸[39m Building...
+[2K[1A[2K[G[33m⠼[39m Building...
+[2K[1A[2K[G[33m⠴[39m Building...
+[2K[1A[2K[G[33m⠦[39m Building...
+[2K[1A[2K[G[33m⠧[39m Building...
+[2K[1A[2K[G[33m⠇[39m Building...
+[2K[1A[2K[G[33m⠏[39m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[33m⠹[39m Building...
+[2K[1A[2K[G[33m⠸[39m Building...
+[2K[1A[2K[G[33m⠼[39m Building...
+[2K[1A[2K[G[33m⠴[39m Building...
+[2K[1A[2K[G[33m⠦[39m Building...
+[2K[1A[2K[G[33m⠧[39m Building...
+[2K[1A[2K[G[32m✔[39m Building...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m         [2m | [22m[36m139.63 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m         [2m | [22m[2mstyles[22m       [2m | [22m [36m27.39 kB[39m[37m[2m | [22m[39m
+[37m[32mpolyfills.js[39m[37m       [2m | [22m[2mpolyfills[22m    [2m | [22m [36m95 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m[1m167.11 kB[22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [3.043 seconds][39m
+[37m[39m
+[37mWatch mode enabled. Watching for file changes...[39m
+[37mNOTE: Raw file sizes do not reflect development server per-request transformations.[39m
+[2m5:40:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because vite config has changed
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠦[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠧[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.838 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:63:10:[39m[22m
+[1m[31m[37m      63 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:42:15:[39m[22m
+[1m[31m[37m      42 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:75:9:[39m[22m
+[1m[31m[37m      75 │     age: [32m""[37m,[39m[22m
+[1m[31m         ╵          [32m~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'height'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:76:6:[39m[22m
+[1m[31m[37m      76 │       [32mheight[37m: "",[39m[22m
+[1m[31m         ╵       [32m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:76:12:[39m[22m
+[1m[31m[37m      76 │       height[32m:[37m "",[39m[22m
+[1m[31m         ╵             [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m[39m[22m[1m[31m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:76:14:[39m[22m
+[1m[31m[37m      76 │       height: [32m""[37m,[39m[22m
+[1m[31m         ��               [32m~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2552: Cannot find name 'image'. Did you mean 'Image'?[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:77:6:[39m[22m
+[1m[31m[37m      77 │       [32mimage[37m: "",[39m[22m
+[1m[31m         ╵       [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  'Image' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    node_modules/typescript/lib/lib.dom.d.ts:28543:12:[39m[22m
+[1m[31m[37m      28543 │ declare var [32mImage[37m: {[39m[22m
+[1m[31m            ╵             [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:77:11:[39m[22m
+[1m[31m[37m      77 │       image[32m:[37m "",[39m[22m
+[1m[31m         ╵            [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:77:13:[39m[22m
+[1m[31m[37m      77 │       image: [32m""[37m,[39m[22m
+[1m[31m         ╵              [32m~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'phone'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:78:6:[39m[22m
+[1m[31m[37m      78 │       [32mphone[37m: 0,[39m[22m
+[1m[31m         ╵       [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:78:11:[39m[22m
+[1m[31m[37m      78 │       phone[32m:[39m[22m[1m[31m[37m 0,[39m[22m
+[1m[31m         ╵            [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:78:13:[39m[22m
+[1m[31m[37m      78 │       phone: [32m0[37m,[39m[22m
+[1m[31m         ╵              [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:79:14:[39m[22m
+[1m[31m[37m      79 │       location[32m:[37m "",[39m[22m
+[1m[31m         ╵               [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:79:16:[39m[22m
+[1m[31m[37m      79 │       location: [32m""[37m,[39m[22m
+[1m[31m         ╵                 [32m~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'languages'. Did you mean the instance member 'this.languages'?[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:80:6:[39m[22m
+[1m[31m[37m      80 │       [32mlanguages[37m: [],[39m[22m
+[1m[31m         ╵       [32m~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:80:15:[39m[22m
+[1m[31m[37m      80 │       languages[32m:[37m [],[39m[22m
+[1m[31m         ╵                [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant[39m[22m[1m[31m-resume-modal/applicant-resume.component.ts:80:17:[39m[22m
+[1m[31m[37m      80 │       languages: [32m[][37m,[39m[22m
+[1m[31m         ╵                  [32m~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'skills'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:81:6:[39m[22m
+[1m[31m[37m      81 │       [32mskills[37m: "",[39m[22m
+[1m[31m         ╵       [32m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:81:12:[39m[22m
+[1m[31m[37m      81 │       skills[32m:[37m "",[39m[22m
+[1m[31m         ╵             [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:81:14:[39m[22m
+[1m[31m[37m      81 │       skills: [32m""[37m,[39m[22m
+[1m[31m         ╵               [32m~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'experience'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:82:6:[39m[22m
+[1m[31m[37m      82 │       [32mexperience[37m: "",[39m[22m
+[1m[31m         ╵       [32m~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:82:16:[39m[22m
+[1m[31m[37m      82 │       experience[32m:[37m "",[39m[22m
+[1m[31m         ╵                 [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/app[39m[22m[1m[31mlicant-resume-modal/applicant-resume.component.ts:82:18:[39m[22m
+[1m[31m[37m      82 │       experience: [32m""[37m,[39m[22m
+[1m[31m         ╵                   [32m~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'study'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:83:6:[39m[22m
+[1m[31m[37m      83 │       [32mstudy[37m: "",[39m[22m
+[1m[31m         ╵       [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1005: ';' expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:83:11:[39m[22m
+[1m[31m[37m      83 │       study[32m:[37m "",[39m[22m
+[1m[31m         ╵            [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2695: Left side of comma operator is unused and has no side effects.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:83:13:[39m[22m
+[1m[31m[37m      83 │       study: [32m""[37m,[39m[22m
+[1m[31m         ╵              [32m~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.562 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:63:10:[39m[22m
+[1m[31m[37m      63 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:42:15:[39m[22m
+[1m[31m[37m      42 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.464 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2341: Property 'cities' is private and only accessible within class 'ApplicantResumeComponent'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:57:31:[39m[22m
+[1m[31m[37m      57 │           <p-select [options]="[32mcities[37m" formControlName="location" ...[39m[22m
+[1m[31m         ╵                                [32m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:38:15:[39m[22m
+[1m[31m[37m      38 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:63:10:[39m[22m
+[1m[31m[37m      63 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:38:15:[39m[22m
+[1m[31m[37m      38 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2305: Module '"../../../../formdata/cities"' has no exported member 'City'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:11:16:[39m[22m
+[1m[31m[37m      11 │[39m[22m[1m[31m import {cities, [32mCity[37m} from '../../../../formdata/cities';[39m[22m
+[1m[31m         ╵                 [32m~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.236 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:63:10:[39m[22m
+[1m[31m[37m      63 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:32:15:[39m[22m
+[1m[31m[37m      32 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2305: Module '"../../../../formdata/cities"' has no exported member 'City'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:11:16:[39m[22m
+[1m[31m[37m      11 │ import {cities, [32mCity[37m} from '../../../../formdata/cities';[39m[22m
+[1m[31m         ╵                 [32m~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠴[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.503 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:63:10:[39m[22m
+[1m[31m[37m      63 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:34:15:[39m[22m
+[1m[31m[37m      34 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.329 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:63:10:[39m[22m
+[1m[31m[37m      63 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:34:15:[39m[22m
+[1m[31m[37m      34 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.294 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:75:10:[39m[22m
+[1m[31m[37m      75 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:34:15:[39m[22m
+[1m[31m[37m      34 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'Skills'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:43:10:[39m[22m
+[1m[31m[37m      43 │   skills: [32mSkills[37m[] | undefined;[39m[22m
+[1m[31m         ╵           [32m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.394 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:75:10:[39m[22m
+[1m[31m[37m      75 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:34:15:[39m[22m
+[1m[31m[37m      34 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.480 seconds][39m
+[37m[39m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate member "studies" in class body[0m [duplicate-class-member][39m[22m
+[1m[33m[39m[22m
+[1m[33m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:25:4:[39m[22m
+[1m[33m[37m      25 │     [32mstudies[37m;[39m[22m
+[1m[33m         ╵     [32m~~~~~~~[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m  The original member "studies" is here:[39m[22m
+[1m[33m[39m[22m
+[1m[33m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:24:4:[39m[22m
+[1m[33m[37m      24 │     [32mstudies[37m = study;[39m[22m
+[1m[33m         ╵     [32m~~~~~~~[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:75:10:[39m[22m
+[1m[31m[37m      75 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:31:15:[39m[22m
+[1m[31m[37m      31 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2687: All declarations of 'studies' must have identical modifiers.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:38:21:[39m[22m
+[1m[31m[37m      38 │   protected readonly [32mstudies[37m: Study[] = study;[39m[22m
+[1m[31m         ╵                      [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'study'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:38:40:[39m[22m
+[1m[31m[37m      38 │   protected readonly studies: Study[] = [32mstudy[37m;[39m[22m
+[1m[31m         ╵                                         [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2300: Duplicate identifier 'studies'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:39:2:[39m[22m
+[1m[31m[37m      39 │   [32mstudies[37m: Study[] | undefined;[39m[22m
+[1m[31m         ╵   [39m[22m[1m[31m[32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2687: All declarations of 'studies' must have identical modifiers.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:39:2:[39m[22m
+[1m[31m[37m      39 │   [32mstudies[37m: Study[] | undefined;[39m[22m
+[1m[31m         ╵   [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2717: Subsequent property declarations must have the same type.  Property 'studies' must be of type 'Study[]', but here has type 'Study[] | undefined'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:39:2:[39m[22m
+[1m[31m[37m      39 │   [32mstudies[37m: Study[] | undefined;[39m[22m
+[1m[31m         ╵   [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  'studies' was also declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:38:21:[39m[22m
+[1m[31m[37m      38 │   protected readonly [32mstudies[37m: Study[] = study;[39m[22m
+[1m[31m         ╵                      [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.328 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:75:10:[39m[22m
+[1m[31m[37m      75 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:31:15:[39m[22m
+[1m[31m[37m      31 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'study'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:38:40:[39m[22m
+[1m[31m[37m      38 │   protected readonly studies: Study[] = [32mstudy[37m;[39m[22m
+[1m[31m         ╵                                         [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.349 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:75:10:[39m[22m
+[1m[31m[37m      75 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:29:15:[39m[22m
+[1m[31m[37m      29 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2306: File '/Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/src/app/formdata/skills.ts' is not a module.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:14:28:[39m[22m
+[1m[31m[37m      14 │ import {Skill, skills} from [32m'../../../../formdata/skills'[37m;[39m[22m
+[1m[31m         ╵                             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.389 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:75:10:[39m[22m
+[1m[31m[37m      75 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:29:15:[39m[22m
+[1m[31m[37m      29 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.381 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:75:10:[39m[22m
+[1m[31m[37m      75 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:29:15:[39m[22m
+[1m[31m[37m      29 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.269 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:75:10:[39m[22m
+[1m[31m[37m      75 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:29:15:[39m[22m
+[1m[31m[37m      29 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.247 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG8001: 'leabel' is not a known element:[39m[22m
+[1m[31m1. If 'leabel' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.html:75:10:[39m[22m
+[1m[31m[37m      75 │           [32m<leabel>[37mPhone</leabel>[39m[22m
+[1m[31m         ╵           [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Error occurs in the template of component ApplicantResumeComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:29:15:[39m[22m
+[1m[31m[37m      29 │   templateUrl: [32m'./applicant-resume.component.html'[37m,[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+^[[A^[[A^[[B^[[B^[[B^[[A[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m         [2m | [22m[36m166.50 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m         [2m | [22m[2mstyles[22m       [2m | [22m [36m27.39 kB[39m[37m[2m | [22m[39m
+[37m[32mpolyfills.js[39m[37m       [2m | [22m[2mpolyfills[22m    [2m | [22m [36m95 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m[1m193.99 kB[22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.207 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.460 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1206: Decorators are not valid here.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-page/applicant-page.component.ts:5:0:[39m[22m
+[1m[31m[37m      5 │ [32m@[37mComponent({[39m[22m
+[1m[31m        ╵ [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m         [2m | [22m[36m168.00 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m         [2m | [22m[2mstyles[22m       [2m | [22m [36m27.39 kB[39m[37m[2m | [22m[39m
+[37m[32mpolyfills.js[39m[37m       [2m | [22m[2mpolyfills[22m    [2m | [22m [36m95 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m[1m195.49 kB[22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.204 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m [2m | [22m[36m168.06 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.476 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.321 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'getindalp' does not exist on type 'ApplicantPageComponent'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-page/applicant-page.component.ts:56:9:[39m[22m
+[1m[31m[37m      56 │     this.[32mgetindalp[37m();[39m[22m
+[1m[31m         ╵          [32m~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m         [2m | [22m[36m168.06 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m         [2m | [22m[2mstyles[22m       [2m | [22m [36m27.39 kB[39m[37m[2m | [22m[39m
+[37m[32mpolyfills.js[39m[37m       [2m | [22m[2mpolyfills[22m    [2m | [22m [36m95 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m[1m195.55 kB[22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.325 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m [2m | [22m[36m168.10 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.231 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[39m
+[37mNo output file changes.[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.533 seconds][39m
+[37m[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.414 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'encodeText'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:23:12:[39m[22m
+[1m[31m[37m      23 │   encoded = [32mencodeText[37m(message, shift);[39m[22m
+[1m[31m         ╵             [32m~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'message'. Did you mean the instance member 'this.message'?[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:23:23:[39m[22m
+[1m[31m[37m      23 │   encoded = encodeText([32mmessage[37m, shift);[39m[22m
+[1m[31m         ╵                        [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'shift'. Did you mean the instance member 'this.shift'?[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:23:32:[39m[22m
+[1m[31m[37m      23 │   encoded = encodeText(message, [32mshift[37m);[39m[22m
+[1m[31m         ╵                                 [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1434: Unexpected keyword or identifier.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:2:[39m[22m
+[1m[31m[37m      24 │   [32mconsole[37m.log(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵   [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'console' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:2:[39m[22m
+[1m[31m[37m      24 │   [32mconsole[37m.log(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵   [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1068: Unexpected token. A constructor, method, accessor, or property was expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/appl[39m[22m[1m[31micant-page/applicant-profile-page/applicant-profile-page.component.ts:24:9:[39m[22m
+[1m[31m[37m      24 │   console[32m.[37mlog(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵          [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2391: Function implementation is missing or not immediately following the declaration.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:10:[39m[22m
+[1m[31m[37m      24 │   console.[32mlog[37m(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵           [32m~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7010: 'log', which lacks return-type annotation, implicitly has an 'any' return type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:10:[39m[22m
+[1m[31m[37m      24 │   console.[32mlog[37m(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵           [32m~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'encoded' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:14:[39m[22m
+[1m[31m[37m      24 │   console.log([32mencoded[37m); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵               [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.332 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'encodeText'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:23:12:[39m[22m
+[1m[31m[37m      23 │   encoded = [32mencodeText[37m(message, shift);[39m[22m
+[1m[31m         ╵             [32m~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'message'. Did you mean the instance member 'this.message'?[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:23:23:[39m[22m
+[1m[31m[37m      23 │   encoded = encodeText([32mmessage[37m, shift);[39m[22m
+[1m[31m         ╵                        [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'shift'. Did you mean the instance member 'this.shift'?[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:23:32:[39m[22m
+[1m[31m[37m      23 │   encoded = encodeText(message, [32mshift[37m);[39m[22m
+[1m[31m         ╵                                 [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1434: Unexpected keyword or identifier.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:2:[39m[22m
+[1m[31m[37m      24 │   [32mconsole[37m.log(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵   [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'console' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:2:[39m[22m
+[1m[31m[37m      24 │   [32mconsole[37m.log(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵   [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1068: Unexpected token. A constructor, method, accessor, or property was expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/appl[39m[22m[1m[31micant-page/applicant-profile-page/applicant-profile-page.component.ts:24:9:[39m[22m
+[1m[31m[37m      24 │   console[32m.[37mlog(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵          [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2391: Function implementation is missing or not immediately following the declaration.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:10:[39m[22m
+[1m[31m[37m      24 │   console.[32mlog[37m(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵           [32m~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7010: 'log', which lacks return-type annotation, implicitly has an 'any' return type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:10:[39m[22m
+[1m[31m[37m      24 │   console.[32mlog[37m(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵           [32m~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'encoded' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:14:[39m[22m
+[1m[31m[37m      24 │   console.log([32mencoded[37m); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵               [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'ZERT1'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/under-line-animation.ts:30:18:[39m[22m
+[1m[31m[37m      30 │     const index = [32mZERT1[37m.findIndex(l => l.name === char);[39m[22m
+[1m[31m         ╵                   [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'l' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/under-line-animation.ts:30:34:[39m[22m
+[1m[31m[37m      30 │     const index = ZERT1.findIndex([32ml[37m => l.name === char);[39m[22m
+[1m[31m         ╵                                   [32m^[39m[22m[1m[31m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'ZERT1'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/under-line-animation.ts:33:39:[39m[22m
+[1m[31m[37m      33 │     const newIndex = (index + shift) % [32mZERT1[37m.length;[39m[22m
+[1m[31m         ╵                                        [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'ZERT1'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/under-line-animation.ts:34:11:[39m[22m
+[1m[31m[37m      34 │     return [32mZERT1[37m[newIndex].name;[39m[22m
+[1m[31m         ╵            [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.274 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'encodeText'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:23:12:[39m[22m
+[1m[31m[37m      23 │   encoded = [32mencodeText[37m(message, shift);[39m[22m
+[1m[31m         ╵             [32m~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'message'. Did you mean the instance member 'this.message'?[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:23:23:[39m[22m
+[1m[31m[37m      23 │   encoded = encodeText([32mmessage[37m, shift);[39m[22m
+[1m[31m         ╵                        [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2663: Cannot find name 'shift'. Did you mean the instance member 'this.shift'?[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:23:32:[39m[22m
+[1m[31m[37m      23 │   encoded = encodeText(message, [32mshift[37m);[39m[22m
+[1m[31m         ╵                                 [32m~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1434: Unexpected keyword or identifier.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:2:[39m[22m
+[1m[31m[37m      24 │   [32mconsole[37m.log(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵   [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'console' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:2:[39m[22m
+[1m[31m[37m      24 │   [32mconsole[37m.log(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵   [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS1068: Unexpected token. A constructor, method, accessor, or property was expected.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/appl[39m[22m[1m[31micant-page/applicant-profile-page/applicant-profile-page.component.ts:24:9:[39m[22m
+[1m[31m[37m      24 │   console[32m.[37mlog(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵          [32m^[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2391: Function implementation is missing or not immediately following the declaration.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:10:[39m[22m
+[1m[31m[37m      24 │   console.[32mlog[37m(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵           [32m~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7010: 'log', which lacks return-type annotation, implicitly has an 'any' return type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:10:[39m[22m
+[1m[31m[37m      24 │   console.[32mlog[37m(encoded); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵           [32m~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'encoded' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:24:14:[39m[22m
+[1m[31m[37m      24 │   console.log([32mencoded[37m); // мысалы: ГДЖЕ[39m[22m
+[1m[31m         ╵               [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'AlphabetLetter'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/under-line-animation.ts:27:13:[39m[22m
+[1m[31m[37m      27 │ const ZERT1: [32mAlphabetLetter[37m[] = [[39m[22m
+[1m[31m         ╵              [32m~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.362 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'ngOninit' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:23:2:[39m[22m
+[1m[31m[37m      23 │   [32mngOninit[37m[39m[22m
+[1m[31m         ╵   [32m~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.313 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7008: Member 'encoded' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-profile-page.component.ts:22:2:[39m[22m
+[1m[31m[37m      22 │   [32mencoded[37m[39m[22m
+[1m[31m         ╵   [32m~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m         [2m | [22m[36m169.50 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m         [2m | [22m[2mstyles[22m       [2m | [22m [36m27.39 kB[39m[37m[2m | [22m[39m
+[37m[32mpolyfills.js[39m[37m       [2m | [22m[2mpolyfills[22m    [2m | [22m [36m95 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m[1m196.99 kB[22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.210 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[39m
+[37mNo output file changes.[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.203 seconds][39m
+[37m[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m [2m | [22m[36m169.52 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.240 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[39m
+[37mNo output file changes.[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.245 seconds][39m
+[37m[39m
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A[?25hfatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+github.com/evanw/esbuild/internal/helpers.(*ThreadSafeWaitGroup).Wait(...)
+	github.com/evanw/esbuild/internal/helpers/waitgroup.go:36
+main.runService.func2()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:114 +0x88
+main.runService(0x1)
+	github.com/evanw/esbuild/cmd/esbuild/service.go:160 +0x47c
+main.main()
+	github.com/evanw/esbuild/cmd/esbuild/main.go:252 +0xaa0
+
+goroutine 4 [chan receive]:
+main.runService.func1()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:98 +0x40
+created by main.runService in goroutine 1
+	github.com/evanw/esbuild/cmd/esbuild/service.go:97 +0x19c
+
+goroutine 5 [chan receive]:
+main.(*serviceType).sendRequest(0x14000160330, {0x10102eb00, 0x14002656ab0})
+	github.com/evanw/esbuild/cmd/esbuild/service.go:192 +0x138
+main.runService.func3()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:125 +0x44
+created by main.runService in goroutine 1
+	github.com/evanw/esbuild/cmd/esbuild/service.go:122 +0x2e4

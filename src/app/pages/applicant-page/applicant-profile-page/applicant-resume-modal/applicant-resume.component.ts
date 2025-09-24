@@ -34,7 +34,7 @@ export class ApplicantResumeComponent {
   protected readonly cities: City[] = cities;
   protected readonly languages: Languages[] = languages;
   protected readonly studies: Study[] = studies;
-  protected readonly skills: Skill[] = skills
+  protected readonly skills: Skill[] = skills;
 
   resumeform: FormGroup;
 

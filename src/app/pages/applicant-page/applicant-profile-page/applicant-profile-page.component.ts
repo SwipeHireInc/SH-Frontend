@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
-import {encodeText, UnderLineAnimation} from './under-line-animation';
+import {UnderLineAnimation} from './under-line-animation';
 import {ApplicantResumeComponent} from './applicant-resume-modal/applicant-resume.component';
 
 @Component({
@@ -16,20 +16,7 @@ import {ApplicantResumeComponent} from './applicant-resume-modal/applicant-resum
 })
 export class ApplicantProfilePageComponent{
   activeTab: "resume"| "feedback" = "feedback";
-
-  message = 'АВБГЫОВ';
-  shift = 3;
-  encoded: string = "";
-
-  ngOnInit() {
-    this.encoded = encodeText(this.message, this.shift);
-    console.log(this.encoded)
-  }
-
-
-
   close = false;
-
 
   switchTab(tab: "resume" | "feedback") {
     this.activeTab = tab;
