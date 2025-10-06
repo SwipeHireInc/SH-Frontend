@@ -17,14 +17,11 @@ export function createFormWithModel<T extends object>(
   const group: { [K in keyof T]: FormControl } = {} as any;
   const getters: any = {};
 
-  for (const key in model) {
-    if (Object.prototype.hasOwnProperty.call(model, key)) {
-      const validators = validatorsMap?.[key] ?? [];
-      group[key] = new FormControl(model[key], validators);
-
-      getters[key] = () => group[key];
-    }
-  }
+  (Object.keys(model) as (keyof T)[]).forEach(key => {
+    const validators = validatorsMap?.[key] ?? [];
+    group[key] = new FormControl(model[key], validators);
+    getters[key] = () => group[key];
+  });
 
   const form = fb.group(group) as TypedFormGroup<T>;
   form.getters = getters;

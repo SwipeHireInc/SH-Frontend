@@ -45,14 +45,6 @@ export class ApplicantResumeComponent {
     this.resumeform = createFormWithModel<Resume>(
       this.fb,
       resumeDefault,
-      {name: [Validators.required],
-        surname: [Validators.required],
-        age: [Validators.required],
-        height: [Validators.required],
-        image: [Validators.required],
-        phone: [Validators.required],
-
-      },
     )
   }
 

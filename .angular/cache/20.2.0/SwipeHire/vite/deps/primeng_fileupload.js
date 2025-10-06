@@ -15,6 +15,12 @@ import {
   BaseStyle
 } from "./chunk-ZBS2NOLR.js";
 import {
+  animate,
+  style,
+  transition,
+  trigger
+} from "./chunk-WIW3NUPL.js";
+import {
   O,
   PrimeTemplate,
   SharedModule,
@@ -24,17 +30,11 @@ import {
 import {
   DomSanitizer
 } from "./chunk-UUCXCR4X.js";
+import "./chunk-5ONLROKE.js";
 import {
   HttpClient,
   HttpEventType
 } from "./chunk-ZCL3EIHY.js";
-import {
-  animate,
-  style,
-  transition,
-  trigger
-} from "./chunk-WIW3NUPL.js";
-import "./chunk-5ONLROKE.js";
 import "./chunk-WVTMP6TY.js";
 import {
   CommonModule,

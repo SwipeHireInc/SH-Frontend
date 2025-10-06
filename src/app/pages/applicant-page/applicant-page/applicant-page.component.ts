@@ -2,16 +2,6 @@ import { Component } from '@angular/core';
 import {NavigationPanelComponent} from '../navigation-panel/navigation-panel.component';
 import {RouterOutlet} from '@angular/router';
 
-
-interface AlphabetLetter {
-  name: string;
-}
-
-interface IndexedLetter {
-  index: number;
-  letter: string;
-}
-
 @Component({
   selector: 'app-applicant-page',
   imports: [
