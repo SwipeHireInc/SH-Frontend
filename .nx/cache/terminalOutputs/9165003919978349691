@@ -1,0 +1,380 @@
+[?25l[2m◼[22m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[33m⠹[39m Building...
+[2K[1A[2K[G[33m⠸[39m Building...
+[2K[1A[2K[G[33m⠼[39m Building...
+[2K[1A[2K[G[33m⠴[39m Building...
+[2K[1A[2K[G[33m⠦[39m Building...
+[2K[1A[2K[G[33m⠧[39m Building...
+[2K[1A[2K[G[33m⠇[39m Building...
+[2K[1A[2K[G[33m⠏[39m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[33m⠹[39m Building...
+[2K[1A[2K[G[33m⠸[39m Building...
+[2K[1A[2K[G[33m⠼[39m Building...
+[2K[1A[2K[G[33m⠴[39m Building...
+[2K[1A[2K[G[32m✔[39m Building...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m         [2m | [22m[36m144.57 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m         [2m | [22m[2mstyles[22m       [2m | [22m [36m27.38 kB[39m[37m[2m | [22m[39m
+[37m[32mpolyfills.js[39m[37m       [2m | [22m[2mpolyfills[22m    [2m | [22m [36m95 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m[1m172.04 kB[22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [8.501 seconds][39m
+[37m[39m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: AsyncPipe is not used within the template of AuthModalComponent[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    src/app/shared/components/auth-modal/auth-modal.component.ts:11:33:[39m[22m
+[1m[33m[37m      11 │   imports: [ReactiveFormsModule, [32mAsyncPipe[37m, LoadingComponent],[39m[22m
+[1m[33m         ╵                                  [32m~~~~~~~~~[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: LoadingComponent is not used within the template of AuthModalComponent[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m    src/app/shared/components/auth-modal/auth-modal.component.ts:11:44:[39m[22m
+[1m[33m[37m      11 │   imports: [ReactiveFormsModule, AsyncPipe, [32mLoadingComponent[37m],[39m[22m
+[1m[33m         ╵                                             [32m~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[37mWatch mode enabled. Watching for file changes...[39m
+[37mNOTE: Raw file sizes do not reflect development server per-request transformations.[39m
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠼[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m [2m | [22m[36m142.50 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.434 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m [1mRaw size[22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m [2m | [22m[36m142.50 kB[39m[37m[2m | [22m[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.232 seconds][39m
+[37m[39m
+[37mPage reload sent to client(s).[39m
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[39m
+[37mNo output file changes.[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.106 seconds][39m
+[37m[39m
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.079 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.eot"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:6:11:[39m[22m
+[1m[31m[37m      6 │   src: url([32m'../node_modules/primeicons/fonts/primeicons.eot'[37m);[39m[22m
+[1m[31m        ╵            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.eot?#iefix"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:7:11:[39m[22m
+[1m[31m[37m      7 │   src: url([32m'../node_modules/primeicons/fonts/primeicons.eot?#iefix'[37m...[39m[22m
+[1m[31m        ╵            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.woff2"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:7:102:[39m[22m
+[1m[31m[37m      7 │ ...ype'), url([32m'../node_modules/primeicons/fonts/primeicons.woff2'[37m) ...[39m[22m
+[1m[31m        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.woff"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:7:176:[39m[22m
+[1m[31m[37m      7 │ ...ff2'), url([32m'../node_modules/primeicons/fonts/primeicons.woff'[37m) f...[39m[22m
+[1m[31m        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.ttf"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:7:248:[39m[22m
+[1m[31m[37m [39m[22m[1m[31m     7 │ ...off'), url([32m'../node_modules/primeicons/fonts/primeicons.ttf'[37m) fo...[39m[22m
+[1m[31m        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.svg?#primeicons"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:7:323:[39m[22m
+[1m[31m[37m      7 │ ...ype'), url([32m'../node_modules/primeicons/fonts/primeicons.svg?#pri[37m...[39m[22m
+[1m[31m        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠙[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠹[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠸[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37mApplication bundle generation failed. [0.370 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.eot"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:6:11:[39m[22m
+[1m[31m[37m      6 │   src: url([32m'../node_modules/primeicons/fonts/primeicons.eot'[37m);[39m[22m
+[1m[31m        ╵            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.eot?#iefix"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:7:11:[39m[22m
+[1m[31m[37m      7 │   src: url([32m'../node_modules/primeicons/fonts/primeicons.eot?#iefix'[37m...[39m[22m
+[1m[31m        ╵            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.woff2"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:7:102:[39m[22m
+[1m[31m[37m      7 │ ...ype'), url([32m'../node_modules/primeicons/fonts/primeicons.woff2'[37m) ...[39m[22m
+[1m[31m        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.woff"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:7:176:[39m[22m
+[1m[31m[37m      7 │ ...ff2'), url([32m'../node_modules/primeicons/fonts/primeicons.woff'[37m) f...[39m[22m
+[1m[31m        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.ttf"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:7:248:[39m[22m
+[1m[31m[37m [39m[22m[1m[31m     7 │ ...off'), url([32m'../node_modules/primeicons/fonts/primeicons.ttf'[37m) fo...[39m[22m
+[1m[31m        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../node_modules/primeicons/fonts/primeicons.svg?#primeicons"[0m [1m[35m[plugin angular-css-resource][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/styles.scss:7:323:[39m[22m
+[1m[31m[37m      7 │ ...ype'), url([32m'../node_modules/primeicons/fonts/primeicons.svg?#pri[37m...[39m[22m
+[1m[31m        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Preprocessor stylesheets may not show the exact file location of the error.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'primeng/config' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/app.config.ts:13:29:[39m[22m
+[1m[31m[37m      13 │ import {providePrimeNG} from [32m'primeng/config'[37m;[39m[22m
+[1m[31m         ╵                              [32m~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@primeuix/themes/aura' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/app.config.ts:14:17:[39m[22m
+[1m[31m[37m      14 │ import Aura from [32m'@primeuix/themes/aura'[37m;[39m[22m
+[1m[31m         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@primeuix/themes/lara' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/app.config.ts:15:17:[39m[22m
+[1m[31m[37m      15 │ import Lara from [32m'@primeuix/themes/lara'[37m;[39m[22m
+[1m[31m         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@primeuix/themes/nora' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/app.config.ts:16:17:[39m[22m
+[1m[31m[37m      16 │ import N[39m[22m[1m[31mora from [32m'@primeuix/themes/nora'[37m;[39m[22m
+[1m[31m         ╵                  [32m~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'primeng/fileupload' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/custom/customfileupload.ts:2:42:[39m[22m
+[1m[31m[37m      2 │ import {FileSelectEvent, FileUpload} from [32m'primeng/fileupload'[37m;[39m[22m
+[1m[31m        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'primeng/button' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/custom/customfileupload.ts:3:21:[39m[22m
+[1m[31m[37m      3 │ import {Button} from [32m'primeng/button'[37m;[39m[22m
+[1m[31m        ╵                      [32m~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.[39m[22m
+[1m[31m  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/custom/customfileupload.ts:9:4:[39m[22m
+[1m[31m[37m      9 │     [32mFileUpload[37m,[39m[22m
+[1m[31m        ╵     [32m~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Unknown reference.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/custom/customfileupload.ts:9:4:[39m[22m
+[1m[31m[37m      9 │     [32mFileUpload[37m,[39m[22m
+[1m[31m        ╵     [32m~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.[39m[22m
+[1m[31m  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/custom/customfileupload.ts:10:4:[39m[22m
+[1m[31m[37m      10 │     [32mButton[37m[39m[22m
+[1m[31m         ╵     [32m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Unknown reference.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/custom/customfileupload.ts:10:4:[39m[22m
+[1m[31m[37m      10 │     [32mButton[37m[39m[22m
+[1m[31m         ╵     [32m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'primeng/select' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-[39m[22m[1m[31mpage/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:4:21:[39m[22m
+[1m[31m[37m      4 │ import {Select} from [32m'primeng/select'[37m;[39m[22m
+[1m[31m        ╵                      [32m~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'primeng/multiselect' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:5:26:[39m[22m
+[1m[31m[37m      5 │ import {MultiSelect} from [32m'primeng/multiselect'[37m;[39m[22m
+[1m[31m        ╵                           [32m~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'primeng/button' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:6:21:[39m[22m
+[1m[31m[37m      6 │ import {Button} from [32m'primeng/button'[37m;[39m[22m
+[1m[31m        ╵                      [32m~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'primeng/button' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:7:29:[39m[22m
+[1m[31m[37m      7 │ import { ButtonModule } from [32m'primeng/button'[37m;[39m[22m
+[1m[31m        ╵                              [32m~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'primeng/api' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:8:29:[39m[22m
+[1m[31m[37m      8 │ import {MessageService} from [32m'primeng/api'[37m;[39m[22m
+[1m[31m        ╵                              [32m~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of compo[39m[22m[1m[31mnents, directives, pipes, or NgModules.[39m[22m
+[1m[31m  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:20:4:[39m[22m
+[1m[31m[37m      20 │     [32mSelect[37m,[39m[22m
+[1m[31m         ╵     [32m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Unknown reference.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:20:4:[39m[22m
+[1m[31m[37m      20 │     [32mSelect[37m,[39m[22m
+[1m[31m         ╵     [32m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.[39m[22m
+[1m[31m  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:21:4:[39m[22m
+[1m[31m[37m      21 │     [32mMultiSelect[37m,[39m[22m
+[1m[31m         ╵     [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Unknown reference.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:21:4:[39m[22m
+[1m[31m[37m      21 │     [32mMultiSelect[37m,[39m[22m
+[1m[31m         ╵     [32m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.[39m[22m
+[1m[31m  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:22:4:[39m[22m
+[1m[31m[37m      22 │     [32mButton[37m,[39m[22m
+[1m[31m         ╵     [32m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Unknown reference.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:22:4:[39m[22m
+[1m[31m[37m      22 │     [32mButton[37m,[39m[22m
+[1m[31m         ╵     [32m~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.[39m[22m
+[1m[31m  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/a[39m[22m[1m[31mpplicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:23:4:[39m[22m
+[1m[31m[37m      23 │     [32mButtonModule[37m,[39m[22m
+[1m[31m         ╵     [32m~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  Unknown reference.[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/applicant-page/applicant-profile-page/applicant-resume-modal/applicant-resume.component.ts:23:4:[39m[22m
+[1m[31m[37m      23 │     [32mButtonModule[37m,[39m[22m
+[1m[31m         ╵     [32m~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'primeng/dynamicdialog' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/landing-page/landing.component.ts:5:46:[39m[22m
+[1m[31m[37m      5 │ import {DialogService, DynamicDialogRef} from [32m'primeng/dynamicdialog'[37m;[39m[22m
+[1m[31m        ╵                                               [32m~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m    src/app/pages/landing-page/landing.component.ts:29:15:[39m[22m
+[1m[31m[37m      29 │     this.ref = [32mthis.dialogService[37m.open(AuthModalComponent, { heade...[39m[22m
+[1m[31m         ╵                [32m~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mCannot find package 'cli-truncate' imported from /Users/asylbekduldiev/ProjectX/SwipeHire/cleaned-frontend/node_modules/listr2/dist/index.cjs[39m
+
+Pass --verbose to see the stacktrace.
+
+[?25h

@@ -44,6 +44,10 @@
       "package.json",
       "nx/core/package-json"
     ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "package.json",
+      "nx/core/package-json"
+    ],
     "metadata.js": [
       "package.json",
       "nx/core/package-json"
@@ -197,6 +201,34 @@
       "nx/core/package-json"
     ],
     "targets.lint:fix.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.j-test": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.j-test.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.j-test.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.j-test.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.j-test.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.j-test.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.j-test.metadata.runCommand": [
       "package.json",
       "nx/core/package-json"
     ],

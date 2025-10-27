@@ -1,69 +1,38 @@
-import {Component, ElementRef, EventEmitter, Output, ViewChild, AfterViewInit, inject, output} from '@angular/core';
-import { animateOpen, animateClose } from './auth-modal.animation';
-import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
+import {Component, inject, output} from '@angular/core';
+import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
 import { Store } from '@ngrx/store';
-import * as AuthActions from '../../../core/services/authservice/auth.actions';
-import { Observable } from 'rxjs';
 import { AppState } from '../../../core/models/AppState';
-import { AsyncPipe } from '@angular/common';
 import { environment } from '../../../../environments/environment';
-import { LoadingComponent } from "../loading/loading.component";
-import {selectError, selectLoading} from '../../../core/services/authservice/auth.selectors';
+import {InputGroup} from 'primeng/inputgroup';
+import {InputGroupAddon} from 'primeng/inputgroupaddon';
+import {FloatLabel} from 'primeng/floatlabel';
+import {InputText} from 'primeng/inputtext';
+import {ButtonDirective} from 'primeng/button';
+import {FormUtilsService} from '../../utils/form-utils.service';
 
 @Component({
   selector: 'app-auth-modal',
-  imports: [ReactiveFormsModule, AsyncPipe, LoadingComponent],
+  imports: [ReactiveFormsModule, InputGroup, InputGroupAddon, FloatLabel, InputText, ButtonDirective],
   templateUrl: './auth-modal.component.html',
   styleUrl: './auth-modal.component.scss'
 })
-export class AuthModalComponent implements AfterViewInit {
+export class AuthModalComponent{
   private fb = inject(FormBuilder);
   private readonly store = inject<Store<AppState>>(Store);
-
+  protected formUtils = inject(FormUtilsService);
   private url = environment.googleauth
-
   closed = output<void>()
-  @ViewChild('modalOverlay', { static: false }) modalOverlay!: ElementRef;
-  @ViewChild('modalContent', { static: false }) modalContent!: ElementRef;
 
-  loginform: FormGroup
-  loading$: Observable<boolean>
-  error$: Observable<string | null>
+  loginForm = this.fb.group({
+    username: ['', [Validators.required]],
+    password: ['', Validators.required],
+  });
 
-  constructor(){
-    this.loading$ = this.store.select(selectLoading)
-    this.error$ = this.store.select(selectError);
-
-    this.loginform = this.fb.group({
-      username: ['', Validators.required],
-      password: ['', Validators.required],
-    })
-  }
-
-  onSubmit() {
-    if(this.loginform.invalid) return
-
-    const {username, password} = this.loginform.value
-
-    this.store.dispatch(AuthActions.login({username: username, password: password}))
-  }
-
-  // ts
-  forgotPassword() {}
-
-  //
-  signUp() {}
-
-  loginWithGoogle() {
-    window.location.href = this.url
-  }
-
-  closeModal() {
-    animateClose(this.modalOverlay, this.modalContent, () => this.closed.emit());
-  }
-
-  ngAfterViewInit() {
-    animateOpen(this.modalOverlay, this.modalContent);
+  submit(){
+    if(this.loginForm.valid){
+      this.formUtils.markAllAsTouched(this.loginForm);
+      return
+    }
   }
 }
 

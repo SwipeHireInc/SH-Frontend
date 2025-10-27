@@ -1,40 +1,40 @@
-import {
-  Badge,
-  Button
-} from "./chunk-APLOULEL.js";
 import "./chunk-5D57O2QH.js";
 import {
-  BaseComponent,
-  PlusIcon,
-  Ripple,
-  TimesIcon,
-  UploadIcon,
-  style as style2
-} from "./chunk-AVXT3VC3.js";
-import {
-  BaseStyle
-} from "./chunk-ZBS2NOLR.js";
-import {
   animate,
-  style,
+  style as style2,
   transition,
   trigger
 } from "./chunk-WIW3NUPL.js";
+import {
+  Badge,
+  Button
+} from "./chunk-DTUJJ7RY.js";
+import {
+  PlusIcon,
+  Ripple,
+  TimesIcon,
+  UploadIcon
+} from "./chunk-TKCT6BAH.js";
+import {
+  style
+} from "./chunk-UXDBX74G.js";
+import {
+  BaseComponent
+} from "./chunk-NXOEHORD.js";
+import {
+  BaseStyle
+} from "./chunk-JYNX35UW.js";
 import {
   O,
   PrimeTemplate,
   SharedModule,
   TranslationKeys,
   W
-} from "./chunk-WNS4NYGO.js";
+} from "./chunk-BT5VHKMK.js";
 import {
   DomSanitizer
-} from "./chunk-UUCXCR4X.js";
+} from "./chunk-U5V3ITMW.js";
 import "./chunk-5ONLROKE.js";
-import {
-  HttpClient,
-  HttpEventType
-} from "./chunk-ZCL3EIHY.js";
 import "./chunk-WVTMP6TY.js";
 import {
   CommonModule,
@@ -45,6 +45,10 @@ import {
   NgTemplateOutlet,
   isPlatformBrowser
 } from "./chunk-LIAKAOWN.js";
+import {
+  HttpClient,
+  HttpEventType
+} from "./chunk-ZCL3EIHY.js";
 import "./chunk-CSPLI7JI.js";
 import {
   ChangeDetectionStrategy,
@@ -563,10 +567,10 @@ var Message = class _Message extends BaseComponent {
     dependencies: [CommonModule, NgClass, NgIf, NgTemplateOutlet, TimesIcon, Ripple, SharedModule],
     encapsulation: 2,
     data: {
-      animation: [trigger("messageAnimation", [transition(":enter", [style({
+      animation: [trigger("messageAnimation", [transition(":enter", [style2({
         opacity: 0,
         transform: "translateY(-25%)"
-      }), animate("{{showTransitionParams}}")]), transition(":leave", [animate("{{hideTransitionParams}}", style({
+      }), animate("{{showTransitionParams}}")]), transition(":leave", [animate("{{hideTransitionParams}}", style2({
         height: 0,
         marginTop: 0,
         marginBottom: 0,
@@ -643,10 +647,10 @@ var Message = class _Message extends BaseComponent {
       changeDetection: ChangeDetectionStrategy.OnPush,
       encapsulation: ViewEncapsulation.None,
       providers: [MessageStyle],
-      animations: [trigger("messageAnimation", [transition(":enter", [style({
+      animations: [trigger("messageAnimation", [transition(":enter", [style2({
         opacity: 0,
         transform: "translateY(-25%)"
-      }), animate("{{showTransitionParams}}")]), transition(":leave", [animate("{{hideTransitionParams}}", style({
+      }), animate("{{showTransitionParams}}")]), transition(":leave", [animate("{{hideTransitionParams}}", style2({
         height: 0,
         marginTop: 0,
         marginBottom: 0,
@@ -817,7 +821,7 @@ var classes2 = {
 };
 var ProgressBarStyle = class _ProgressBarStyle extends BaseStyle {
   name = "progressbar";
-  theme = style2;
+  theme = style;
   classes = classes2;
   static ɵfac = /* @__PURE__ */ (() => {
     let ɵProgressBarStyle_BaseFactory;

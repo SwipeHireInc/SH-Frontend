@@ -8,13 +8,13 @@
         <span class="primary">{{ titlePrimary() }}</span>
       </h1>
 
-      <button (click)="openModal()" class="login-btn">Log in</button>
+      <button (click)="show()" class="login-btn">Log in</button>
     </div>
   </div>
 
-  @if (isModalOpen) {
-    <div>
-      <app-auth-modal (close)="closeModal()"></app-auth-modal>
-    </div>
+  @if (isModalOpen()) {
+    @defer (on timer(200ms)) {
+      <app-auth-modal (close)="toggleModal(false)"></app-auth-modal>
+    }
   }
 </header>

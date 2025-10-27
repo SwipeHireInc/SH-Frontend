@@ -2,8 +2,8 @@ import {Component, inject} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import { Store } from '@ngrx/store';
 import {AuthState} from '../../../core/models/AuthState';
-import * as AuthActions from '../../../core/services/authservice/auth.actions';
-import {selectAccessToken} from '../../../core/services/authservice/auth.selectors';
+import * as AuthActions from '../../../core/services/state/authservice/auth.actions';
+import {selectAccessToken} from '../../../core/services/state/authservice/auth.selectors';
 import {take} from 'rxjs';
 
 @Component({

@@ -1,6 +1,5 @@
 import {Component, output, inject } from '@angular/core';
 import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
-import {createFormWithModel} from '../../../../custom/createformwithmodel';
 import {Resume, resumeDefault} from './resume_entity/resume_entity';
 import {Select} from 'primeng/select';
 import {MultiSelect} from 'primeng/multiselect';
@@ -31,21 +30,21 @@ import {studies, Study} from '../../../../formdata/studies';
 })
 export class ApplicantResumeComponent {
   private readonly fb = inject(FormBuilder);
+  protected readonly resume_form: FormGroup;
   protected readonly cities: City[] = cities;
   protected readonly languages: Languages[] = languages;
   protected readonly studies: Study[] = studies;
   protected readonly skills: Skill[] = skills;
 
-  resumeform: FormGroup;
+
 
   closed = output<boolean>()
   imageSrc: string | undefined;
 
   constructor() {
-    this.resumeform = createFormWithModel<Resume>(
-      this.fb,
-      resumeDefault,
-    )
+    this.resume_form = this.fb.group({
+      name: ['', Validators.required],
+    })
   }
 
   closeModal(){
@@ -53,11 +52,11 @@ export class ApplicantResumeComponent {
   }
 
   onSave() {
-    if (this.resumeform.valid) {
-      const data: Resume = this.resumeform.value;
+    if (this.resume_form.valid) {
+      const data: Resume = this.resume_form.value;
       console.log("form: ", data);
     } else {
-      this.resumeform.markAllAsTouched();
+      this.resume_form.markAllAsTouched();
     }
   }
 

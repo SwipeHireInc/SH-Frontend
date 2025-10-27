@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { LandingComponent } from './pages/landing-page/landing.component';
 import { authGuard } from './core/guards/auth.guard';
-import { AuthCallbackComponent } from './core/services/authservice/AuthCallBack.component';
+import { AuthCallbackComponent } from './core/services/state/authservice/AuthCallBack.component';
 import {ApplicantPageComponent} from './pages/applicant-page/applicant-page/applicant-page.component';
 import {CompanyPageComponent} from './pages/company-page/company-page/company-page.component';
 import {
